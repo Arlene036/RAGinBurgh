@@ -1,0 +1,2372 @@
+[
+    {
+        "event_name": "Disney On Ice",
+        "event_time": "Oct 27 2024|11:00 AM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $48"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Oct 27 2024|12:00 PM Sun",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Oct 27 2024|12:00 PM Sun",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Oct 27 2024|1:00 PM Sun",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Hocus Pocus Drag Brunch",
+        "event_time": "Oct 27 2024|2:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $771"
+    },
+    {
+        "event_name": "Pittsburgh Ballet Theatre",
+        "event_time": "Oct 27 2024|2:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $462"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Oct 27 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $85"
+    },
+    {
+        "event_name": "Disney On Ice",
+        "event_time": "Oct 27 2024|3:00 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $47"
+    },
+    {
+        "event_name": "Stage AE",
+        "event_time": "Oct 27 2024|6:00 PM Sun",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $44"
+    },
+    {
+        "event_name": "Hocus Pocus Drag Brunch",
+        "event_time": "Oct 27 2024|6:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "Disney On Ice",
+        "event_time": "Oct 27 2024|7:00 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $46"
+    },
+    {
+        "event_name": "Mean Gays",
+        "event_time": "Oct 27 2024|7:30 PM Sun",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "Tailgate Party",
+        "event_time": "Oct 28 2024|4:15 PM Mon",
+        "location": "Premium Tailgate Tent \u2013 Pitt|15233, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Mephiskapheles",
+        "event_time": "Oct 28 2024|8:00 PM Mon",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "New York Giants",
+        "event_time": "Oct 28 2024|8:15 PM Mon",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $106"
+    },
+    {
+        "event_name": "Pink Martini",
+        "event_time": "Oct 29 2024|7:00 PM Tue",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $53"
+    },
+    {
+        "event_name": "Pink Martini",
+        "event_time": "Oct 29 2024|7:00 PM Tue",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $100"
+    },
+    {
+        "event_name": "Cavetown",
+        "event_time": "Oct 29 2024|7:00 PM Tue",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $56"
+    },
+    {
+        "event_name": "Minnesota Wild",
+        "event_time": "Oct 29 2024|7:00 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $61"
+    },
+    {
+        "event_name": "Minnesota Wild",
+        "event_time": "Oct 29 2024|7:30 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $58"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Oct 29 2024|7:30 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Sixpence None the Richer",
+        "event_time": "Oct 29 2024|7:30 PM Tue",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $65"
+    },
+    {
+        "event_name": "MJ Lenderman",
+        "event_time": "Oct 29 2024|8:00 PM Tue",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $76"
+    },
+    {
+        "event_name": "Johnny Manchild and the Poor Bastards",
+        "event_time": "Oct 29 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "MJ Lenderman",
+        "event_time": "Oct 29 2024|8:00 PM Tue",
+        "location": "Music Hall at Thunderbird Caf\u00e9 & Music Hall|15201, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $847"
+    },
+    {
+        "event_name": "Eliza McLamb",
+        "event_time": "Oct 30 2024|7:00 PM Wed",
+        "location": "Spirit Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Oct 30 2024|7:30 PM Wed",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $83"
+    },
+    {
+        "event_name": "Christopher Paul Stelling",
+        "event_time": "Oct 30 2024|8:00 PM Wed",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Jeris Johnson",
+        "event_time": "Oct 30 2024|8:00 PM Wed",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $43"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Oct 31 2024|10:00 AM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "Drug Church",
+        "event_time": "Oct 31 2024|6:30 PM Thu",
+        "location": "Spirit Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $38"
+    },
+    {
+        "event_name": "City Winery Pittsburgh",
+        "event_time": "Oct 31 2024|6:30 PM Thu",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $148"
+    },
+    {
+        "event_name": "Anaheim Ducks",
+        "event_time": "Oct 31 2024|7:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Oct 31 2024|7:00 PM Thu",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Oct 31 2024|7:30 PM Thu",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Crafthouse Stage & Grill",
+        "event_time": "Oct 31 2024|7:30 PM Thu",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $25"
+    },
+    {
+        "event_name": "Clearview Arena (Formerly RMU Island Sports Center)",
+        "event_time": "Nov 01 2024|7:00 PM Fri",
+        "location": "Clearview Arena (Formerly RMU Island Sports Center)|15225, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Little Big Town",
+        "event_time": "Nov 01 2024|7:00 PM Fri",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $48"
+    },
+    {
+        "event_name": "Dexter and The Moonrocks",
+        "event_time": "Nov 01 2024|7:00 PM Fri",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $32"
+    },
+    {
+        "event_name": "Matt Mathews",
+        "event_time": "Nov 01 2024|7:00 PM Fri",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $129"
+    },
+    {
+        "event_name": "Matt Mathews",
+        "event_time": "Nov 01 2024|7:00 PM Fri",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $102"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 01 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "City Winery Pittsburgh",
+        "event_time": "Nov 01 2024|7:30 PM Fri",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $85"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Nov 01 2024|7:30 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $95"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 01 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $157"
+    },
+    {
+        "event_name": "Boney James",
+        "event_time": "Nov 01 2024|8:00 PM Fri",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $102"
+    },
+    {
+        "event_name": "Pink Skies",
+        "event_time": "Nov 01 2024|8:00 PM Fri",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 01 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $139"
+    },
+    {
+        "event_name": "Duquesne Dukes Football",
+        "event_time": "Nov 02 2024|12:00 PM Sat",
+        "location": "Arthur J. Rooney Athletic Field|15282, Pittsburgh, PA, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Nov 02 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $199"
+    },
+    {
+        "event_name": "Atsuko Okatsuka",
+        "event_time": "Nov 02 2024|7:00 PM Sat",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $68"
+    },
+    {
+        "event_name": "Montreal Canadiens",
+        "event_time": "Nov 02 2024|7:00 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $61"
+    },
+    {
+        "event_name": "Billy Ocean",
+        "event_time": "Nov 02 2024|7:00 PM Sat",
+        "location": "Event Center at Rivers Casino Pittsburgh|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $75"
+    },
+    {
+        "event_name": "Clearview Arena (Formerly RMU Island Sports Center)",
+        "event_time": "Nov 02 2024|7:00 PM Sat",
+        "location": "Clearview Arena (Formerly RMU Island Sports Center)|15225, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Nate Smith",
+        "event_time": "Nov 02 2024|7:00 PM Sat",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $35"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 02 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 02 2024|7:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $154"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Nov 02 2024|7:30 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $50"
+    },
+    {
+        "event_name": "Nick Carter",
+        "event_time": "Nov 02 2024|8:00 PM Sat",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $339"
+    },
+    {
+        "event_name": "Brother Elsey",
+        "event_time": "Nov 02 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $21"
+    },
+    {
+        "event_name": "Nick Carter",
+        "event_time": "Nov 02 2024|8:00 PM Sat",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $95"
+    },
+    {
+        "event_name": "Shwayze",
+        "event_time": "Nov 02 2024|8:00 PM Sat",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 02 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Najee",
+        "event_time": "Nov 02 2024|9:30 PM Sat",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $65"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Nov 03 2024|1:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 03 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $153"
+    },
+    {
+        "event_name": "Luann de Lesseps",
+        "event_time": "Nov 03 2024|6:00 PM Sun",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $206"
+    },
+    {
+        "event_name": "Luann de Lesseps",
+        "event_time": "Nov 03 2024|6:30 PM Sun",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $206"
+    },
+    {
+        "event_name": "& Juliet",
+        "event_time": "Nov 03 2024|6:30 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $143"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 03 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Don Toliver",
+        "event_time": "Nov 03 2024|7:30 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Bailey Spinn",
+        "event_time": "Nov 03 2024|7:30 PM Sun",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $35"
+    },
+    {
+        "event_name": "Ruby Waters",
+        "event_time": "Nov 03 2024|8:00 PM Sun",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $44"
+    },
+    {
+        "event_name": "Richard Shindell",
+        "event_time": "Nov 03 2024|8:00 PM Sun",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $35"
+    },
+    {
+        "event_name": "Cold Case Live",
+        "event_time": "Nov 03 2024|8:00 PM Sun",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $72"
+    },
+    {
+        "event_name": "Cold Case",
+        "event_time": "Nov 03 2024|8:00 PM Sun",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $63"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 04 2024|1:00 PM Mon",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $13"
+    },
+    {
+        "event_name": "Jonathan Butler",
+        "event_time": "Nov 04 2024|6:00 PM Mon",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $59"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 04 2024|7:00 PM Mon",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $9"
+    },
+    {
+        "event_name": "The Dickies",
+        "event_time": "Nov 04 2024|7:00 PM Mon",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $40"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Nov 04 2024|8:00 PM Mon",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $17"
+    },
+    {
+        "event_name": "The Flying Luttenbachers",
+        "event_time": "Nov 04 2024|8:00 PM Mon",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $34"
+    },
+    {
+        "event_name": "The Atomic Bitchwax",
+        "event_time": "Nov 05 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $32"
+    },
+    {
+        "event_name": "Bill Crawford",
+        "event_time": "Nov 06 2024|7:00 PM Wed",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $67"
+    },
+    {
+        "event_name": "The Funeral Portrait",
+        "event_time": "Nov 06 2024|7:00 PM Wed",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Cold War Kids",
+        "event_time": "Nov 06 2024|7:00 PM Wed",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $23"
+    },
+    {
+        "event_name": "Mondo Cozmo",
+        "event_time": "Nov 06 2024|8:00 PM Wed",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $34"
+    },
+    {
+        "event_name": "Carnegie of Homestead Music Hall",
+        "event_time": "Nov 06 2024|8:00 PM Wed",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $87"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 07 2024|10:00 AM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 07 2024|12:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $39"
+    },
+    {
+        "event_name": "The Palmer Squares",
+        "event_time": "Nov 07 2024|7:00 PM Thu",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $25"
+    },
+    {
+        "event_name": "Morgan Wade",
+        "event_time": "Nov 07 2024|7:00 PM Thu",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Dar Williams",
+        "event_time": "Nov 07 2024|7:30 PM Thu",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $124"
+    },
+    {
+        "event_name": "Byham Theater",
+        "event_time": "Nov 07 2024|7:30 PM Thu",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $108"
+    },
+    {
+        "event_name": "Crafthouse Stage & Grill",
+        "event_time": "Nov 07 2024|7:30 PM Thu",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Goose",
+        "event_time": "Nov 07 2024|8:00 PM Thu",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $59"
+    },
+    {
+        "event_name": "David Jolly",
+        "event_time": "Nov 07 2024|8:00 PM Thu",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $45"
+    },
+    {
+        "event_name": "Goose",
+        "event_time": "Nov 07 2024|8:00 PM Thu",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $59"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 08 2024|1:00 PM Fri",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $45"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Nov 08 2024|7:00 PM Fri",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $66"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 08 2024|7:00 PM Fri",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 08 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $108"
+    },
+    {
+        "event_name": "Iron Maiden",
+        "event_time": "Nov 08 2024|7:30 PM Fri",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $128"
+    },
+    {
+        "event_name": "Bruce Bruce",
+        "event_time": "Nov 08 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $55"
+    },
+    {
+        "event_name": "Byham Theater",
+        "event_time": "Nov 08 2024|7:30 PM Fri",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $110"
+    },
+    {
+        "event_name": "Destroy Boys",
+        "event_time": "Nov 08 2024|8:00 PM Fri",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $47"
+    },
+    {
+        "event_name": "Genesis Show",
+        "event_time": "Nov 08 2024|8:00 PM Fri",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $87"
+    },
+    {
+        "event_name": "Kimberly Rhoades",
+        "event_time": "Nov 08 2024|9:00 PM Fri",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Bruce Bruce",
+        "event_time": "Nov 08 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $55"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 09 2024|11:15 AM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $300"
+    },
+    {
+        "event_name": "Duquesne Dukes Football",
+        "event_time": "Nov 09 2024|12:00 PM Sat",
+        "location": "Arthur J. Rooney Athletic Field|15282, Pittsburgh, PA, US",
+        "price": "Prices from $20"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Football",
+        "event_time": "Nov 09 2024|1:00 PM Sat",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $14"
+    },
+    {
+        "event_name": "Byham Theater",
+        "event_time": "Nov 09 2024|2:00 PM Sat",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $113"
+    },
+    {
+        "event_name": "Tucker Wetmore",
+        "event_time": "Nov 09 2024|7:00 PM Sat",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Jim Gaffigan",
+        "event_time": "Nov 09 2024|7:00 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $62"
+    },
+    {
+        "event_name": "Bruce Bruce",
+        "event_time": "Nov 09 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $55"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Nov 09 2024|7:00 PM Sat",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 09 2024|7:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $83"
+    },
+    {
+        "event_name": "Byham Theater",
+        "event_time": "Nov 09 2024|7:30 PM Sat",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $113"
+    },
+    {
+        "event_name": "Carnegie of Homestead Music Hall",
+        "event_time": "Nov 09 2024|8:00 PM Sat",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $81"
+    },
+    {
+        "event_name": "Club Cafe",
+        "event_time": "Nov 09 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $76"
+    },
+    {
+        "event_name": "Bruce Bruce",
+        "event_time": "Nov 09 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $55"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Nov 10 2024|1:00 PM Sun",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $43"
+    },
+    {
+        "event_name": "Byham Theater",
+        "event_time": "Nov 10 2024|2:00 PM Sun",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $107"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 10 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $83"
+    },
+    {
+        "event_name": "Bruce Bruce",
+        "event_time": "Nov 10 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $55"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Nov 10 2024|7:00 PM Sun",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "Jonatha Brooke",
+        "event_time": "Nov 10 2024|7:30 PM Sun",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "Kacey Musgraves",
+        "event_time": "Nov 10 2024|7:30 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $40"
+    },
+    {
+        "event_name": "Wishbone Ash",
+        "event_time": "Nov 10 2024|7:30 PM Sun",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "Tim Vitullo",
+        "event_time": "Nov 10 2024|8:00 PM Sun",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $25"
+    },
+    {
+        "event_name": "Michigander",
+        "event_time": "Nov 10 2024|8:00 PM Sun",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $32"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 11 2024|1:00 PM Mon",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $14"
+    },
+    {
+        "event_name": "Eric Benet",
+        "event_time": "Nov 11 2024|6:00 PM Mon",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $158"
+    },
+    {
+        "event_name": "Dallas Stars",
+        "event_time": "Nov 11 2024|7:00 PM Mon",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $39"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 11 2024|7:00 PM Mon",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $9"
+    },
+    {
+        "event_name": "Rod Wave",
+        "event_time": "Nov 12 2024|7:30 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $91"
+    },
+    {
+        "event_name": "Bit Brigade",
+        "event_time": "Nov 12 2024|8:00 PM Tue",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $35"
+    },
+    {
+        "event_name": "The Slaps",
+        "event_time": "Nov 12 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $31"
+    },
+    {
+        "event_name": "Eric Benet",
+        "event_time": "Nov 12 2024|9:30 PM Tue",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $158"
+    },
+    {
+        "event_name": "Allie X",
+        "event_time": "Nov 13 2024|7:00 PM Wed",
+        "location": "Spirit Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "Detroit Red Wings",
+        "event_time": "Nov 13 2024|7:30 PM Wed",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $40"
+    },
+    {
+        "event_name": "Tall Heights",
+        "event_time": "Nov 13 2024|8:00 PM Wed",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "Annette Gordon-Reed",
+        "event_time": "Nov 13 2024|8:00 PM Wed",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $300"
+    },
+    {
+        "event_name": "Big Daddy Weave",
+        "event_time": "Nov 13 2024|8:00 PM Wed",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $73"
+    },
+    {
+        "event_name": "Dave Shepherd",
+        "event_time": "Nov 13 2024|8:00 PM Wed",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 14 2024|10:00 AM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $39"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 14 2024|12:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "Cory Wong",
+        "event_time": "Nov 14 2024|6:00 PM Thu",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $52"
+    },
+    {
+        "event_name": "Deana Carter",
+        "event_time": "Nov 14 2024|7:30 PM Thu",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $96"
+    },
+    {
+        "event_name": "David Cross",
+        "event_time": "Nov 14 2024|8:00 PM Thu",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Beach Vacation",
+        "event_time": "Nov 14 2024|8:00 PM Thu",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $24"
+    },
+    {
+        "event_name": "ALLEYCVT",
+        "event_time": "Nov 14 2024|9:00 PM Thu",
+        "location": "Enclave Pittsburgh|15203, Pittsburgh, PA, US",
+        "price": "Prices from $31"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 15 2024|1:00 PM Fri",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $200"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Nov 15 2024|7:00 PM Fri",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $20"
+    },
+    {
+        "event_name": "Wyatt Flores",
+        "event_time": "Nov 15 2024|7:00 PM Fri",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Nov 15 2024|7:00 PM Fri",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $20"
+    },
+    {
+        "event_name": "Ian Fidance",
+        "event_time": "Nov 15 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 15 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $131"
+    },
+    {
+        "event_name": "Meg Elsier",
+        "event_time": "Nov 15 2024|8:00 PM Fri",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "Dave Matthews Band",
+        "event_time": "Nov 15 2024|8:00 PM Fri",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $76"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 15 2024|8:00 PM Fri",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $189"
+    },
+    {
+        "event_name": "Ian Fidance",
+        "event_time": "Nov 15 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Duquesne Dukes Football",
+        "event_time": "Nov 16 2024|12:00 PM Sat",
+        "location": "Arthur J. Rooney Athletic Field|15282, Pittsburgh, PA, US",
+        "price": "Prices from $20"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Football",
+        "event_time": "Nov 16 2024|1:00 PM Sat",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Clearview Arena (Formerly RMU Island Sports Center)",
+        "event_time": "Nov 16 2024|3:00 PM Sat",
+        "location": "Clearview Arena (Formerly RMU Island Sports Center)|15225, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $12"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 16 2024|6:45 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $145"
+    },
+    {
+        "event_name": "Ian Fidance",
+        "event_time": "Nov 16 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "San Jose Sharks",
+        "event_time": "Nov 16 2024|7:00 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $66"
+    },
+    {
+        "event_name": "Club Cafe",
+        "event_time": "Nov 16 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $34"
+    },
+    {
+        "event_name": "Doom Flamingo",
+        "event_time": "Nov 16 2024|8:00 PM Sat",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $38"
+    },
+    {
+        "event_name": "Ian Fidance",
+        "event_time": "Nov 16 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Tailgate Party",
+        "event_time": "Nov 17 2024|9:00 AM Sun",
+        "location": "Premium Tailgate Tent \u2013 Pitt|15233, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Baltimore Ravens",
+        "event_time": "Nov 17 2024|1:00 PM Sun",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $173"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Nov 17 2024|1:00 PM Sun",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $19"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 17 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $123"
+    },
+    {
+        "event_name": "Rhys Nicholson",
+        "event_time": "Nov 17 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $130"
+    },
+    {
+        "event_name": "Sam Burchfield",
+        "event_time": "Nov 17 2024|8:00 PM Sun",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $34"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Nov 17 2024|8:00 PM Sun",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 18 2024|1:00 PM Mon",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Nov 18 2024|7:00 PM Mon",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $9"
+    },
+    {
+        "event_name": "Wishy",
+        "event_time": "Nov 18 2024|8:00 PM Mon",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $24"
+    },
+    {
+        "event_name": "Tampa Bay Lightning",
+        "event_time": "Nov 19 2024|7:00 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $40"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Nov 19 2024|7:00 PM Tue",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "City Winery Pittsburgh",
+        "event_time": "Nov 19 2024|7:30 PM Tue",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $89"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 19 2024|7:30 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Slow Pulp",
+        "event_time": "Nov 19 2024|8:00 PM Tue",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $35"
+    },
+    {
+        "event_name": "Dawes",
+        "event_time": "Nov 19 2024|8:00 PM Tue",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Anthony Raneri",
+        "event_time": "Nov 19 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Stage AE",
+        "event_time": "Nov 20 2024|6:00 PM Wed",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $35"
+    },
+    {
+        "event_name": "Craig Ferguson",
+        "event_time": "Nov 20 2024|7:00 PM Wed",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $94"
+    },
+    {
+        "event_name": "Chris Knight",
+        "event_time": "Nov 20 2024|7:30 PM Wed",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 20 2024|7:30 PM Wed",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Happy Landing",
+        "event_time": "Nov 20 2024|8:00 PM Wed",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 21 2024|12:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $39"
+    },
+    {
+        "event_name": "Stage AE",
+        "event_time": "Nov 21 2024|7:00 PM Thu",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $51"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 21 2024|7:30 PM Thu",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Dan Soder",
+        "event_time": "Nov 21 2024|8:00 PM Thu",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $57"
+    },
+    {
+        "event_name": "Cris Jacobs",
+        "event_time": "Nov 21 2024|8:00 PM Thu",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $27"
+    },
+    {
+        "event_name": "TAUK",
+        "event_time": "Nov 21 2024|8:00 PM Thu",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $40"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 22 2024|7:00 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $124"
+    },
+    {
+        "event_name": "Winnipeg Jets",
+        "event_time": "Nov 22 2024|7:00 PM Fri",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $47"
+    },
+    {
+        "event_name": "Dan Soder",
+        "event_time": "Nov 22 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $45"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 22 2024|7:30 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Why Bother",
+        "event_time": "Nov 22 2024|8:00 PM Fri",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $25"
+    },
+    {
+        "event_name": "Dan Soder",
+        "event_time": "Nov 22 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $56"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Nov 23 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Mike Birbiglia",
+        "event_time": "Nov 23 2024|6:00 PM Sat",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $305"
+    },
+    {
+        "event_name": "Dan Soder",
+        "event_time": "Nov 23 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $50"
+    },
+    {
+        "event_name": "Utah Hockey Club",
+        "event_time": "Nov 23 2024|7:00 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $65"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Nov 23 2024|7:30 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $86"
+    },
+    {
+        "event_name": "Jesse Cook",
+        "event_time": "Nov 23 2024|7:30 PM Sat",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $118"
+    },
+    {
+        "event_name": "Fruition",
+        "event_time": "Nov 23 2024|8:00 PM Sat",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $27"
+    },
+    {
+        "event_name": "Native Sun",
+        "event_time": "Nov 23 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "Dan Soder",
+        "event_time": "Nov 23 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $48"
+    },
+    {
+        "event_name": "City Winery Pittsburgh",
+        "event_time": "Nov 24 2024|12:00 PM Sun",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $61"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 24 2024|1:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 24 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $132"
+    },
+    {
+        "event_name": "Mike Birbiglia",
+        "event_time": "Nov 24 2024|6:00 PM Sun",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 24 2024|6:30 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Pentatonix",
+        "event_time": "Nov 24 2024|7:00 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $52"
+    },
+    {
+        "event_name": "Nick Swardson",
+        "event_time": "Nov 24 2024|7:00 PM Sun",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "Alisa Amador",
+        "event_time": "Nov 24 2024|8:00 PM Sun",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $21"
+    },
+    {
+        "event_name": "Julio Torres",
+        "event_time": "Nov 24 2024|9:30 PM Sun",
+        "location": "Bottlerocket Social Hall|15210, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $771"
+    },
+    {
+        "event_name": "Gillian Welch",
+        "event_time": "Nov 25 2024|7:30 PM Mon",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $75"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 25 2024|7:30 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Greg Koch",
+        "event_time": "Nov 25 2024|8:00 PM Mon",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 26 2024|10:00 AM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $39"
+    },
+    {
+        "event_name": "PPG Paints Arena Tours",
+        "event_time": "Nov 26 2024|12:00 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $49"
+    },
+    {
+        "event_name": "Dark Star Orchestra",
+        "event_time": "Nov 26 2024|6:30 PM Tue",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $53"
+    },
+    {
+        "event_name": "Peter McPoland",
+        "event_time": "Nov 26 2024|7:00 PM Tue",
+        "location": "Spirit Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 26 2024|7:30 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Carpool Tunnel",
+        "event_time": "Nov 26 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $31"
+    },
+    {
+        "event_name": "T-Robe",
+        "event_time": "Nov 27 2024|7:00 PM Wed",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $45"
+    },
+    {
+        "event_name": "Vancouver Canucks",
+        "event_time": "Nov 27 2024|7:30 PM Wed",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $61"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 27 2024|7:30 PM Wed",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Subarctic Beach Party",
+        "event_time": "Nov 27 2024|8:00 PM Wed",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 29 2024|1:00 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Clearview Arena (Formerly RMU Island Sports Center)",
+        "event_time": "Nov 29 2024|5:00 PM Fri",
+        "location": "Clearview Arena (Formerly RMU Island Sports Center)|15225, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Chevy Chase",
+        "event_time": "Nov 29 2024|7:00 PM Fri",
+        "location": "Event Center at Rivers Casino Pittsburgh|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $89"
+    },
+    {
+        "event_name": "Stage AE",
+        "event_time": "Nov 29 2024|7:00 PM Fri",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $68"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 29 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Nov 29 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $161"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 29 2024|7:30 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Nov 29 2024|8:00 PM Fri",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 29 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $56"
+    },
+    {
+        "event_name": "Fitzgerald Field House",
+        "event_time": "Nov 30 2024|1:00 PM Sat",
+        "location": "Fitzgerald Field House|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 30 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "The Clarks",
+        "event_time": "Nov 30 2024|4:00 PM Sat",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $50"
+    },
+    {
+        "event_name": "Clearview Arena (Formerly RMU Island Sports Center)",
+        "event_time": "Nov 30 2024|5:00 PM Sat",
+        "location": "Clearview Arena (Formerly RMU Island Sports Center)|15225, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 30 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $59"
+    },
+    {
+        "event_name": "Calgary Flames",
+        "event_time": "Nov 30 2024|7:00 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $78"
+    },
+    {
+        "event_name": "Ronny Chieng",
+        "event_time": "Nov 30 2024|7:00 PM Sat",
+        "location": "Byham Theater|15222, Pittsburgh, PA, US",
+        "price": "Prices from $95"
+    },
+    {
+        "event_name": "Eban Brown",
+        "event_time": "Nov 30 2024|7:00 PM Sat",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $64"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Nov 30 2024|7:30 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Holiday Aftermath",
+        "event_time": "Nov 30 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Nov 30 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "MJ The Musical",
+        "event_time": "Dec 01 2024|1:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $103"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 01 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $131"
+    },
+    {
+        "event_name": "PPG Paints Arena",
+        "event_time": "Dec 01 2024|7:00 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $46"
+    },
+    {
+        "event_name": "First to Eleven",
+        "event_time": "Dec 01 2024|7:00 PM Sun",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $41"
+    },
+    {
+        "event_name": "Pittsburgh Improv",
+        "event_time": "Dec 01 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $53"
+    },
+    {
+        "event_name": "Evan Honer",
+        "event_time": "Dec 03 2024|7:00 PM Tue",
+        "location": "Spirit Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $51"
+    },
+    {
+        "event_name": "Florida Panthers",
+        "event_time": "Dec 03 2024|7:00 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $38"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Dec 03 2024|7:00 PM Tue",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Mike Viola",
+        "event_time": "Dec 03 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $10"
+    },
+    {
+        "event_name": "Scott Bradlee",
+        "event_time": "Dec 04 2024|8:00 PM Wed",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $115"
+    },
+    {
+        "event_name": "Rene Vaca",
+        "event_time": "Dec 05 2024|8:00 PM Thu",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $51"
+    },
+    {
+        "event_name": "Palmyra",
+        "event_time": "Dec 05 2024|8:00 PM Thu",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Dec 06 2024|6:00 PM Fri",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 06 2024|7:00 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Steve Byrne",
+        "event_time": "Dec 06 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $57"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 06 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Maya de Vitry",
+        "event_time": "Dec 06 2024|8:00 PM Fri",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $24"
+    },
+    {
+        "event_name": "Broadway Rave",
+        "event_time": "Dec 06 2024|9:00 PM Fri",
+        "location": "Crafthouse Stage & Grill|15236, Pittsburgh, PA, US",
+        "price": "Prices from $50"
+    },
+    {
+        "event_name": "Steve Byrne",
+        "event_time": "Dec 06 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $58"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 07 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Gavin Adcock",
+        "event_time": "Dec 07 2024|7:00 PM Sat",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $190"
+    },
+    {
+        "event_name": "Toronto Maple Leafs",
+        "event_time": "Dec 07 2024|7:00 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $98"
+    },
+    {
+        "event_name": "Steve Byrne",
+        "event_time": "Dec 07 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $57"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 07 2024|7:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 07 2024|7:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $59"
+    },
+    {
+        "event_name": "Matteo Bocelli",
+        "event_time": "Dec 07 2024|8:00 PM Sat",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $92"
+    },
+    {
+        "event_name": "Matteo Bocelli",
+        "event_time": "Dec 07 2024|8:00 PM Sat",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $89"
+    },
+    {
+        "event_name": "Steve Byrne",
+        "event_time": "Dec 07 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $58"
+    },
+    {
+        "event_name": "Tailgate Party",
+        "event_time": "Dec 08 2024|9:00 AM Sun",
+        "location": "Premium Tailgate Tent \u2013 Pitt|15233, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 08 2024|11:00 AM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Cleveland Browns",
+        "event_time": "Dec 08 2024|1:00 PM Sun",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $126"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 08 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 08 2024|4:30 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 08 2024|7:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Steve Byrne",
+        "event_time": "Dec 08 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $42"
+    },
+    {
+        "event_name": "Surfer Girl",
+        "event_time": "Dec 08 2024|8:00 PM Sun",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 09 2024|2:00 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Stage AE",
+        "event_time": "Dec 09 2024|7:00 PM Mon",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $52"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 09 2024|7:00 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 10 2024|12:00 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 10 2024|4:30 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Colorado Avalanche",
+        "event_time": "Dec 10 2024|7:00 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $40"
+    },
+    {
+        "event_name": "City Winery Pittsburgh",
+        "event_time": "Dec 10 2024|7:30 PM Tue",
+        "location": "City Winery Pittsburgh|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $104"
+    },
+    {
+        "event_name": "Straight No Chaser",
+        "event_time": "Dec 10 2024|7:30 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $102"
+    },
+    {
+        "event_name": "The HawtThorns",
+        "event_time": "Dec 10 2024|8:00 PM Tue",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $28"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Dec 11 2024|1:00 PM Wed",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Dec 11 2024|7:00 PM Wed",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $18"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Dec 11 2024|7:00 PM Wed",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Mariah Carey",
+        "event_time": "Dec 11 2024|7:30 PM Wed",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $80"
+    },
+    {
+        "event_name": "Kansas",
+        "event_time": "Dec 11 2024|7:30 PM Wed",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $100"
+    },
+    {
+        "event_name": "Mary Gauthier",
+        "event_time": "Dec 12 2024|7:00 PM Thu",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Randy",
+        "event_time": "Dec 12 2024|8:00 PM Thu",
+        "location": "Bottlerocket Social Hall|15210, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $665"
+    },
+    {
+        "event_name": "Fairytale of New York",
+        "event_time": "Dec 12 2024|8:00 PM Thu",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $87"
+    },
+    {
+        "event_name": "Nick Colletti",
+        "event_time": "Dec 12 2024|8:00 PM Thu",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $45"
+    },
+    {
+        "event_name": "Ali Siddiq",
+        "event_time": "Dec 13 2024|7:00 PM Fri",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $58"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 13 2024|7:00 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Ali Siddiq",
+        "event_time": "Dec 13 2024|7:00 PM Fri",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $175"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 13 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $100"
+    },
+    {
+        "event_name": "LA LOM",
+        "event_time": "Dec 13 2024|8:00 PM Fri",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Randy",
+        "event_time": "Dec 13 2024|8:00 PM Fri",
+        "location": "Bottlerocket Social Hall|15210, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $665"
+    },
+    {
+        "event_name": "LA LOM",
+        "event_time": "Dec 13 2024|8:00 PM Fri",
+        "location": "Cafe at Thunderbird Cafe & Music Hall|15201, Pittsburgh, PA, US",
+        "price": "Prices from $30"
+    },
+    {
+        "event_name": "Gary Owen",
+        "event_time": "Dec 13 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $87"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 14 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 14 2024|2:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $54"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 14 2024|7:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Gary Owen",
+        "event_time": "Dec 14 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 14 2024|7:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $665"
+    },
+    {
+        "event_name": "Carnegie Music Hall",
+        "event_time": "Dec 14 2024|7:30 PM Sat",
+        "location": "Carnegie Music Hall|15213, Pittsburgh, PA, US",
+        "price": "Prices from $76"
+    },
+    {
+        "event_name": "Justin Timberlake",
+        "event_time": "Dec 14 2024|7:30 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $87"
+    },
+    {
+        "event_name": "Carnegie of Homestead Music Hall",
+        "event_time": "Dec 14 2024|7:30 PM Sat",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $77"
+    },
+    {
+        "event_name": "Randy",
+        "event_time": "Dec 14 2024|8:00 PM Sat",
+        "location": "Bottlerocket Social Hall|15210, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $665"
+    },
+    {
+        "event_name": "Hard Rock Cafe Pittsburgh",
+        "event_time": "Dec 14 2024|8:00 PM Sat",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $33"
+    },
+    {
+        "event_name": "Eric Johanson",
+        "event_time": "Dec 14 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "Gary Owen",
+        "event_time": "Dec 14 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 15 2024|12:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $139"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 15 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $38"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 15 2024|7:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Gary Owen",
+        "event_time": "Dec 15 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $84"
+    },
+    {
+        "event_name": "Everything Yes",
+        "event_time": "Dec 15 2024|8:00 PM Sun",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $36"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 16 2024|2:00 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $326"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 16 2024|7:00 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Tom Kurlander",
+        "event_time": "Dec 16 2024|8:00 PM Mon",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $25"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 17 2024|12:00 PM Tue",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 17 2024|7:00 PM Tue",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $92"
+    },
+    {
+        "event_name": "Los Angeles Kings",
+        "event_time": "Dec 17 2024|7:00 PM Tue",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $43"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 19 2024|7:00 PM Thu",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $130"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 19 2024|7:00 PM Thu",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 20 2024|7:00 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $107"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 20 2024|7:30 PM Fri",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Dec 21 2024|1:00 PM Sat",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $14"
+    },
+    {
+        "event_name": "Pittsburgh Panthers Basketball",
+        "event_time": "Dec 21 2024|1:00 PM Sat",
+        "location": "Petersen Events Center|15261, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $14"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 21 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $85"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 21 2024|2:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Trans-Siberian Orchestra",
+        "event_time": "Dec 21 2024|2:30 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $80"
+    },
+    {
+        "event_name": "Heinz Hall",
+        "event_time": "Dec 21 2024|4:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $665"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 21 2024|7:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $117"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 21 2024|7:30 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Trans-Siberian Orchestra",
+        "event_time": "Dec 21 2024|7:30 PM Sat",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $75"
+    },
+    {
+        "event_name": "DuShane",
+        "event_time": "Dec 21 2024|8:00 PM Sat",
+        "location": "Hard Rock Cafe Pittsburgh|15219, Pittsburgh, PA, US",
+        "price": "Prices from $29"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 22 2024|12:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $101"
+    },
+    {
+        "event_name": "Heinz Hall",
+        "event_time": "Dec 22 2024|1:00 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $665"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 22 2024|2:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 22 2024|4:30 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $128"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 22 2024|7:00 PM Sun",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Pittsburgh Symphony Orchestra",
+        "event_time": "Dec 22 2024|7:30 PM Sun",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $162"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 23 2024|2:00 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 23 2024|7:00 PM Mon",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Philadelphia Flyers",
+        "event_time": "Dec 23 2024|7:00 PM Mon",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $102"
+    },
+    {
+        "event_name": "Tailgate Party",
+        "event_time": "Dec 25 2024|9:00 AM Wed",
+        "location": "Premium Tailgate Tent \u2013 Pitt|15233, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Premium Tailgate Tent - Pittsburgh",
+        "event_time": "Dec 25 2024|10:00 AM Wed",
+        "location": "Premium Tailgate Tent - Pittsburgh|15233, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $71"
+    },
+    {
+        "event_name": "Kansas City Chiefs",
+        "event_time": "Dec 25 2024|1:00 PM Wed",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $132"
+    },
+    {
+        "event_name": "Harlem Globetrotters",
+        "event_time": "Dec 26 2024|1:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $54"
+    },
+    {
+        "event_name": "Magic Pass",
+        "event_time": "Dec 26 2024|1:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $62"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 26 2024|2:00 PM Thu",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Magic Pass",
+        "event_time": "Dec 26 2024|6:00 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $62"
+    },
+    {
+        "event_name": "Harlem Globetrotters",
+        "event_time": "Dec 26 2024|6:01 PM Thu",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $60"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 26 2024|7:00 PM Thu",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 27 2024|2:00 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $149"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 27 2024|7:00 PM Fri",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Dec 27 2024|7:00 PM Fri",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Lil Duval",
+        "event_time": "Dec 27 2024|7:30 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "WWE Live",
+        "event_time": "Dec 27 2024|7:30 PM Fri",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $62"
+    },
+    {
+        "event_name": "Lil Duval",
+        "event_time": "Dec 27 2024|9:45 PM Fri",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "Benedum Center",
+        "event_time": "Dec 28 2024|2:00 PM Sat",
+        "location": "Benedum Center|15222, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $255"
+    },
+    {
+        "event_name": "Lil Duval",
+        "event_time": "Dec 28 2024|7:00 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "Matt Light",
+        "event_time": "Dec 28 2024|8:00 PM Sat",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $72"
+    },
+    {
+        "event_name": "Buffalo Wabs & The Price Hill Hustle",
+        "event_time": "Dec 28 2024|8:00 PM Sat",
+        "location": "Club Cafe|15203, Pittsburgh, PA, US",
+        "price": "Prices from $22"
+    },
+    {
+        "event_name": "R&B Ladies Night Out",
+        "event_time": "Dec 28 2024|8:00 PM Sat",
+        "location": "Heinz Hall|15222, Pittsburgh, PA, US",
+        "price": "Prices from $75"
+    },
+    {
+        "event_name": "Lil Duval",
+        "event_time": "Dec 28 2024|9:30 PM Sat",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "New York Islanders",
+        "event_time": "Dec 29 2024|5:30 PM Sun",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $77"
+    },
+    {
+        "event_name": "Lil Duval",
+        "event_time": "Dec 29 2024|7:00 PM Sun",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $70"
+    },
+    {
+        "event_name": "Brian Regan",
+        "event_time": "Dec 29 2024|8:00 PM Sun",
+        "location": "Carnegie of Homestead Music Hall|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $110"
+    },
+    {
+        "event_name": "Cincinnati Bengals",
+        "event_time": "Dec 30 2024|1:00 PM Mon",
+        "location": "Acrisure Stadium (formerly Heinz Field)|15212, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $117"
+    },
+    {
+        "event_name": "Jeff Dunham",
+        "event_time": "Dec 30 2024|7:30 PM Mon",
+        "location": "PPG Paints Arena|15219, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $86"
+    },
+    {
+        "event_name": "Duquesne Dukes Basketball",
+        "event_time": "Dec 31 2024|1:00 PM Tue",
+        "location": "UPMC Cooper Fieldhouse|15282, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $16"
+    },
+    {
+        "event_name": "Pigeons Playing Ping Pong",
+        "event_time": "Dec 31 2024|6:00 PM Tue",
+        "location": "Stage AE|15212, Pittsburgh, PA, US",
+        "price": "Prices from $45"
+    },
+    {
+        "event_name": "Bret Ernst",
+        "event_time": "Dec 31 2024|7:00 PM Tue",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $57"
+    },
+    {
+        "event_name": "Bret Ernst",
+        "event_time": "Dec 31 2024|10:00 PM Tue",
+        "location": "Pittsburgh Improv|15120, Pittsburgh, Pennsylvania, US",
+        "price": "Prices from $57"
+    }
+]
