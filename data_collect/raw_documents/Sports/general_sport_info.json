@@ -1,0 +1,46 @@
+{
+    "pittsburgh_sports": [
+    "Pittsburgh Sports",
+    "In Pittsburgh, we bleed black and gold.",
+    "Come see for yourself why Sporting News magazine awarded Pittsburgh the coveted 'Best Sports City' title and why the USA TODAY 10 Best Reader's Choice poll named Pittsburgh as one of the winners of the 'Best City for Sports' travel award.",
+    "If it's action you want, this city has it covered with the best of football, baseball, hockey and more. Grab your Terrible Towel and visit Acrisure Stadium to watch the six-time Super Bowl Champion Pittsburgh Steelers. Head to PPG Paints Arena and join in all the excitement when the Penguins take the ice. The Pirates make a perfect summer night complete as you watch the game from PNC Park, rated by Travel & Leisure as the 'best baseball stadium in America!'"
+  ],
+  "teams": [
+    {
+      "team_name": "Pittsburgh Penguins",
+      "description": "The ice might be cold, but the Pittsburgh Penguins are HOT! When the five-time Stanley Cup champions take the ice at PPG Paints Arena, it's 'A Great Day for Hockey.' Tickets sell out fast, so don't be left out of the action! Let's Go Pens!",
+      "where to see": {
+        "name": "PPG Paints Arena",
+        "capacity": 18387,
+        "opened": 2010,
+        "also_home_to": "NCAA ice hockey and basketball tournaments",
+        "known_for": "The antics of Iceburgh (the Penguins' mascot), RC Cola, fantastic concerts, WWE live events, Monster Jam and other family events",
+        "fun_fact": "The Penguins had a record-setting sellout streak that lasted 14 years and 633 consecutive games from 2007-2021, resulting in three Stanley Cups.",
+        "did_you_know": "PPG Paints Arena offers free skates on select dates throughout the year. Look for announcements on social media."
+    }},
+    {
+      "team_name": "Pittsburgh Pirates",
+      "description": "You can always count on the Pittsburgh Pirates for an exciting summer of baseball! Raise the Jolly Roger at PNC Park, hailed as one of the best ballparks in the country. Let's Go Bucs!",
+      "where to see": {
+        "name": "PNC Park",
+        "capacity": 38362,
+        "opened": 2001,
+        "also_home_to": "All Star Craft Beer, Wine and Cocktail Festival",
+        "known_for": "Skyline views, fireworks nights, the Pittsburgh Pierogi Race, fantastic local food and brews",
+        "fun_facts": "70 home run balls have exited the stadium and splashed into the Allegheny River, but only five have landed in the river without bouncing.",
+        "did_you_know": "PNC Park offers stadium tours all season long that take you onto the field for an up-close look at this magnificent stadium."
+    }},
+    {
+      "team_name": "Pittsburgh Steelers",
+      "description": "Pittsburgh is officially 'Sixburgh' as the Steelers became the first team in NFL history to win six Super Bowl titles! Steelers Nation spreads far and wide, so grab your Terrible Towel and come celebrate where it all originates: the Home of the World Champion Pittsburgh Steelers. Here we go!",
+      "where to see":  {
+        "name": "Acrisure Stadium",
+        "capacity": 68400,
+        "opened": 2001,
+        "also_home_to": "University of Pittsburgh Panthers D1 football, Rib Fest",
+        "known_for": "Terrible Towels waving, 'Renegade' being played in the fourth quarter, incredible skyline views",
+        "fun_fact": "This stadium hosted two outdoor hockey games - the 2011 NHL Winter Classic and 2017 NHL Stadium Series."
+    }}
+  ]
+
+}
