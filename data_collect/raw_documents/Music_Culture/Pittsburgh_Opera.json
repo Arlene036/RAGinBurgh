@@ -1,5 +1,6 @@
 [
     {
+        "event_name": "No Event Name",
         "NEWS & ANNOUNCEMENTS": {
             "No Events": {}
         },
@@ -16,6 +17,7 @@
         "url": "https://pittsburghopera.org/"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "Our Mission": {
                 "content": [
@@ -50,6 +52,7 @@
         "url": "https://pittsburghopera.org/about/mission-history"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Since our founding in 1939, Pittsburgh Opera has enriched the Pittsburgh region by bringing live, world-class opera to our community. We have long been committed to making opera accessible to a diverse audience, but we recognize that a more focused outlook is necessary to ensure that our organization reflects the ideals of Inclusion, Diversity, Equity, and Accessibility (IDEA), in our public offerings as well as internally.",
@@ -71,6 +74,7 @@
         "url": "https://pittsburghopera.org/about/inclusion-diversity-equity-accessibility-idea/"
     },
     {
+        "event_name": "FPO Garden Party",
         "EVENTS": {},
         "August 1, 2024 to August 9, 2024": {
             "content": [
@@ -85,6 +89,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=71+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Piano Sale",
         "EVENTS": {},
         "August 17, 2024 to August 25, 2024": {
             "content": [
@@ -99,23 +104,10 @@
             ],
             "": {}
         },
-        "url": "https://pittsburghopera.org/calendar?timequery=week&prev=55+&start=1722484800000&end=1725145140000"
+        "url": "https://pittsburghopera.org/calendar?timequery=week&prev=55+&start=1722484800000&end=1725145140000https://pittsburghopera.org/calendar?timequery=week&prev=47+&start=1722484800000&end=1725145140000"
     },
     {
-        "EVENTS": {},
-        "August 25, 2024 to September 2, 2024": {
-            "content": [
-                "Saturday, August 31, 2024",
-                "01:00 PM",
-                "WQED-FM 89.3 andwqed.org/fm",
-                "2425 LIBERTY AVE.PITTSBURGH, PA 15222P. 412-281-0912",
-                "©2024 PITTSBURGH OPERA"
-            ],
-            "": {}
-        },
-        "url": "https://pittsburghopera.org/calendar?timequery=week&prev=47+&start=1722484800000&end=1725145140000"
-    },
-    {
+        "event_name": "WQED Season Recap - The Flying Dutchman",
         "EVENTS": {},
         "September 2, 2024 to September 10, 2024": {
             "content": [
@@ -133,6 +125,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=39+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "WQED Season Recap - Iphigénie en Tauride",
         "EVENTS": {},
         "September 10, 2024 to September 18, 2024": {
             "content": [
@@ -150,6 +143,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=31+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Market Square Concert",
         "EVENTS": {},
         "September 18, 2024 to September 26, 2024": {
             "content": [
@@ -170,6 +164,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=23+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Market Square Concert",
         "EVENTS": {},
         "September 26, 2024 to October 4, 2024": {
             "content": [
@@ -193,6 +188,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=15+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "tosca-preview",
         "EVENTS": {},
         "October 4, 2024 to October 12, 2024": {
             "content": [
@@ -234,6 +230,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=7+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Pre-Opera Talk",
         "EVENTS": {},
         "October 12, 2024 to October 20, 2024": {
             "content": [
@@ -254,6 +251,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-1+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "An Evening in Vienna",
         "EVENTS": {},
         "October 20, 2024 to October 28, 2024": {
             "content": [
@@ -269,6 +267,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-9+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Cavalleria Rusticana/Pagliacci Preview on WQED-FM 89.3 and wqed.org/fm",
         "EVENTS": {},
         "October 28, 2024 to November 5, 2024": {
             "content": [
@@ -283,6 +282,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-17+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Cavalleria Rusticana/Pagliacci Preview on WQED-FM 89.3 and wqed.org/fm",
         "EVENTS": {},
         "November 5, 2024 to November 13, 2024": {
             "content": [
@@ -312,6 +312,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-25+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Pre-Opera Talk",
         "EVENTS": {},
         "November 13, 2024 to November 21, 2024": {
             "content": [
@@ -335,6 +336,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-33+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "November Song Shop",
         "EVENTS": {},
         "November 21, 2024 to November 29, 2024": {
             "content": [
@@ -349,6 +351,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-41+&start=1722484800000&end=17251451400000"
     },
     {
+        "event_name": "December Song Shop",
         "EVENTS": {},
         "December 7, 2024 to December 15, 2024": {
             "content": [
@@ -363,6 +366,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-57+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Armida Preview on WQED-FM 89.3 and wqed.org/fm",
         "EVENTS": {},
         "January 16, 2025 to January 24, 2025": {
             "content": [
@@ -377,6 +381,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-97+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Armida Preview on WQED-FM 89.3 and wqed.org/fm",
         "EVENTS": {},
         "January 24, 2025 to February 1, 2025": {
             "content": [
@@ -415,6 +420,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-105+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Pre-Opera Talk",
         "EVENTS": {},
         "February 1, 2025 to February 9, 2025": {
             "content": [
@@ -433,6 +439,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-113+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "February Song Shop",
         "EVENTS": {},
         "February 9, 2025 to February 17, 2025": {
             "content": [
@@ -447,6 +454,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-121+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Fashion Show",
         "EVENTS": {},
         "February 17, 2025 to February 25, 2025": {
             "content": [
@@ -461,6 +469,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-129+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "March Song Shop",
         "EVENTS": {},
         "March 5, 2025 to March 13, 2025": {
             "content": [
@@ -475,6 +484,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-145+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Madama Butterfly Preview on WQED-FM 89.3 and wqed.org/fm",
         "EVENTS": {},
         "March 13, 2025 to March 21, 2025": {
             "content": [
@@ -489,6 +499,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-153+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Madama Butterfly Preview on WQED-FM 89.3 and wqed.org/fm",
         "EVENTS": {},
         "March 21, 2025 to March 29, 2025": {
             "content": [
@@ -524,6 +535,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-161+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "Pre-Opera Talk",
         "EVENTS": {},
         "March 29, 2025 to April 6, 2025": {
             "content": [
@@ -541,6 +553,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=week&prev=-169+&start=1722484800000&end=1725145140000"
     },
     {
+        "event_name": "April Song Shop",
         "EVENTS": {},
         "April 1, 2025 to April 30, 2025": {
             "content": [
@@ -570,6 +583,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=month&prev=-169+&start=1743480000000&end=1746053940000"
     },
     {
+        "event_name": "WOMAN WITH EYES CLOSED",
         "EVENTS": {},
         "May 1, 2025 to May 31, 2025": {
             "content": [
@@ -590,6 +604,7 @@
         "url": "https://pittsburghopera.org/calendar?timequery=month&prev=-169+&start=1746072000000&end=1748732340000"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "TOSCA": {
             "content": [
@@ -647,6 +662,7 @@
         "url": "https://pittsburghopera.org/season/tosca"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "CAVALLERIA RUSTICANA/ PAGLIACCI": {
             "content": [
@@ -700,6 +716,7 @@
         "url": "https://pittsburghopera.org/season/cavalleria-rusticana-pagliacci"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "ARMIDA": {
             "content": [
@@ -738,9 +755,11 @@
         "url": "https://pittsburghopera.org/season/armida"
     },
     {
+        "event_name": "No Event Name",
         "url": "https://pittsburghopera.org/season/madama-butterflyhttps://pittsburghopera.org/season/woman-with-eyes-closed"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "2023-24 Season": {
                 "content": [
@@ -1216,6 +1235,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons"
     },
     {
+        "event_name": "Close shaves and cutting comedy.",
         "EVENTS": {},
         "THE BARBER OF SEVILLE": {
             "content": [
@@ -1271,6 +1291,7 @@
         "url": "https://pittsburghopera.org/season/the-barber-of-seville?hsLang=en"
     },
     {
+        "event_name": "Your timbers will shiver.",
         "EVENTS": {},
         "THE FLYING DUTCHMAN": {
             "content": [
@@ -1326,6 +1347,7 @@
         "url": "https://pittsburghopera.org/season/the-flying-dutchman?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "IPHIGÉNIE EN TAURIDE": {
             "content": [
@@ -1383,6 +1405,7 @@
         "url": "https://pittsburghopera.org/season/iphigenie-en-tauride?hsLang=en"
     },
     {
+        "event_name": "An American Dream as fragile as glass.",
         "EVENTS": {},
         "PROVING UP": {
             "content": [
@@ -1424,6 +1447,7 @@
         "url": "https://pittsburghopera.org/season/proving-up?hsLang=en"
     },
     {
+        "event_name": "Hedonism, hypocrisy, and high society",
         "EVENTS": {},
         "LA TRAVIATA": {
             "content": [
@@ -1477,6 +1501,7 @@
         "url": "https://pittsburghopera.org/season/la-traviata?hsLang=en"
     },
     {
+        "event_name": "Pittsburgh’s unsung heroine who taught America to sing",
         "EVENTS": {},
         "THE PASSION OF MARY CARDWELL DAWSON": {
             "content": [
@@ -1518,6 +1543,7 @@
         "url": "https://pittsburghopera.org/season/the-passion-of-mary-cardwell-dawson?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "RUSALKA": {
             "content": [
@@ -1601,6 +1627,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/rusalka?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE MARRIAGE OF FIGARO": {
             "content": [
@@ -1668,6 +1695,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-marriage-of-figaro?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "ARIODANTE": {
             "content": [
@@ -1735,6 +1763,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/ariodante?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "IL TROVATORE": {
             "content": [
@@ -1801,6 +1830,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/il-trovatore?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "DENIS & KATYA": {
             "content": [
@@ -1844,6 +1874,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/denis-katya?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "WE SHALL NOT BE MOVED": {
             "content": [
@@ -1905,6 +1936,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/we-shall-not-be-moved?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE MAGIC FLUTE": {
             "content": [
@@ -1974,6 +2006,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-magic-flute?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE ROSE ELF": {
             "content": [
@@ -2009,6 +2042,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-rose-elf?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "IN A GROVE": {
             "content": [
@@ -2061,6 +2095,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/in-a-grove?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "CARMEN": {
             "content": [
@@ -2140,6 +2175,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/carmen?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "BLUE": {
             "content": [
@@ -2227,6 +2263,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/blue?hsLang=enhttps://pittsburghopera.org/season/past-seasons/semele?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "Così fan tutte": {
             "content": [
@@ -2274,6 +2311,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/cosi-fan-tutte?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "SOLDIER SONGS": {
             "content": [
@@ -2312,6 +2350,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/soldier-songs?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "CHARLIE PARKER’S YARDBIRD": {
             "content": [
@@ -2371,6 +2410,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/charlie-parkers-yardbird?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE LAST AMERICAN HAMMER": {
             "content": [
@@ -2421,6 +2461,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/last-american-hammer?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "ALCINA": {
             "content": [
@@ -2473,6 +2514,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/alcina?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "FLORENCIA EN EL AMAZONAS": {
             "content": [
@@ -2535,6 +2577,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/florencia-en-el-amazonas?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "DON GIOVANNI": {
             "content": [
@@ -2593,6 +2636,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/don-giovanni?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "MADAMA BUTTERFLY": {
             "content": [
@@ -2650,6 +2694,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/madama-butterfly?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "AFTERWARDS - MOZART'S IDOMENEO REIMAGINED": {
             "content": [
@@ -2701,6 +2746,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/afterwards?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "GLORY DENIED": {
             "content": [
@@ -2746,6 +2792,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/glory-denied?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "LA BOHÈME": {
             "content": [
@@ -2810,6 +2857,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/la-boheme?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "DON PASQUALE": {
             "content": [
@@ -2874,6 +2922,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/don-pasquale?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "HANSEL & GRETEL": {
             "content": [
@@ -2929,6 +2978,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/hansel-gretel?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "SAVAGE WINTER": {
             "content": [
@@ -2974,6 +3024,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/savage-winter?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE LONG WALK": {
             "content": [
@@ -3028,6 +3079,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-long-walk?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE ELIXIR OF LOVE": {
             "content": [
@@ -3084,6 +3136,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-elixir-of-love?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "MOBY-DICK": {
             "content": [
@@ -3161,6 +3214,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/moby-dick?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE MARRIAGE OF FIGARO": {
             "content": [
@@ -3228,6 +3282,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-marriage-of-figaro?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "TOSCA": {
             "content": [
@@ -3281,6 +3336,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/tosca-2017?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE SUMMER KING": {
             "content": [
@@ -3398,6 +3454,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-summer-king?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "TURANDOT": {
             "content": [
@@ -3448,6 +3505,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/turandot?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "AS ONE": {
             "content": [
@@ -3496,6 +3554,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/as-one?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "RICHARD THE LIONHEART": {
             "content": [
@@ -3545,6 +3604,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/richard-the-lionheart?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "SALOME": {
             "content": [
@@ -3588,6 +3648,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/salome?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "LA TRAVIATA": {
             "content": [
@@ -3646,6 +3707,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/la-traviata-2016?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE RAKE'S PROGRESS": {
             "content": [
@@ -3692,6 +3754,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-rakes-progress?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "TWENTY-SEVEN": {
             "content": [
@@ -3732,6 +3795,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/twenty-seven?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "THE BARBER OF SEVILLE": {
             "content": [
@@ -3792,6 +3856,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/the-barber-of-seville-2016?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "LITTLE WOMEN": {
             "content": [
@@ -3839,6 +3904,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/little-women?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "COSÌ FAN TUTTE": {
             "content": [
@@ -3885,6 +3951,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/cos%C3%AC-fan-tutte-2015?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {},
         "NABUCCO": {
             "content": [
@@ -3921,6 +3988,7 @@
         "url": "https://pittsburghopera.org/season/past-seasons/nabucco?hsLang=en"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Resident ArtistsAshley Fabian andAndy Berry in a Brown Bag concert. Photo credit: David Bachman",
@@ -3936,6 +4004,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "During a Song Shop concert, you bring the snacks and we bring the entertainment at the Bitz Opera Factory. Once a month (excluding January and May) during our season, Pittsburghers and visitors of all ages are invited to enjoy free intimate noontime concerts. OurPittsburgh Opera Resident Artistsperform some of opera’s most popular arias, as well as a mix of Broadway, musical theater and other surprises.",
@@ -3953,6 +4022,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/songshop"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Pittsburgh Opera hosts another season of its popular Opera Up Close presentations. These entertaining and insightful programs are offered once per opera in the Bitz Opera Factory (2425 Liberty Avenue) in the Strip District, unless otherwise noted.*",
@@ -3968,6 +4038,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/opera-up-close"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Kristin Gatch at The Barber of Seville (photo credit: David Bachman)",
@@ -3982,6 +4053,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/pre-opera-talks"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Ticketholders for each Tuesday opera performance are invited to join General Director Christopher Hahn immediately following the performance to enjoy lively repartee, as Mr. Hahn interviews the stars of the production.",
@@ -3994,6 +4066,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/meet-the-artists"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Community concerts are another great opportunity for an informal introduction to opera, and Pittsburgh Opera takes every opportunity to sing for the community.",
@@ -4011,6 +4084,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/community-concerts"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Photo by David Bachman Photgraphy",
@@ -4025,6 +4099,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/allegheny-county-summer-concert-series"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Pittsburgh Opera Head of Music Glenn Lewis and 2016-17 Resident Artist Claudia Rosenthal, in the WQED-FM studio with Anna Singer. Photo by Chris Cox.",
@@ -4042,6 +4117,7 @@
         "url": "https://pittsburghopera.org/season/free-low-cost-events/wqed-broadcasts"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "DIAMOND HORSESHOE 2024": {
                 "content": [
@@ -4072,6 +4148,7 @@
         "url": "https://pittsburghopera.org/season/special-events"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "We are kicking off our 2024-25 season in style onSeptember 28, 2024, at theBitz Opera Factory.",
@@ -4096,6 +4173,7 @@
         "url": "https://pittsburghopera.org/season/special-events/diamond-horseshoe-ball"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Our 2024-25 Season's fashion show will be on February 24, 2025!",
@@ -4134,6 +4212,7 @@
         "url": "https://pittsburghopera.org/season/special-events/pittsburgh-opera-fashion-event"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Pittsburgh Opera’s next annual season-closing gala will be onSaturday, May 17, 2025, at Monterey Bay Fish Grotto.",
@@ -4163,6 +4242,7 @@
         "url": "https://pittsburghopera.org/season/special-events/maecenas"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "These stellar artists were hand-selected after a grueling and competitive application andaudition process.",
@@ -4181,6 +4261,7 @@
         "url": "https://pittsburghopera.org/resident-artists/2024-25resident-artists"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "Resident Artist Faculty & Administration": {
                 "content": [
@@ -4199,6 +4280,7 @@
         "url": "https://pittsburghopera.org/resident-artists/faculty-administration/"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "David Bachman Photography.",
@@ -4294,6 +4376,7 @@
         "url": "https://pittsburghopera.org/resident-artists/auditions/"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Many of Pittsburgh Opera’s Resident Artists have gone on to successful careers and have headlined at The Metropolitan Opera and some of the world's most prestigious opera houses, including:",
@@ -4310,6 +4393,7 @@
         "url": "https://pittsburghopera.org/resident-artists/history-alumni/"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Grand & Glorious, 2014. Photo credit: David Bachman",
@@ -4409,6 +4493,7 @@
         "url": "https://pittsburghopera.org/our-team/orchestra"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "The Grapes of Wrath, 2008. Photo credit: David Bachman",
@@ -4439,6 +4524,7 @@
         "url": "https://pittsburghopera.org/our-team/chorus"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Get directions to the Bitz Opera Factory and learn about nearby restaurants and businesses via this link.",
@@ -4468,6 +4554,7 @@
         "url": "https://pittsburghopera.org/facilities/pittsburgh-opera-headquarters/"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "Office Hours": {
                 "content": [
@@ -4492,6 +4579,7 @@
         "url": "https://pittsburghopera.org/facilities/office-hours"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "Pittsburgh Opera offers the rental of scenery, orchestra parts and supertitles for your production ofSamson & Dalila,The Rake's Progress, and more. Expand each tab below to see details about each production for rent.",
@@ -4508,6 +4596,7 @@
         "url": "https://pittsburghopera.org/facilities/production-rentals"
     },
     {
+        "event_name": "No Event Name",
         "EVENTS": {
             "content": [
                 "A wedding in the George R. White Opera Studio. Photo: G. Frank",
