@@ -7,26 +7,30 @@ from langserve_server import app
 from langchain_core.prompts import PromptTemplate
 from prompt import *
 import uvicorn
+from fastapi import FastAPI
+from rag import PittsRAG
+
 os.environ['LANGCHAIN_API_KEY'] = 'ls__LANGCHAIN_API_KEY__'
 
 
 client = Client() # langsmith for monitor
+app = FastAPI()
 
-################################# RAG CHAIN  ################################## 
-############################# TODO: Add retriever ############################# 
-custom_rag_prompt = PromptTemplate.from_template(RAG_PROMPT)
+################################# RAG CHAIN TODO  ################################## 
+rag = PittsRAG(generator = MODEL, retrieval = RETRIEVAL)
 
-rag_chain = (
-    {"context": retriever | format_docs, "question": RunnablePassthrough()}
-    | prompt
-    | llm
-    | StrOutputParser()
-)
-############################# TODO: Add retriever ############################# 
+def run_rag(input: Input):
+    try:
+        result = rag.inference(input) 
+        return result
+    except Exception as e:
+        print(e)
+
+######################################################################## 
 
 add_routes(
     app,
-    rag_chain,
+    RunnableLambda(run_rag),
     path="/rag"
 )
 
