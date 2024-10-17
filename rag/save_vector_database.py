@@ -2,15 +2,21 @@
 # input: raw file path;
 # output: a retrieval
 
+# TODO ####################################################################################
 # step1: generate summaries for table; reference: https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
 # step2: retriever = MultiVectorRetriever
 # step3: splitter
+# step4: save_faiss_multi_vector_index
+###########################################################################################
 
+import os
+import uuid
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_community.document_loaders.pdf_loader import PDFLoader
 from langchain_community.document_loaders.json_loader import JSONLoader
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def load_documents(file_path, file_type):
     if file_type == "pdf":
@@ -24,14 +30,9 @@ def load_documents(file_path, file_type):
     
     return loader.load()
 
-def split_document(document, chunk_size=500):
-    text = document.page_content  # TODO?
-    chunks = [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
-    return chunks
-
-def save_faiss_multi_vector_index(embedding_model_name, source_files, file_types, output_dir):
-    embedding_model_kwargs = {'device': 'cuda:0'}
-    embedding_encode_kwargs = {'batch_size': 32, 'normalize_embeddings': True, 'show_progress_bar': False}
+def save_faiss_multi_vector_index(embedding_model_name, directory_path, output_dir):
+    embedding_model_kwargs = {'device': 'cuda:0'} # if gpu
+    embedding_encode_kwargs = {'batch_size': 32, 'normalize_embeddings': True, 'show_progress_bar': False} # TODO batch_size?
     local_embeddings = HuggingFaceEmbeddings(
         model_name=embedding_model_name,
         model_kwargs=embedding_model_kwargs,
@@ -39,22 +40,40 @@ def save_faiss_multi_vector_index(embedding_model_name, source_files, file_types
     )
 
     all_docs = []
-    file_types = [sourse_file.lower().split('.')[-1] for sourse_file in source_files]
-    for file_path, file_type in zip(source_files, file_types):
-        if file_type not in ["pdf", "csv", "json"]:
-            continue
-        docs = load_documents(file_path, file_type)
-        
-        for doc in docs:
-            chunks = split_document(doc) 
-            for chunk in chunks:
-                all_docs.append(Document(page_content=chunk, metadata=doc.metadata))
 
-    faiss_index = FAISS.from_documents(all_docs, local_embeddings)
-    
-    faiss_index.save_local(output_dir)
+    for root, _, files in os.walk(directory_path):
+        for file in files:
+            file_path = os.path.join(root, file)
+            file_type = file.split('.')[-1].lower() 
+            if file_type not in ["pdf", "csv", "json"]: # CHECK
+                continue
+            try:
+                docs = load_documents(file_path, file_type)
 
-# 示例用法
-source_files = ["/path/to/pdf1.pdf", "/path/to/data.csv", "/path/to/data.json"]
-file_types = ["pdf", "csv", "json"]
-save_faiss_multi_vector_index("sentence-transformers/all-MiniLM-L6-v2", source_files, file_types, "/output/faiss_index")
+                # Chunking ---
+                text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+                splits = text_splitter.split_documents(docs)  
+                all_docs.extend(splits) 
+            except Exception as e:
+                print(f"Error processing file {file_path}: {str(e)}")
+
+    faiss_retriever = FAISS.from_documents(all_docs, local_embeddings)
+    faiss_retriever.save_local(output_dir)
+
+    return faiss_retriever
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Process documents and save FAISS index.")
+
+    parser.add_argument('--directory', type=str, required=True, help="Directory path containing the documents (PDF, CSV, JSON)")
+    parser.add_argument('--output', type=str, required=True, help="Output directory to save the FAISS index")
+    parser.add_argument('--model', type=str, default="sentence-transformers/all-MiniLM-L6-v2", help="Embedding model name (default: sentence-transformers/all-MiniLM-L6-v2)")
+
+    args = parser.parse_args()
+
+    directory_path = args.directory  # 文件夹路径
+    output_dir = args.output  # 输出FAISS索引路径
+    embedding_model_name = args.model  # 嵌入模型名称
+
+    retriever = save_faiss_multi_vector_index(embedding_model_name, directory_path, output_dir)
+    print(f"FAISS Index created and saved at {output_dir}!")
