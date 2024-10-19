@@ -108,6 +108,60 @@
         "City Council as a Body 2024 Expenditures by Subclass": {
           "description": "In 2024, the City Council as a body allocates most of its budget to personnel costs, with salaries and wages taking up the largest share at 51%. Employee benefits represent 30.8% of the total spending. Professional and technical services also receive a notable portion of the budget at 10%, while other categories like property services and supplies make up smaller percentages. The expenditures reflect a primary focus on staffing and technical support.",
           "summarization": "The 2024 City Council as a body budget focuses largely on personnel, with wages and employee benefits taking the majority of the spending, and smaller allocations to professional services and operational costs."
+        },
+
+        "Office of the Mayor": {
+          "description": "The organizational structure of the Office of the Mayor is headed by the Mayor, followed by the Chief of Staff, who oversees the Deputy Chief of Staff and the Executive Office. The Deputy Chief of Staff is responsible for various departments, including Communications, Business Diversity, Workforce Development, Youth, and Education, as well as Equal Protection, Neighborhood Services, Immigrant and Refugee Affairs, and Financial Empowerment. Each of these departments supports the Mayor’s strategic initiatives, focusing on community services, business inclusivity, and equitable development.",
+          "summarization": "The Office of the Mayor is structured with the Mayor at the top, supported by a Chief of Staff, who oversees both administrative and operational departments focused on community development, diversity, and financial empowerment."
+        },
+
+        "Office of the Mayor 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures for the Office of the Mayor are heavily focused on personnel costs, with salaries and wages making up the largest portion. Employee benefits also represent a significant part of the budget, followed by professional and technical services, property services, and other services. Supplies constitute a very small fraction of the total expenditures, emphasizing that the majority of the budget goes towards supporting staff and essential services within the Mayor’s office.",
+          "summarization": "In 2024, the majority of the Office of the Mayor's budget is allocated to personnel-related costs, with smaller amounts going towards professional services, property services, and supplies."
+        },
+        "Office of Management and Budget 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures of the Office of Management and Budget are primarily focused on property services, which account for the largest portion of the budget. This is followed by professional and technical services, personnel salaries and wages, and employee benefits. Supplies and other services make up smaller portions, while miscellaneous expenses are minimal. The distribution highlights a significant investment in maintaining and enhancing property services and technical operations.",
+          "summarization": "In 2024, the Office of Management and Budget allocates most of its budget to property services, with notable portions going to technical services and personnel costs. Miscellaneous expenses and supplies account for smaller shares."
+        },
+        "Department of Innovation & Performance": {
+          "description": "The Department of Innovation & Performance is led by a Director and is divided into various functional areas such as IT Operations Reliability, Security and Risk, Business Technology, and Operations Performance Excellence. Each division is further specialized, with teams handling IT infrastructure, applications, data services, and communications. The structure emphasizes a strong focus on operational reliability, technology innovation, and performance optimization across city services.",
+          "summarization": "The Department of Innovation & Performance focuses on IT operations, security, business technology, and performance excellence, with specialized teams supporting infrastructure, applications, and communications services."
+        },
+        "Department of Innovation and Performance 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures of the Department of Innovation and Performance are predominantly allocated to professional and technical services, reflecting the department’s reliance on expert knowledge and technical support. Personnel salaries and wages also make up a significant part of the budget, while property services, employee benefits, and supplies contribute smaller amounts. The budget distribution showcases the department's focus on professional services and staffing to drive innovation and performance.",
+          "summarization": "In 2024, the Department of Innovation and Performance prioritizes professional and technical services, with significant investments in personnel wages and benefits. Property services and supplies form smaller portions of the budget."
+        },
+        "Commission on Human Relations": {
+          "description": "The Commission on Human Relations is overseen by Commission Members and directed by the Director. Supporting roles include a Deputy Director, Fiscal and Contracting Coordinator, and teams dedicated to administration and investigation. The organizational structure indicates a focus on ensuring human relations through fiscal oversight, project coordination, and investigation of issues related to human rights.",
+          "summarization": "The Commission on Human Relations is structured around administrative, investigative, and fiscal functions, led by a Director and supported by key roles such as a Deputy Director and project coordinators."
+        },
+        "Commission on Human Relations 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures of the Commission on Human Relations are primarily allocated to personnel costs, with salaries and wages being the largest portion. Employee benefits are also a significant part of the budget. Professional and technical services, as well as other services, receive smaller allocations, while supplies constitute the smallest share. This budget distribution reflects a focus on staffing and providing technical services for human relations work.",
+          "summarization": "In 2024, the Commission on Human Relations' budget emphasizes personnel costs, with salaries and employee benefits making up the majority of expenditures, while technical services and supplies are smaller components."
+        },
+        "Controller's Office": {
+          "description": "The Controller's Office is overseen by the City Controller, with support from the Deputy Controller. The office is divided into various departments responsible for core financial and operational functions, including Accounting/General Ledger, Accounts Payable/Contracts, Engineering, Information Systems, Performance Auditing, and Fiscal Auditing. This structure highlights the office's focus on fiscal oversight, performance auditing, and maintaining accurate financial records.",
+          "summarization": "The Controller's Office oversees key financial departments such as accounting, auditing, contracts, and performance evaluation, led by the City Controller and supported by the Deputy Controller."
+        },
+        "Office of the City Controller 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures of the Office of the City Controller are primarily allocated to personnel-related costs, with salaries and wages being the largest portion, followed by employee benefits. Other smaller allocations include professional and technical services, supplies, and property expenses. The budget reflects a focus on staffing and operational needs within the City Controller's Office.",
+          "summarization": "In 2024, the Office of the City Controller's budget is heavily allocated to personnel costs, particularly wages and employee benefits, with smaller amounts dedicated to technical services and supplies."
+        },
+        "Department of Finance": {
+          "description": "The Department of Finance, led by the Director of Finance & Treasurer, is responsible for managing the city's financial operations. The department is organized under a Deputy Director and a Manager of Finance Operations, with key divisions handling functions such as Administration & Treasury, Business Intelligence, Cash Management, Real Estate, and Tax Compliance. The structure underscores the department's comprehensive approach to financial management, cash flow oversight, and tax compliance.",
+          "summarization": "The Department of Finance oversees financial operations, tax compliance, and cash management, led by the Director of Finance & Treasurer and supported by a Deputy Director and Manager of Finance Operations."
+        },
+        "Department of Finance 2024 Expenditures by Subclass": {
+          "description": "In 2024, the Department of Finance allocates a substantial portion of its budget to personnel salaries and employee benefits. Debt service also makes up a notable part of the budget. Other expenditures include supplies, property services, and professional and technical services, though these are smaller in comparison. The budget reflects a focus on personnel costs and debt obligations.",
+          "summarization": "The 2024 Department of Finance budget focuses on personnel costs, employee benefits, and debt service, with smaller allocations for supplies and professional services."
+        },
+        "Department of Law 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures for the Department of Law are primarily directed towards personnel costs, with salaries and wages being the largest component. Employee benefits, professional and technical services, and other services also account for significant portions of the budget. Miscellaneous expenses and supplies make up smaller shares. This distribution emphasizes the department's investment in staff and legal expertise.",
+          "summarization": "In 2024, the Department of Law's budget is focused on personnel costs, with additional investments in professional services and employee benefits, while supplies and miscellaneous costs make up smaller portions."
+        },
+        "Office of Municipal Investigations 2024 Expenditures by Subclass": {
+          "description": "In 2024, the Office of Municipal Investigations allocates most of its budget to personnel salaries and employee benefits. Professional and technical services and other services also receive moderate funding. Supplies make up the smallest portion of the budget. The distribution reflects the office's focus on maintaining personnel for investigations and supporting operational services.",
+          "summarization": "The 2024 Office of Municipal Investigations budget is primarily focused on personnel costs, with smaller allocations for professional services and supplies."
         }
     
 
