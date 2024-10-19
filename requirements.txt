@@ -1,0 +1,4 @@
+camelot-py
+opencv-python
+BeautifulSoup
+PyPDF2

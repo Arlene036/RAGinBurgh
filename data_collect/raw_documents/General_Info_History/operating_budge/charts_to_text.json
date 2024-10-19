@@ -1,0 +1,114 @@
+{
+  "Select Major Expenditures, 2018-2022": {
+    "description": {
+      "Health Insurance": "Expenditures in Health Insurance show a steady increase from 2018 to 2022, with 2022 reaching the highest spending of approximately 100 million dollars. Earlier years such as 2018 and 2019 show relatively lower expenditures.",
+      "Workers' Compensation": "This category exhibits stable expenditures from 2018 to 2021, with a notable increase in 2022, bringing the total to a similar level as Health Insurance at approximately 100 million dollars.",
+      "Pension and OPEB": "Pension and OPEB expenditures remain relatively low and consistent across all five years, showing little fluctuation.",
+      "Debt Service": "Debt Service expenditures steadily rise from 2018 to 2022, with 2022 showing the highest amount spent in the dataset, surpassing 120 million dollars."
+    },
+    "summarization": "The chart shows a clear upward trend in Health Insurance and Debt Service expenditures over time, with Workers' Compensation seeing a sharp increase in 2022. Pension and OPEB, however, remain relatively unchanged. The highest expenditure is seen in Debt Service in 2022, reaching over 120 million dollars."
+  },
+  
+    "CITY OF PITTSBURGH BUDGET CYCLE": {
+      "description": {
+        "January": "The fiscal year begins in January, marking the start of the budget cycle.",
+        "Spring/Summer": "During this period, public engagement takes place, allowing citizens to participate in the budget process.",
+        "Summer": "Directors submit their budget requests to the Office of Management and Budget (OMB).",
+        "August & September": "The submitted proposals are analyzed during these months.",
+        "September": "The Mayor submits the preliminary budget to the City Council by September 30th.",
+        "October & November": "Engagement continues, and the OMB makes necessary adjustments to the budget based on feedback.",
+        "Mid-November": "The Mayor formally presents the budget to the City Council.",
+        "November & December": "The City Council amends and approves the budget, completing the process by December 31st."
+      },
+      "summarization": "The City of Pittsburgh budget cycle starts in January with the fiscal year and continues through a structured process that includes public engagement, proposal submissions, and analysis. By September, the Mayor submits the preliminary budget to the City Council, followed by adjustments and formal presentation in mid-November. The budget is finalized and approved by the Council by the end of December."
+    },
+    
+      "2024 Tax vs. Non-Tax Revenue and Breakdown of 2024 Tax Revenues": {
+        "description": {
+          "Tax vs Non-Tax Revenue": {
+            "Tax Revenue": "75.9%",
+            "Non-Tax Revenue": "24.1%"
+          },
+          "Breakdown of Tax Revenue": {
+            "Real Estate Tax": "28.0%",
+            "Earned Income Tax": "25.1%",
+            "Payroll Preparation Tax": "14.1%",
+            "Parking Tax": "9.5%",
+            "Act 77 - Tax Relief": "10.9%",
+            "Deed Transfer Tax": "4.8%",
+            "Amusement Tax": "3.5%",
+            "Local Service Tax": "2.9%",
+            "Facility Usage Fee": "0.8%"
+          }
+        },
+        "summarization": "In 2024, Tax Revenue constitutes 75.9% of the total revenue, with Non-Tax Revenue making up 24.1%. The largest components of tax revenue are the Real Estate Tax (28.0%) and the Earned Income Tax (25.1%), followed by the Payroll Preparation Tax (14.1%). Other significant taxes include Act 77 Tax Relief and the Parking Tax, while smaller contributions come from Local Service and Facility Usage Fees."
+      },
+      
+        "Major Tax Revenue Growth, 2024 to 2028": {
+          "description": "The chart illustrates the projected growth of major tax revenues from 2024 to 2028. Over this period, the Real Estate Tax is expected to experience steady growth, increasing from approximately $400 million in 2024 to about $480 million in 2028. Similarly, the Earned Income Tax shows a continuous rise, growing from around $300 million in 2024 to $340 million by 2028. Other significant tax categories, such as the Payroll Preparation Tax and Parking Tax, also display gradual increases, indicating a healthy upward trend in overall tax revenues. Although smaller in size, taxes like the Amusement Tax and Facility Usage Fee exhibit consistent, albeit slower, growth over the five-year period, contributing to the overall revenue landscape."
+          ,
+          "summarization": "From 2024 to 2028, tax revenues are projected to grow steadily, with Real Estate and Earned Income Taxes showing the most significant increases. The chart highlights a balanced upward trend across various tax categories, contributing to a robust financial outlook for the city."
+        },
+        
+        "2024 License and Permits Revenue": {
+          "description": "The 2024 License and Permits Revenue is primarily made up of Other Licenses and Permits, which constitute 58.1% of the total revenue. Commercial Building Permits contribute 32.4%, making it the second-largest source. Residential Building Permits, while important, make up only 4.4%, and Zoning Fees account for 5.0%. This shows that the majority of revenue comes from general licenses and permits, with commercial permits also playing a significant role in the overall revenue structure.",
+          "summarization": "In 2024, the majority of revenue from licenses and permits comes from general licenses (58.1%) and commercial building permits (32.4%), while zoning fees and residential building permits contribute smaller portions."
+        },
+
+        "2024 Charges for Service Revenue": {
+          "description": "Charges for services in 2024 are dominated by fees, which make up 47.3% of the total revenue. Leases follow closely, accounting for 40.4%, indicating that both fees and leases are the primary revenue sources in this category. Other sources like Emergency Services, Contracted Services, and Miscellaneous categories contribute minor portions, collectively making up less than 13% of the total revenue, with Emergency Services being the smallest contributor at only 0.7%.",
+          "summarization": "In 2024, fees (47.3%) and leases (40.4%) generate the bulk of service revenue, with other sources like emergency services and contracted services making up a small fraction."
+        },
+      
+        "2024 Fines and Forfeiture Revenue": {
+          "description": "Parking Authority Tickets dominate the fines and forfeiture revenue in 2024, contributing a substantial 87.4% of the total. Traffic Court follows at 10.3%, making it the second-largest source. The remainder of the revenue comes from minor sources such as the Magistrate or Alderman (1.3%), Forfeitures (1.0%), and a very small portion from the State Police (0.1%), showing that most fines and forfeitures are driven by parking-related penalties.",
+          "summarization": "In 2024, fines and forfeiture revenue is heavily dependent on Parking Authority Tickets, which constitute 87.4% of the total, with other sources like Traffic Court contributing only a small fraction."
+        },
+
+        "Four Major Tax Revenues Comprise 58% of the 2024 Budget": {
+          "description": "The four largest tax revenues in 2024 are the Real Estate Tax, Earned Income Tax, Payroll Preparation Tax, and Parking Tax, which together contribute 58% of the overall budget. The Real Estate Tax accounts for the largest portion at 21.3%, followed by the Earned Income Tax at 19.1%. Payroll Preparation Tax and Parking Tax contribute smaller shares of 10.7% and 7.2%, respectively. The remaining 41.8% of the budget comes from other revenues not detailed in this section.",
+          "summarization": "In 2024, the budget heavily relies on four major tax sources, led by Real Estate Tax and Earned Income Tax. These four sources combine to make up 58% of the total budget, while all other revenue sources collectively account for 41.8%."
+        },
+
+        "Four Main Non-Tax Revenues Comprise 15% of the 2024 Budget": {
+          "description": "The four main non-tax revenues in 2024 are Intergovernmental revenue, Charges for Services, Licenses and Permits, and another category for All Other Revenues. The Intergovernmental revenue constitutes 5.9% of the budget, while Charges for Services make up 5.8%. Licenses and Permits contribute 2.4%, and all other non-tax revenues combined make up a significant 84.7% of the non-tax budget, indicating that a large variety of smaller non-tax sources are included.",
+          "summarization": "Non-tax revenues make up 15% of the 2024 budget, with Intergovernmental revenue and Charges for Services being the primary contributors. However, a large portion (84.7%) comes from various other non-tax sources grouped together under 'All Other Revenues.'"
+        },
+
+        "2024 Spending by Division": {
+          "description": "The largest portion of spending in 2024 goes to Public Safety, which accounts for 38.6% of the total budget. This is followed by General Government at 27.9%, which supports various administrative functions. Public Works represents 14.6% of the spending, dedicated to infrastructure and city maintenance. Finance and Human Resources departments have smaller allocations, representing 10.9% and 6.5% of the budget respectively. The City Controller, City Council, and other smaller departments make up less than 1% each of the total expenditures.",
+          "summarization": "In 2024, the majority of spending is allocated to Public Safety and General Government, comprising 38.6% and 27.9% of the budget. Public Works, Finance, and Human Resources also receive notable shares, while smaller departments receive much less."
+        },
+
+        "2024 Personnel vs. Non-Personnel Expenditures": {
+          "description": "The 2024 budget is heavily skewed towards personnel expenditures, which account for 73.5% of the total at $502.9 million. This includes salaries, wages, and employee benefits. Non-personnel expenditures make up 26.5% of the budget, amounting to $181.7 million, covering operational costs that are not directly tied to personnel, such as supplies, equipment, and contracted services.",
+          "summarization": "In 2024, the majority of the budget is allocated to personnel expenses, making up 73.5%, while non-personnel costs account for a smaller share of 26.5%."
+        },
+
+        "2024 Expenditures by Subclass": {
+          "description": "Personnel-related costs dominate the 2024 expenditures by subclass, with salaries and wages making up 42.6% of the budget, and employee benefits accounting for an additional 30.8%. Professional and Technical Services represent 5.5%, while Property Services account for 4.4%. Other services and supplies make up smaller shares, at 2.9% and 1.5%, respectively. Debt Service also represents a significant portion at 10.1%, highlighting the city's obligations in managing its debt.",
+          "summarization": "Personnel costs, including salaries and benefits, comprise the largest portion of the 2024 expenditures, making up over 70% of the total budget. Debt service and technical services also represent notable portions."
+        },
+
+        "2024-2028 Spending by Subclass": {
+          "description": "The spending trends from 2024 to 2028 show a consistent allocation across personnel salaries and wages, employee benefits, and debt service, which together represent the bulk of expenditures each year. Salaries and wages are projected to remain the largest category, while employee benefits and debt service continue to require significant resources. Other categories like professional services, property services, and supplies remain stable but relatively small in comparison.",
+          "summarization": "From 2024 to 2028, spending is expected to remain focused on personnel costs and debt service, with only minor fluctuations in other expenditure categories."
+        },
+
+        "Debt Service": {
+          "description": "This chart shows the actual and projected debt service from 2018 to 2028. The total debt service remains relatively stable throughout the period, with budget allocations hovering around $400 million annually. However, the percent of total expenditures allocated to debt service has been gradually decreasing over time, dropping from over 15% in 2018 to around 10% in the projected years from 2023 to 2028. This trend indicates the city's efforts to reduce the proportion of its budget dedicated to servicing debt while maintaining stable debt service payments.",
+          "summarization": "The debt service budget remains stable around $400 million annually from 2018 to 2028, but the proportion of total expenditures allocated to debt service steadily declines from 15% to 10% over the years."
+        },
+
+        "City Council 2024 Expenditures by Subclass": {
+          "description": "The 2024 expenditures for the City Council are primarily allocated to personnel costs, with salaries and wages accounting for the majority of the budget at 51%. Employee benefits also make up a significant portion at around 30%. Supplies and other non-personnel costs represent a smaller fraction of the total expenditures. The focus of spending is clearly on compensating City Council employees and ensuring their benefits are covered.",
+          "summarization": "In 2024, the City Council's budget is primarily dedicated to personnel costs, with salaries and benefits making up the majority of the spending, while supplies and other expenses constitute a smaller portion."
+        },
+
+        "City Council as a Body 2024 Expenditures by Subclass": {
+          "description": "In 2024, the City Council as a body allocates most of its budget to personnel costs, with salaries and wages taking up the largest share at 51%. Employee benefits represent 30.8% of the total spending. Professional and technical services also receive a notable portion of the budget at 10%, while other categories like property services and supplies make up smaller percentages. The expenditures reflect a primary focus on staffing and technical support.",
+          "summarization": "The 2024 City Council as a body budget focuses largely on personnel, with wages and employee benefits taking the majority of the spending, and smaller allocations to professional services and operational costs."
+        }
+    
+
+  }
