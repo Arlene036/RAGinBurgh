@@ -1,0 +1,39 @@
+{
+    "CMU Leadership Organization": {
+      "Chair, Board of Trustees": "David A. Coulter",
+      "President": "Farnam Jahanian",
+      "Provost and Chief Academic Officer": "James H. Garrett Jr.",
+      "Vice Presidents": {
+        "Chief Financial Officer": "Angela Blanton",
+        "Student Affairs and Dean of Students": "Gina Casalegno",
+        "General Counsel and Secretary of the Corporation": "Mary Jo Dively",
+        "University Communications and Marketing": "Tysen Kendig",
+        "Chief Investment Officer": "Charles Kennedy",
+        "Research": "Theresa Mayer",
+        "Information Technology and Chief Information Officer": "Stan Waddell",
+        "Operations": "Daryl Weinert"
+      },
+      "Chief of Staff": "Tricia O'Reilly",
+      "Deans": {
+        "Tepper School of Business": "Isabelle Bajeux-Besnainou",
+        "School of Computer Science": "Martial Hebert",
+        "Heinz College": "Ramayya Krishnan",
+        "Mellon College of Science (Interim)": "Curtis Meyer",
+        "College of Fine Arts": "Mary Ellen Poole",
+        "College of Engineering": "William Sanders",
+        "Dietrich College of Humanities and Social Sciences": "Richard Scheines",
+        "Qatar": "Michael Trick",
+        "University Libraries": "Keith Webster"
+      },
+      "Vice Provosts and Senior Leaders": {
+        "Enrollment Management and Dean of Admission": "Kris Wong Davis",
+        "Faculty": "Shelley Anna",
+        "Academic Initiatives": "Amy Burkert",
+        "Strategic Initiatives and Chief of Staff to the Provost": "Rebecca Culyba",
+        "Diversity, Equity, and Inclusion and Chief Diversity Officer": "Wanda Heading-Grant",
+        "Global Strategic Initiatives and Institutional Accreditation": "Lisa Krieg",
+        "Teaching and Learning Innovation": "Marsha Lovett",
+        "Institutional Effectiveness and Planning": "Henry Zheng"
+      }
+    }
+  }
