@@ -1,0 +1,13 @@
+---------------Events.  49------------------
+Cmu event calender 5
+Campus events pageg  9
+Downtown Pittsburgh events 18
+PittsburghEventCalender 6
+Pittsburgh city paper events. 6
+Gov.5
+
+---------------Sports.  22------------------
+General info 3
+Penguins. 8
+Steelers. 8
+Pirates. 2
