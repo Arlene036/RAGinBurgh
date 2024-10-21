@@ -7,25 +7,65 @@ from langchain_core.prompts.prompt import PromptTemplate
 from langchain_core.runnables.passthrough import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
 from langchain_community.vectorstores.utils import DistanceStrategy
-
+from langchain import HuggingFacePipeline
 
 class PittsRAG():
+
 
     def __init__(self, generator, retrieval):
         # backbone model for RAG (generator)
         if type(generator) == str:
-            self.generator = HuggingFaceEndpoint(
-                repo_id=generator,
-                max_length=128,
-                temperature=0.5,
-                huggingfacehub_api_token=HUGGINGFACEHUB_API_TOKEN,
-            )
+            # self.generator = HuggingFaceEndpoint(
+            #     repo_id=generator,
+            #     max_length=128,
+            #     temperature=0.5,
+            #     huggingfacehub_api_token=HUGGINGFACEHUB_API_TOKEN,
+            # )
+            self.generator = self.get_generator(generator)
         else:
             self.generator = generator
 
         self.retrieval = retrieval # retriever for RAG
         self.rag_prompt = RAG_PROMPT
 
+    def get_generator(self, model_id):
+        # 配置BitsAndBytes的設定，用於模型的量化以提高效率。
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,  # 啟用4位元量化
+            bnb_4bit_compute_dtype=torch.float16,  # 計算時使用的數據類型
+            bnb_4bit_quant_type="nf4",  # 量化類型
+            bnb_4bit_use_double_quant=True,  # 使用雙重量化
+        )
+
+        # 加載並配置模型，這裡使用了前面定義的量化配置。
+        model_4bit = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            device_map="auto",  # 自動選擇運行設備
+            quantization_config=quantization_config,
+        )
+
+        # 加載模型的分詞器。
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
+
+        # 創建一個用於文本生成的pipeline。
+        text_generation_pipeline = pipeline(
+            "text-generation",
+            model=model_4bit,
+            tokenizer=tokenizer,
+            use_cache=True,
+            device_map="auto",
+            max_length=3200,
+            do_sample=True,
+            top_k=5,
+            num_return_sequences=1,
+            eos_token_id=tokenizer.eos_token_id,
+            pad_token_id=tokenizer.eos_token_id,
+        )
+
+        # 創建一個HuggingFacePipeline實例，用於後續的語言生成。
+        llm = HuggingFacePipeline(pipeline=text_generation_pipeline)
+
+        return llm
     # def compute_loss(self, outputs, labels):
     #     criterion = torch.nn.CrossEntropyLoss()
     #     return criterion(outputs, labels)
