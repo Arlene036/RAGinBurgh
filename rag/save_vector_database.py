@@ -69,7 +69,7 @@ def load_documents(file_path, file_type):
 def create_embedding(args):
     embedding_model_kwargs = {'device': args.device}
     embedding_encode_kwargs = {
-        'batch_size': args.batch_size,
+        'batch_size': args.embedding_batch_size,
         'normalize_embeddings': args.normalize_embeddings
     }
 

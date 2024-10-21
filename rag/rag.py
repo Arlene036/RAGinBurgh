@@ -7,10 +7,13 @@ from langchain_core.prompts.prompt import PromptTemplate
 from langchain_core.runnables.passthrough import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
 from langchain_community.vectorstores.utils import DistanceStrategy
-from langchain import HuggingFacePipeline
+from langchain_huggingface import HuggingFacePipeline
+
+import torch
+from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, pipeline
+from langchain import HuggingFacePipeline, PromptTemplate, LLMChain
 
 class PittsRAG():
-
 
     def __init__(self, generator, retrieval):
         # backbone model for RAG (generator)
@@ -30,18 +33,17 @@ class PittsRAG():
 
     def get_generator(self, model_id):
         # 配置BitsAndBytes的設定，用於模型的量化以提高效率。
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,  # 啟用4位元量化
-            bnb_4bit_compute_dtype=torch.float16,  # 計算時使用的數據類型
-            bnb_4bit_quant_type="nf4",  # 量化類型
-            bnb_4bit_use_double_quant=True,  # 使用雙重量化
-        )
+        # quantization_config = BitsAndBytesConfig(
+        #     load_in_4bit=True,  # 啟用4位元量化
+        #     bnb_4bit_compute_dtype=torch.float16,  # 計算時使用的數據類型
+        #     bnb_4bit_quant_type="nf4",  # 量化類型
+        #     bnb_4bit_use_double_quant=True,  # 使用雙重量化
+        # )
 
         # 加載並配置模型，這裡使用了前面定義的量化配置。
         model_4bit = AutoModelForCausalLM.from_pretrained(
             model_id,
             device_map="auto",  # 自動選擇運行設備
-            quantization_config=quantization_config,
         )
 
         # 加載模型的分詞器。
@@ -54,7 +56,7 @@ class PittsRAG():
             tokenizer=tokenizer,
             use_cache=True,
             device_map="auto",
-            max_length=3200,
+            max_length=128,
             do_sample=True,
             top_k=5,
             num_return_sequences=1,
@@ -119,19 +121,41 @@ class PittsRAG():
 
     def inference(self, query):
         # TODO: query rewriting (HyDE) OR fine-tuning
+        times = {}
+
         def format_docs(docs):
             return "\n\n".join(doc.page_content for doc in docs)
 
+        start_time = time.time()
+        docs = self.retrieval.invoke(query)  # 假设 `self.retrieval` 是查询检索文档的部分
+        formatted_docs = format_docs(docs)
+        times['retrieval'] = time.time() - start_time
+
         prompt = PromptTemplate.from_template(self.rag_prompt)
 
+        # rag_chain = (
+        #     {"context": self.retrieval | format_docs, "question": RunnablePassthrough()}
+        #     | prompt
+        #     | self.generator
+        #     | StrOutputParser()
+        # )
+
+        start_time = time.time()
         rag_chain = (
-            {"context": self.retrieval | format_docs, "question": RunnablePassthrough()}
+            {"context": formatted_docs, "question": RunnablePassthrough()}
             | prompt
             | self.generator
             | StrOutputParser()
         )
+        times['generation'] = time.time() - start_time
 
-        return rag_chain.invoke(query)
+        
+        with open("rag_log.txt", "w") as f:
+            f.write('query'+query+'\n')
+            f.write('content' + str(formatted_docs)+'\n')
+            f.write('answer' + str(rag_chain))
+
+        return rag_chain.invoke(query), times
     
     def save_answer(self, query_file, output_file):
         with open(query_file, "r") as f:
@@ -153,7 +177,7 @@ def main():
         default='rag_faiss_index', help="Directory where the FAISS index will be saved.")
     parser.add_argument("--device", type=str, \
         default="cuda:0", help="Device to run the embedding model on, e.g., 'cpu' or 'cuda:0'.")
-    parser.add_argument("--batch_size", type=int, \
+    parser.add_argument("--embedding_batch_size", type=int, \
         default=32, help="Batch size for encoding embeddings.")
     parser.add_argument("--normalize_embeddings", \
         action="store_true", help="Whether to normalize embeddings.")
@@ -191,8 +215,10 @@ def main():
                 .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
 
     rag = PittsRAG(generator=args.generator, retrieval=retriever)
-    result = rag.inference("When is Yalda Night held?")
+    result, time = rag.inference("When is Yalda Night held?")
     print(result)
+    print('-'*20)
+    print(time)
     # rag.save_answer(args.query_file, args.output_file)
 
 
