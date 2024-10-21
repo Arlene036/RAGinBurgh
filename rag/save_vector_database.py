@@ -108,6 +108,6 @@ def save_faiss_multi_vector_index(args):
     # all_docs: List[Document] 
     # local_embeddings: HuggingFaceEmbeddings
     faiss_retriever = FAISS.from_documents(all_docs, local_embeddings) 
-    faiss_retriever.save_local(args.output_dir)
+    faiss_retriever.save_local(args.faiss_output_dir)
 
     return faiss_retriever
