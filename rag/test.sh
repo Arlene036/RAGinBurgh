@@ -1,5 +1,7 @@
 python rag.py \
-    --device cpu
+    --device cpu \
+    --show_progress_bar \
+    --normalize_embeddings
     # --model_name facebook/rag-token-nq \
     # --index_name custom/rag-token-nq \
     # --passages_path data/nq_passages_small.tsv \
