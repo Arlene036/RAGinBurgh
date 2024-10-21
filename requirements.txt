@@ -5,3 +5,4 @@ PyPDF2
 sentence_transformers
 langchain-community
 langchain-huggingface
+langchain_core
