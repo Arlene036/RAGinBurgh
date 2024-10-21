@@ -1,4 +1,7 @@
 camelot-py
 opencv-python
-BeautifulSoup
+beautifulsoup4
 PyPDF2
+sentence_transformers
+langchain-community
+langchain-huggingface
