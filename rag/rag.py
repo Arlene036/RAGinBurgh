@@ -8,10 +8,17 @@ from langchain_core.runnables.passthrough import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_huggingface import HuggingFacePipeline
-
+import time
 import torch
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, pipeline
 from langchain import HuggingFacePipeline, PromptTemplate, LLMChain
+import faiss
+from langsmith import traceable
+
+os.environ['LANGCHAIN_TRACING_V2'] = 'true'
+os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
+os.environ['LANGCHAIN_API_KEY']=""
+os.environ['LANGCHAIN_PROJECT'] = "rag"
 
 class PittsRAG():
 
@@ -30,6 +37,18 @@ class PittsRAG():
 
         self.retrieval = retrieval # retriever for RAG
         self.rag_prompt = RAG_PROMPT
+
+        def format_docs(docs):
+            return "\n\n".join(doc.page_content for doc in docs)
+
+        prompt = PromptTemplate.from_template(self.rag_prompt)
+
+        self.rag_chain = (
+            {"context": self.retrieval | format_docs, "question": RunnablePassthrough()}
+            | prompt
+            | self.generator
+            | StrOutputParser()
+        )
 
     def get_generator(self, model_id):
         # 配置BitsAndBytes的設定，用於模型的量化以提高效率。
@@ -56,7 +75,7 @@ class PittsRAG():
             tokenizer=tokenizer,
             use_cache=True,
             device_map="auto",
-            max_length=128,
+            max_new_tokens=256,
             do_sample=True,
             top_k=5,
             num_return_sequences=1,
@@ -119,52 +138,23 @@ class PittsRAG():
 
     #     print(f"Evaluation Loss: {total_loss:.4f}")
 
+    @traceable
     def inference(self, query):
         # TODO: query rewriting (HyDE) OR fine-tuning
-        times = {}
 
-        def format_docs(docs):
-            return "\n\n".join(doc.page_content for doc in docs)
-
-        start_time = time.time()
-        docs = self.retrieval.invoke(query)  # 假设 `self.retrieval` 是查询检索文档的部分
-        formatted_docs = format_docs(docs)
-        times['retrieval'] = time.time() - start_time
-
-        prompt = PromptTemplate.from_template(self.rag_prompt)
-
-        # rag_chain = (
-        #     {"context": self.retrieval | format_docs, "question": RunnablePassthrough()}
-        #     | prompt
-        #     | self.generator
-        #     | StrOutputParser()
-        # )
-
-        start_time = time.time()
-        rag_chain = (
-            {"context": formatted_docs, "question": RunnablePassthrough()}
-            | prompt
-            | self.generator
-            | StrOutputParser()
-        )
-        times['generation'] = time.time() - start_time
-
-        
-        with open("rag_log.txt", "w") as f:
-            f.write('query'+query+'\n')
-            f.write('content' + str(formatted_docs)+'\n')
-            f.write('answer' + str(rag_chain))
-
-        return rag_chain.invoke(query), times
+        return self.rag_chain.invoke(query)
     
-    def save_answer(self, query_file, output_file):
+    def batch_answer(self, query_file, output_file):
+        if not os.path.exists(output_file):
+          os.makedirs(os.path.dirname(output_file), exist_ok=True)
         with open(query_file, "r") as f:
             queries = f.readlines()
 
+        results = self.rag_chain.batch(queries)
+
         with open(output_file, "w") as f:
-            for query in queries:
-                answer = self.inference(query)
-                f.write(answer + "\n")
+            for result in results:
+                f.write(result + "\n")
 
 def main():
     parser = argparse.ArgumentParser()
@@ -198,7 +188,7 @@ def main():
     parser.add_argument("--generator", type=str, \
         default='SciPhi/SciPhi-Self-RAG-Mistral-7B-32k', help="The name of the generator model.")
     parser.add_argument("--query_file", type=str, \
-        default='../QA/queries.txt', help="File containing the queries.")
+        default='../QA/questions.txt', help="File containing the queries.")
     parser.add_argument("--output_file", type=str, \
         default='../model_output/answers.txt', help="File where the answers will be saved.")
 
@@ -213,12 +203,24 @@ def main():
         retriever = FAISS.load_local(args.faiss_output_dir, create_embedding(args), \
             distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT, allow_dangerous_deserialization=True) \
                 .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
+    # else:
+    # # Load the FAISS index from disk
+    #     cpu_index = FAISS.load_local(args.faiss_output_dir, create_embedding(args), \
+    #         distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT, allow_dangerous_deserialization=True).index
+
+    #     # 将 CPU 索引转移到 GPU 上
+    #     res = faiss.StandardGpuResources()
+    #     gpu_index = faiss.index_cpu_to_gpu(res, 0, cpu_index)  # 0 是 GPU 设备编号
+
+    #     # 创建 GPU 版的 FAISS 检索器
+    #     retriever = FAISS(gpu_index, create_embedding(args)) \
+    #         .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
 
     rag = PittsRAG(generator=args.generator, retrieval=retriever)
-    result, time = rag.inference("When is Yalda Night held?")
-    print(result)
-    print('-'*20)
-    print(time)
+    rag.batch_answer(args.query_file, args.output_file)
+    # result = rag.inference("When is Yalda Night held?")
+    # print(result)
+
     # rag.save_answer(args.query_file, args.output_file)
 
 
