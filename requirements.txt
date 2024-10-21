@@ -6,3 +6,4 @@ sentence_transformers
 langchain-community
 langchain-huggingface
 langchain_core
+faiss-gpu

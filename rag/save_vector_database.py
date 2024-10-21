@@ -66,8 +66,7 @@ def load_documents(file_path, file_type):
     
     return loader.load() # return: List[Document]
 
-def save_faiss_multi_vector_index(args):
-    # Set default values
+def create_embedding(args):
     embedding_model_kwargs = {'device': args.device}
     embedding_encode_kwargs = {
         'batch_size': args.batch_size,
@@ -81,6 +80,11 @@ def save_faiss_multi_vector_index(args):
         encode_kwargs=embedding_encode_kwargs,
         show_progress=args.show_progress_bar  
     )
+    return local_embeddings
+
+def save_faiss_multi_vector_index(args):
+    # Initialize embeddings
+    local_embeddings = create_embedding(args)
 
     all_docs = []
 
