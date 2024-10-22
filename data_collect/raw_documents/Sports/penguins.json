@@ -1,0 +1,696 @@
+{
+    "full_season": [
+        {
+            "matchup": "Buffalo@Pittsburgh",
+            "time": "Wednesday, October 16|7:00 PM EDT",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Carolina@Pittsburgh",
+            "time": "Friday, October 18|7:00 PM EDT",
+            "networks": "SN-PIT, BSSO",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Winnipeg",
+            "time": "Sunday, October 20|3:00 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Calgary",
+            "time": "Tuesday, October 22|9:30 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Edmonton",
+            "time": "Friday, October 25|9:00 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Vancouver",
+            "time": "Saturday, October 26|10:00 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Minnesota@Pittsburgh",
+            "time": "Tuesday, October 29|7:00 PM EDT",
+            "networks": "SN-PIT, BSN, BSWI",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Anaheim@Pittsburgh",
+            "time": "Thursday, October 31|7:00 PM EDT",
+            "networks": "Victory+, SN-PIT, KCOP-13",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Montr\u00e9al@Pittsburgh",
+            "time": "Saturday, November 2|7:00 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@New York",
+            "time": "Tuesday, November 5|7:30 PM EST",
+            "networks": "SN-PIT, MSGSN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Carolina",
+            "time": "Thursday, November 7|7:00 PM EST",
+            "networks": "SN-PIT, BSSO",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Washington",
+            "time": "Friday, November 8|7:30 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Dallas@Pittsburgh",
+            "time": "Monday, November 11|7:00 PM EST",
+            "networks": "Victory+, SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Detroit@Pittsburgh",
+            "time": "Wednesday, November 13|7:30 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Columbus",
+            "time": "Friday, November 15|7:00 PM EST",
+            "networks": "SN-PIT, BSOH",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "San Jose@Pittsburgh",
+            "time": "Saturday, November 16|7:00 PM EST",
+            "networks": "SN-PIT, NBCSCA",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Tampa Bay@Pittsburgh",
+            "time": "Tuesday, November 19|7:00 PM EST",
+            "networks": "SN-PIT, BSSUN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Winnipeg@Pittsburgh",
+            "time": "Friday, November 22|7:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Utah@Pittsburgh",
+            "time": "Saturday, November 23|7:00 PM EST",
+            "networks": "Utah16, SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Vancouver@Pittsburgh",
+            "time": "Wednesday, November 27|7:30 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Boston",
+            "time": "Friday, November 29|6:30 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Calgary@Pittsburgh",
+            "time": "Saturday, November 30|7:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Florida@Pittsburgh",
+            "time": "Tuesday, December 3|7:00 PM EST",
+            "networks": "SN-PIT, SCRIPPS",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@New York",
+            "time": "Friday, December 6|7:30 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Toronto@Pittsburgh",
+            "time": "Saturday, December 7|7:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Colorado@Pittsburgh",
+            "time": "Tuesday, December 10|7:00 PM EST",
+            "networks": "SN-PIT, ALT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Montr\u00e9al",
+            "time": "Thursday, December 12|7:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Ottawa",
+            "time": "Saturday, December 14|7:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Los Angeles@Pittsburgh",
+            "time": "Tuesday, December 17|7:00 PM EST",
+            "networks": "SN-PIT, BSW",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Nashville",
+            "time": "Thursday, December 19|8:00 PM EST",
+            "networks": "SN-PIT, BSSO",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@New Jersey",
+            "time": "Saturday, December 21|7:00 PM EST",
+            "networks": "SN-PIT, MSGSN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Philadelphia@Pittsburgh",
+            "time": "Monday, December 23|7:00 PM EST",
+            "networks": "SN-PIT, NBCSP+",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@New York",
+            "time": "Saturday, December 28|7:30 PM EST",
+            "networks": "SN-PIT, MSGSN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "New York@Pittsburgh",
+            "time": "Sunday, December 29|5:30 PM EST",
+            "networks": "SN-PIT, MSGSN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Detroit",
+            "time": "Tuesday, December 31|8:00 PM EST",
+            "networks": "BSDET, SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Florida",
+            "time": "Friday, January 3|7:00 PM EST",
+            "networks": "SN-PIT, SCRIPPS",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Carolina",
+            "time": "Sunday, January 5|6:00 PM EST",
+            "networks": "SN-PIT, BSSO",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Columbus@Pittsburgh",
+            "time": "Tuesday, January 7|7:00 PM EST",
+            "networks": "SN-PIT, BSOH",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Edmonton@Pittsburgh",
+            "time": "Thursday, January 9|7:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Ottawa@Pittsburgh",
+            "time": "Saturday, January 11|4:00 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Tampa Bay@Pittsburgh",
+            "time": "Sunday, January 12|5:00 PM EST",
+            "networks": "SN-PIT, BSSUN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Seattle@Pittsburgh",
+            "time": "Tuesday, January 14|7:00 PM EST",
+            "networks": "KHN, SN-PIT, KONG",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Buffalo",
+            "time": "Friday, January 17|7:00 PM EST",
+            "networks": "SN-PIT, MSG-B",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Washington",
+            "time": "Saturday, January 18|7:00 PM EST",
+            "networks": "SN-PIT, MNMT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Los Angeles",
+            "time": "Monday, January 20|10:30 PM EST",
+            "networks": "SN-PIT, BSW",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Anaheim",
+            "time": "Thursday, January 23|10:00 PM EST",
+            "networks": "Victory+, SN-PIT, KCOP-13",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Seattle",
+            "time": "Saturday, January 25|4:00 PM EST",
+            "networks": "KHN, SN-PIT, KONG",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@San Jose",
+            "time": "Monday, January 27|10:30 PM EST",
+            "networks": "SN-PIT, NBCSCA",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Utah",
+            "time": "Wednesday, January 29|9:30 PM EST",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Nashville@Pittsburgh",
+            "time": "Saturday, February 1|7:00 PM EST",
+            "networks": "SN-PIT, BSSO",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "New Jersey@Pittsburgh",
+            "time": "Tuesday, February 4|7:00 PM EST",
+            "networks": "SN-PIT, MSGSN2",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@New York",
+            "time": "Friday, February 7|7:00 PM EST",
+            "networks": "SN-PIT, MSG",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Philadelphia",
+            "time": "Saturday, February 8|7:00 PM EST",
+            "networks": "SN-PIT, NBCSP",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Washington@Pittsburgh",
+            "time": "Saturday, February 22|3:00 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "New York@Pittsburgh",
+            "time": "Sunday, February 23|3:30 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Philadelphia",
+            "time": "Tuesday, February 25|7:00 PM EST",
+            "networks": "SN-PIT, NBCSP",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Philadelphia@Pittsburgh",
+            "time": "Thursday, February 27|7:00 PM EST",
+            "networks": "SN-PIT, NBCSP",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Boston@Pittsburgh",
+            "time": "Saturday, March 1|3:00 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Toronto@Pittsburgh",
+            "time": "Sunday, March 2|1:00 PM EST",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Colorado",
+            "time": "Tuesday, March 4|9:00 PM EST",
+            "networks": "SN-PIT, ALT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Vegas",
+            "time": "Friday, March 7|10:00 PM EST",
+            "networks": "SN-PIT, SCRIPPS",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Minnesota",
+            "time": "Sunday, March 9|3:30 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Vegas@Pittsburgh",
+            "time": "Tuesday, March 11|7:00 PM EDT",
+            "networks": "SN-PIT, SCRIPPS",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "St. Louis@Pittsburgh",
+            "time": "Thursday, March 13|7:00 PM EDT",
+            "networks": "SN-PIT, BSMW",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "New Jersey@Pittsburgh",
+            "time": "Saturday, March 15|3:00 PM EDT",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "New York@Pittsburgh",
+            "time": "Tuesday, March 18|7:00 PM EDT",
+            "networks": "SN-PIT, MSGSN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Columbus@Pittsburgh",
+            "time": "Friday, March 21|7:00 PM EDT",
+            "networks": "SN-PIT, BSOH",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Florida",
+            "time": "Sunday, March 23|6:00 PM EDT",
+            "networks": "SN-PIT, SCRIPPS",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Tampa Bay",
+            "time": "Tuesday, March 25|7:00 PM EDT",
+            "networks": "SN-PIT, BSSUN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Buffalo",
+            "time": "Thursday, March 27|7:00 PM EDT",
+            "networks": "SN-PIT, MSG-B",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Ottawa@Pittsburgh",
+            "time": "Sunday, March 30|5:00 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@St. Louis",
+            "time": "Thursday, April 3|8:00 PM EDT",
+            "networks": "SN-PIT, BSMW",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Dallas",
+            "time": "Saturday, April 5|3:00 PM EDT",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@Chicago",
+            "time": "Sunday, April 6|6:00 PM EDT",
+            "networks": "CHSN, SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Chicago@Pittsburgh",
+            "time": "Tuesday, April 8|7:00 PM EDT",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Pittsburgh@New Jersey",
+            "time": "Friday, April 11|7:00 PM EDT",
+            "networks": "SN-PIT, MSGSN",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Boston@Pittsburgh",
+            "time": "Sunday, April 13|3:30 PM EDT",
+            "networks": "SN-PIT",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        },
+        {
+            "matchup": "Washington@Pittsburgh",
+            "time": "Thursday, April 17|7:00 PM EDT",
+            "networks": "",
+            "location": "PPG Paints Arena, Pittsburgh, PA"
+        }
+    ],
+    "wikipedia":{
+    "introduction of penguins":[
+        "The Pittsburgh Penguins (colloquially known as the Pens) are a professional ice hockey team based in Pittsburgh. The Penguins compete in the National Hockey League (NHL) as a member of the Metropolitan Division of the Eastern Conference, and have played their home games at PPG Paints Arena, originally known as Consol Energy Center, since 2010. The team previously played at the Civic Arena, which was also known as Mellon Arena from 1999 to 2010, and by its nickname \"the Igloo\". The Penguins are affiliated with two minor league teams \u2013 the Wilkes-Barre/Scranton Penguins of the American Hockey League (AHL) and the Wheeling Nailers of the ECHL.\n",
+        "Founded during the 1967 expansion, the Penguins have qualified for six Stanley Cup Finals, winning the Stanley Cup five times \u2013 in 1991, 1992, 2009, 2016, and 2017. Along with the Edmonton Oilers, the Penguins are tied for the most Stanley Cup championships among the non-Original Six teams and sixth overall. With their Stanley Cup wins in 2016 and 2017, the Penguins became the first back-to-back champions in the salary cap era. Several of the team's former members have been inducted into the Hockey Hall of Fame, including co-owner Mario Lemieux, who purchased the Penguins in 1999 and brought the club out of bankruptcy. Lemieux, Jaromir Jagr, Sidney Crosby, and Evgeni Malkin have won the Hart Memorial Trophy while playing for the franchise.\n"
+    ],
+    "Team history": {
+        "Early years (1967–1984)": {
+            "content": [
+                "Prior to the arrival of the Penguins, Pittsburgh had been the home of the NHL'sPittsburgh Piratesfrom 1925 to 1930 and of theAmerican Hockey League'sPittsburgh Hornetsfranchise from 1936 to 1967 (with a short break from 1956 to 1961). In the spring of 1965,Jack McGregor, astate senatorfromKittanning, Pennsylvania, began lobbying campaign contributors and community leaders to bring an NHL franchise back to Pittsburgh. The group focused on leveraging the NHL as anurban renewaltool for Pittsburgh. The senator formed a group of local investors that includedH. J. Heinz CompanyheirH. J. Heinz III,Pittsburgh Steelers' ownerArt Rooneyand theMellon family'sRichard Mellon Scaife. Theprojected league expansiondepended on securing votes from thethen-current NHL owners; to ensure Pittsburgh would be selected as one of the expansion cities, McGregor enlisted Rooney to petition votes fromJames D. Norris, owner of theChicago Black Hawksand his brotherBruce Norris, owner of theDetroit Red Wings. The effort was successful, and on February 8, 1966, theNational Hockey Leagueawarded anexpansion teamto Pittsburgh for the1967–68 season. The Penguins paid $2.5 million ($23.8 million today) for their entry and $750,000 ($6.9 million today) more for start-up costs. TheCivic Arena's capacity was boosted from 10,732 to 12,500 to meet the NHL requirements for expansion. The Pens also paid an indemnification bill to settle with the Detroit Red Wings, which owned the Pittsburgh Hornets franchise. The investor group named McGregor president and chief executive officer, and he represented Pittsburgh on the NHL's Board of Governors.[5][6]",
+                "A contest was held where 700 of 26,000 entries picked \"Penguins\" as the team's nickname, sharing its nickname with theathletic departmentof the newly namedYoungstown State Universityin nearbyYoungstown, Ohio. (Youngstown is part of the Penguins' territorial rights to this day, though they did briefly share them with theCleveland Baronsin the mid-1970s.) Mark Peters had the winning entry (which was inspired because the team was to play in the \"Igloo\", the nickname of the Pittsburgh Civic Arena),[7][8]a logo was chosen that had a penguin in front of a triangle, which symbolized the \"Golden Triangle\" of downtown Pittsburgh.[7][9]The Penguins' first general manager,Jack Riley, opened the first pre-season camp for the franchise inBrantford, Ontario,[10]on September 13, 1967, playing the franchise's first exhibition match in Brantford against thePhiladelphia Flyerson September 23, 1967. Restrictive rules which kept most major talent with the existing \"Original Six\" teams hampered the Pens, along with the rest of the expansion teams. Beyond aging sniperAndy Bathgate, all-star defensemanLeo Boivin(who had begun his professional career with the Hornets) andNew York Rangers' veteranEarl Ingarfield, a cast of former minor leaguers largely manned the first Penguins' team. Several players played for the Hornets the previous season: Bathgate, wingersVal FonteyneandAb McDonald, and goaltendersHank BassenandJoe Daley.George Sullivanwas named the head coach for the club's first two seasons, and McDonald was named the team's first captain.[11]",
+                "On October 11, 1967, league presidentClarence Campbelland McGregor jointly dropped the ceremonial first puck of the Penguins' opening home game against theMontreal Canadiens.[5]On October 21, 1967, they became the first team from the expansion class to defeat an Original Six team, as they defeated the Chicago Black Hawks 4–2. However, the Penguins went 27–34–13 and finished in fifth place in the West Division, missing the playoffs and ending with the third-worst record in the league. The team's best player proved to be longtimeCleveland BaronsAHL goaltenderLes Binkley, who recorded a 2.88goals-against averageand was second in the league with six shutouts. Defensive wingerKen Schinkelwon the team's sole league honor, being named to represent the Penguins in theNHL All-Star Game. Bathgate led the team in scoring with 59 points but retired at season's end. McDonald, who led the team in goals and was second in team scoring, was also gone at season's end, traded to theSt. Louis Bluesin exchange for centerLou Angotti.[6]",
+                "Thenext seasonsaw the team slip in the standings amid a sharp drop in form by Binkley, into sixth place and with the league's worst record. Several changes were made to improve the team, resulting in Boivin and several others being traded, and new players—including longtime future Pens starJean Pronovost—making their debuts. No captain was named to replace McDonald; the team went with four alternate captains."
+            ],
+            "Triumph of playoff berths and tragedy of Briere (1969–1974)": {
+                "content": [
+                    "In the1969 draftthe Penguins selectedMichel Brierewho, although being chosen 26th, was soon drawing comparisons toPhil EspositoandBobby Clarke. Joining the team in November, he finished as the second-place rookie scorer in the NHL (behind Bobby Clarke) with 44 points (57th overall), and third on the Penguins. Briere placed second inCalder Memorial Trophyvoting for Rookie of the Year honors behind Chicago goaltenderTony Esposito. Briere led Pittsburgh to its first NHL playoff berth since the 1928 Pirates. The Penguins defeated theOakland Sealsin a four-game sweep in the quarterfinals, with Briere scoring the series-clinching goal in overtime. In the semi-final round, defending conference champions St. Louis Blues got the best of the Penguins during six games. Briere led the team in playoff scoring, recording five goals (including three game-winners) and eight points. Tragedy struck the Penguins just days after their playoff heroics. On May 15, 1970, Briere was in a car crash in his nativeQuebec, suffering brain trauma and slipping into a coma from which he would never recover; he died a year later. His number 21 jersey was never reissued, remaining out of circulation until it was formally retired in 2001.[6]",
+                    "In the1970–71 season, the Penguins finished five games out of the playoffs with a 21–37–20 record, the fourth-worst record in the league. Pittsburgh achieved a playoff berth in1972, only to be swept by the Chicago Black Hawks in the first round. Except for a handful of players like Ken Schinkel, Pronovost,Syl Apps Jr.,Keith McCreary, agitatorBryan Watsonand goaltender Les Binkley, talent was thin, but enough for the Penguins to reach the playoffs in both 1970 and 1972.\nThe Penguins battled theCalifornia Golden Sealsfor the division cellar in1974, when Riley was fired as general manager and replaced byJack Button. Button obtainedSteve Durbano,Ab DeMarco,Bob \"Battleship\" KellyandBob Paradisethrough trades. The personnel moves proved successful, and the team improved to a 28–41–9 record, although they remained nine points away from a playoff berth.",
+                    "However, in early 1975, the Penguins' creditors demanded payment of back debts, forcing the team intobankruptcy. The doors to the team's offices were padlocked, and it looked like the Penguins would fold or relocate.[12]Around the same time, rumors began circulating that the Penguins and the California Golden Seals were to be relocated toSeattleandDenverrespectively, the two cities that were to have been the sites of an expansion for the1976–77 season.[13]Through the intervention of a group that included formerMinnesota North Starshead coachWren Blair, the team was prevented from folding and remained in Pittsburgh, eventually being bought byshopping mallmagnateEdward J. DeBartolo, Sr."
+                ]
+            },
+            "Playoff runs and a uniform change (1974–1982)": {
+                "content": [
+                    "Beginning in the mid-1970s, Pittsburgh iced some powerful offensive clubs, led by the likes of the \"Century Line\" of Syl Apps,Lowell MacDonaldand Jean Pronovost. They nearly reached the Stanley Cup semi-finals in1975, but were ousted from the playoffs by theNew York Islandersin one of the only four best-of-seven-game series in NHL history where a team came back from being down three games to none. As the 1970s wore on, a mediocre team defense neutralized the Penguins' success beyond the regular season.Baz Bastien, a former coach and general manager of the AHL's Hornets, later became general manager. The Penguins missed the playoffs in1977–78. Bastien traded prime draft picks for several players whose best years were already behind them, and the team would suffer in the early 1980s as a result. The decade closed with a playoff appearance in 1979 and a rousing opening series win over theBuffalo Sabresbefore a second-round sweep at the hands of theBoston Bruins.[6]",
+                    "The Penguins began the 1980s by changing their team colors; in January 1980, the team switched from wearing blue and white to their present-day scheme of black and gold to honor Pittsburgh's other sports teams, thePittsburgh Piratesand the Pittsburgh Steelers, as well as theFlag of Pittsburgh. Both the Pirates and Steelers had worn black and gold for decades, and both had enjoyed world championship seasons. The Bruins protested this color change, claiming a monopoly on black and gold, but the Penguins defended their choice stating that the NHL Pirates also used black and gold as their team colors and that black and gold were Pittsburgh's traditional sporting colors. The NHL agreed, and Pittsburgh could use black and gold. The Penguins officially debuted the black and gold uniform in a game against the St. Louis Blues at the Civic Arena on January 30, 1980.[14]On the ice, the Penguins began the 1980s with defensemanRandy Carlyle, and prolific scorersPaul GardnerandMike Bullardbut little else.",
+                    "During the early part of the decade, the Penguins made a habit of being a tough draw for higher-seeded opponents in the playoffs. In 1980, the 13th-seeded Penguins took the Bruins to the limit in their first-round playoff series. The following season, as the 15th seed, they lost the decisive game of their first-round series in overtime to the heavily favored St. Louis Blues. Then, in the1982 playoffs, the Penguins held a 3–1 lead late in the fifth and final game of their playoff series against the reigning champions, the New York Islanders. However, the Islanders rallied to force overtime and won the series on a goal byJohn Tonelli, who had tied the game before.[15]It would be the Pens' final playoff appearance until1989."
+                ]
+            }
+        },
+        "Lemieux–Jagr era (1984–2005)": {
+            "content": [
+                "The team had the league's worst record in both the1982–83and1983–84seasons. With the team suffering financial problems, it seemed the Penguins would either fold or relocate.Mario Lemieux, one of the most highly touted NHL draft picks in history, was due to be drafted in the1984 NHL Entry Draft. Heading towards the end of the season ahead of theNew Jersey Devils, who were placed last, the Penguins made several questionable moves that appeared to weaken the team in the short term. They posted three six-game winless streaks in the last 21 games of the season and earned the right to draft Lemieux amidst protests from Devils' management.[16]Pittsburgh head coach Lou Angotti later admitted that a conscious decision was made to finish the season as the team with the worst record, saying in an interview with thePittsburgh Post-Gazettethat a mid-season lunch prompted the plan, because there was a high chance of the franchise folding if Lemieux was not drafted.[17]Other teams offered substantial trade packages for the draft choice, but the Penguins kept the pick and drafted Lemieux first overall. Lemieux paid dividends right away, scoring on his first-ever shot of his first-ever NHL shift in his first NHL game. However, the team spent four more years out of the playoffs after his arrival. In the late 1980s, the Penguins finally gave Lemieux a strong supporting cast, trading for superstar defensemanPaul Coffeyfrom theEdmonton Oilers(after the Oilers'1987 Stanley Cupwin) and bringing in young talent like scorersKevin Stevens,Rob BrownandJohn Cullenfrom the minors. The team finally acquired a top-flight goaltender with the acquisition ofTom Barrassofrom Buffalo. All this talent had an immediate impact in helping Lemieux lead the Pens; but the team struggled to make the playoffs. The1985–86Pens missed the playoffs on the final day of the season by one game. In1986–87, they missed the playoffs by just two games and saw four teams with equal or worse records qualify. In1987–88, for the second time in a row, the Penguins missed the playoffs by one game.[11]",
+                "In 1989, Pittsburgh finally broke through the barrier and made the playoffs on the back of Lemieux leading the league in goals, assists and points. On December 31, 1988, Lemieux became the only player in history to score a goal in all five possible game situations in the same game (even strength, shorthanded, penalty shot, power play, and empty net). The Pens shocked the New York Rangers in a four-game sweep in the first round; however, the Philadelphia Flyers halted their progress in the second round. The seven-game defeat featured Lemieux scoring five goals in the fifth game.[11]"
+            ],
+            "Golden Age (1989–1997)": {
+                "content": [
+                    "Aherniated discin Lemieux's back cut short his1989–90 season, although he still amassed 123 points. However, the Penguins fell out of the playoff picture. They opted to strengthen their roster and support Lemieux in the 1990 off-season. Free-agent signings (Bryan Trottier) and trades (Joe Mullen,Larry Murphy,Ron FrancisandUlf Samuelsson) played a major part in this. Arguably no move was bigger during this time than when the Penguins draftedJaromir Jagrwith the fifth overall pick in the1990 NHL Entry Draft. The first Czechoslovak player to be drafted into the NHL without first needing to defect to the West, Jagr became the Penguins' second franchise player, and quickly developed into a superstar offensive talent.\nThe roster overhaul culminated in the Penguins winning their first Stanley Cup title by defeating the Minnesota North Stars in theStanley Cup Finalsin six games, punctuated by an 8–0 victory in the deciding game, the largest margin of victory in a final Stanley Cup game in over 80 years. After the1991 Stanley Cup Finals, the Penguins met with PresidentGeorge H. W. Bush, the first NHL team ever to visit theWhite House.[18]The following season, the team lost coachBob Johnsontocancer, andScotty Bowmantook over as coach. Under Bowman, they swept the Chicago Blackhawks to repeat as Stanley Cup champions in1991–92.[6][11]",
+                    "Cancer revisited the Penguins in 1993 when Lemieux was tragically diagnosed withHodgkin lymphoma. Only two months after the diagnosis, missing 24 out of 84 games, he came back to win his fourthArt Ross Trophyas scoring champion with 160 points, edging outPat LaFontaineandAdam Oates. Despite the off-ice difficulties, Pittsburgh finished with a 56–21–7 record, the franchise's best regular season ever, winning thePresidents' Trophy. After Lemieux's return, the team played better than it ever had before, winning an NHL-record 17 consecutive games. Despite all of this success, the New York Islanders eliminated them in the second round of Game 7 in overtime.[11][6]",
+                    "The Penguins continued to be a formidable team throughout the 1990s. The stars of the Stanley Cup years were followed by the likes of forwards:Alexei Kovalev,Martin Straka,Aleksey Morozov,Robert LangandPetr Nedved, and defensemenSergei Zubov,Darius KasparaitisandKevin Hatcher. Despite the departure of many of the franchise's Stanley Cup-winning roster, the Penguins fielded enough talent to reach the first round of the playoffs in 1994 (where they lost to theWashington Capitalsin six games), the second round in 1995 (where they lost to the New Jersey Devils in five games) and the conference finals in 1996 (where they lost to theFlorida Panthersin seven games). The 1997 playoffs marked a turning point, as the Penguins suffered a first-round elimination at the hands of the rival Philadelphia Flyers in five games.[11]"
+                ]
+            },
+            "Lemieux's retirement and return (1997–2001)": {
+                "content": [
+                    "On April 6, 1997, the franchise was rocked when Mario Lemieux, citing ongoing health concerns and his disapproval with the way NHL hockey was being officiated, announced he would retire at the conclusion of the 1997 playoffs. Lemieux was so respected in the NHL, and his achievements over the course of his career were so great, that he was inducted into theHockey Hall of Famein the year he retired, the three-year waiting period being waived. His departure was the first in a series of events that would once again lead the Penguins into regular season stagnation, and to the brink of financial ruin.",
+                    "The Montreal Canadiens eliminated the team in the first round of the playoffs in 1998, despite being the second-seeded team in the East. The following year, their playoff run ended in the second round when they lost to theToronto Maple Leafsin six games. In 2000, the Penguins stunned the highly touted Washington Capitals 4–1 in the first round, only to fall to the Philadelphia Flyers 4–2 in the second round.",
+                    "By this time, the lofty contracts handed out during the early 1990s were catching up with the Penguins. At one point, the team owed over $90 million to numerous creditors, leading then-ownersHoward BaldwinandMorris Belzberg(who bought the Penguins after their first Stanley Cup win) to ask the players to defer their salaries to help pay the bills. When the deferred salaries finally came due, combined with other financial pressures, the Penguins were forced to file forChapter 11bankruptcy in November 1998.",
+                    "Lemieux then stepped in with an unusual proposal to buy the team out of bankruptcy. The Penguins owed Lemieux $32.5 million in deferred salary, making him the team's largest individual creditor. He proposed recovering this money by converting it into equity—enough to give him controlling interest. He also vowed to keep the team in Pittsburgh. The NHL and the courts agreed, and Lemieux (with help from supermarket tycoonRonald Burkle) assumed control on September 3, 1999, saving the franchise for the second time.[6]",
+                    "Lemieux again shocked the hockey world by announcing at a press conference on December 8, 2000, his intentions to return to the Penguins as an active player. On December 27, 2000, Lemieux stepped onto NHL ice for the first time in 44 months, officially becoming the first player–owner in NHL history. Lemieux helped lead the Penguins deep into the2001 playoffs, highlighted by an overtime victory against the Buffalo Sabres in Game 7 of the second round. Darius Kasparaitis scored the series-clinching goal to advance the Penguins to the Eastern Conference Finals, where they lost in five games to the New Jersey Devils.[6]"
+                ]
+            },
+            "Rebuilding (2001–2005)": {
+                "content": [
+                    "The Penguins' attendance had dwindled in the late 1990s. In 1998–99, the club had an average attendance of 14,825 at home games, the lowest it had been since Lemieux's rookie year.[19]Reducing revenue on top of the previous bankruptcy necessitated salary shedding. The biggest salary move was the trading of superstar Jaromir Jagr to the Washington Capitals in the summer of 2001. The Penguins missed the playoffs for the first time in 12 years in2002, finishing in a tie for third-to-last in their conference. Thefollowing seasonthey finished second-last. In the2003 NHL Entry Draft, the Penguins selected goaltenderMarc-Andre Fleurywith the first overall pick.[20][21]",
+                    "The2003–04 seasonwas an ordeal with Lemieux missing all but 24 regular season games with a hip injury, and attendance dipping to an average of 11,877 (the lowest average of any NHL team), with just one sellout.[19]As the season progressed, the Penguins signed new head coach (and former Penguins' player and commentator)Eddie Olczykand opted not to include Fleury in the lineup for the bulk of the season. This culminated in the worst record in the NHL, with the team winning just 23 games. As in the 1980s, the Penguins' struggles were fortuitously concurrent with a string of NHL Entry Draft classes that would yield multiple world-class talents. The Penguins lost out on the first overall pick for the2004 NHL Entry Draft(Alexander Ovechkin), which went to the Washington Capitals. However, Ovechkin's countryman, centerEvgeni Malkin, was similarly highly regarded, and Pittsburgh took him with the second overall pick. However, a transfer dispute between the NHL and theInternational Ice Hockey Federation(IIHF) delayed his Pittsburgh debut.[22]",
+                    "By this point, the Penguins had collapsed financially since the Stanley Cup-winning years of the early 1990s. Their home venue, the Civic Arena, had become the oldest arena in the NHL, and Lemieux had tried unsuccessfully to cut a deal with the city for a new facility. With Pittsburgh uninterested in building a new hockey arena for the struggling Penguins, Lemieux began looking into the possibilities of selling or relocating the team toKansas City, Missouri.[23][24][25][26]Alockoutprompted the cancellation of the2004–05 NHL season. One of the many reasons for the lockout included disagreements on resolving the financial struggles of teams like the Penguins and theOttawa Senators, which had filed for bankruptcy protection.[27]During the lockout, the Penguins' players dispersed between the club's American Hockey League (AHL) affiliate, theWilkes-Barre/Scranton Penguins, and to European leagues.[6]"
+                ]
+            }
+        },
+        "Crosby–Malkin era (2005–present)": {
+            "content": [
+                "With the lockout resolved in 2005, the NHL organized an unprecedented draft lottery to set the2005 NHL Entry Draftselection order. The draft lottery, which was held behind closed doors in a \"secure location\", resulted in the Penguins being awarded the first overall pick.[28][29][30]Quebec Major Junior Hockey League(QMJHL) superstarSidney Crosby(who had been training with Lemieux over the summer)[28]was the consensus first overall pick, with many referring to the draft lottery process as \"The Sidney Crosby Sweepstakes\". The Penguins selected Crosby on July 30, 2005, with the top pick, instantly rekindling interest in hockey in Pittsburgh.[11]",
+                "The Penguins began rebuilding the team under the salary cap. However, Evgeni Malkin, the Penguins' 2004 draft pick, could not report to Pittsburgh immediately because of a playing rights dispute with theRussian Superleague. The addition of Crosby paid instant dividends, with attendance rising by approximately 4,000 per game on average in the 2005–06 season.[19]However, Crosby's presence did not immediately translate into wins, as the team began the season with a long winless skid that resulted in a head coaching change from Olczyk toMichel Therrien. Then, on January 24, 2006, Lemieux announced his second retirement, after developing anirregular heartbeat, this time permanently. He finished as the NHL's seventh all-time scorer (1,723), eighth in goals (690) and tenth in assists (1,033), and with the second-highest career points per game average (1.88), which is second toWayne Gretzky's 1.92.[31][32]",
+                "Despite the team's struggles, Crosby established himself as a star in the league, amassing 102 points in his debut season and finishing second to Alexander Ovechkin for the Calder Memorial Trophy awarded each year to the league's top rookie. In the Penguins' final game of the season, Crosby tallied a goal and an assist to become the top-scoring rookie in Penguin history (eclipsing Lemieux). The Penguins again posted the worst record in the Eastern Conference and the highest goals-against total in the League. They received the second overall draft pick, their fourth top-two pick in four years, in the2006 NHL Entry Draft, and selected touted two-way forwardJordan Staal. The team announced on April 20 they would not renew the contract for general managerCraig Patrick, who had been the general manager since December 1989.[33]On May 25,Ray Sherosigned a five-year contract as general manager."
+            ],
+            "Runner–up and Third Stanley Cup title (2006–2010)": {
+                "content": [
+                    "Change came for the Penguins on October 18, 2006, when Evgeni Malkin made his NHL debut. He set the modern NHL record with a goal in each of his first six games. Malkin would record points in 16 consecutive games.[34]The Penguins finished the2006–07 seasonin fifth place in the Eastern Conference with a record of 47–24–11, totaling 105 points, only two points behind the Atlantic Division winners, the New Jersey Devils. It was the franchise's first 100-point season in 11 years and represented an enormous 47-point leap from the previous season. In the first round of the2007 playoffsthe eventual Stanley Cup runners-up, the Ottawa Senators, defeated the Penguins 4–1. At the season's end, rookies Malkin and Jordan Staal were finalists for the Calder Memorial Trophy, awarded to the Rookie of the Year, which Malkin won.",
+                    "On March 13, 2007, Pennsylvania's GovernorEd Rendell,Allegheny CountyChief ExecutiveDan Onorato,PittsburghMayorLuke Ravenstahland Mario Lemieux of the Penguins ownership group announced an agreement had been reached among the parties to build the long-sought arena. The state-of-the-art, multi-purpose facility, theConsol Energy Center, guaranteed that the Penguins would remain in the city of Pittsburgh. Following the announcement of the plan, the Lemieux ownership group announced they no longer had plans to sell the team. On June 8, 2007, a $325 millionbondwas issued, and the Penguins signed a 30-yearleaseon September 19, binding them to the city of Pittsburgh through 2040.[35]",
+                    "After a mediocre start to the2007–08 season, Crosby and starting goaltender Marc-Andre Fleury were both injured long-term due to high right ankle sprains. In their absence, the team flourished because of the play and leadership of Malkin. On April 2, 2008, the Penguins clinched the Atlantic Division title—their first division title in 10 years—with a 4–2 win against rivals the Philadelphia Flyers. Malkin finished the season with 106 points for second place in the league and finished as a finalist for theHart Memorial Trophy. The team launched into their first extended playoff run in many years, beating Ottawa 4–0, defeating the New York Rangers 4–1 and then defeating the Philadelphia Flyers 4–1 to clinch thePrince of Wales Trophy. Pittsburgh lost the2008 Stanley Cup Finalsto the Detroit Red Wings in six games, finishing the playoffs with a 14–6 record. Crosby finished the playoffs with 27 points (6 goals and 21 assists in 20 games), tyingConn Smythe Trophy-winnerHenrik Zetterberg(13 goals and 14 assists in 22 games) for the playoff scoring lead.",
+                    "In the2008–09 season, Malkin won the Art Ross and was again a candidate for the Hart Memorial Trophy. Crosby finished third in League scoring with 33 goals and 70 assists for 103 points, despite missing five games. The Penguins' record dipped mid-season but lifted afterDan Bylsmareplaced head coach Therrien. The effect was almost instantaneous, and the Penguins recovered enough to secure home-ice advantage in their first-round match up against the Philadelphia Flyers, whom the Penguins defeated in six games. It took seven games for the Penguins to win the next series against Washington, sending them to the Eastern Conference Finals, where they eliminated theCarolina Hurricanesin a four-game sweep. After defeating the Hurricanes, the Penguins earned their second consecutive trip to theStanley Cup Finalsagainst the Detroit Red Wings, to whom they lost the previous year. After losing Games 1 and 2 inDetroit, like the previous years, the Penguins won Games 3 and 4 in Pittsburgh. Each team won on home ice in Games 5 and 6. In Game 7 in Detroit,Maxime Talbotscored two goals, including the game-winner, as the Penguins won 2–1 to win their third Stanley Cup title.[36]Malkin was awarded the Conn Smythe Trophy as the MVP of the playoffs.[11]",
+                    "During the2009–10 season, Crosby scored 109 points (51 goals and 58 assists) in 81 games, winning theMaurice \"Rocket\" Richard Trophyas the NHL season's leading goalscorer. The Penguins, seeded fourth in the East, began their title defense, defeating the Ottawa Senators in six games. In the next round, the Penguins faced the Montreal Canadiens. The teams swapped wins in the series en route to the decisive Game 7, which the Penguins lost 5–2, ending their season and their tenure at Mellon Arena.[37]"
+                ]
+            },
+            "New arena and injuries (2010–2015)": {
+                "content": [
+                    "In2010–11, the Penguins played their first game in the Consol Energy Center. On February 11, 2011, thePittsburgh Penguins–New York Islanders brawltook place.[38]A season-ending concussion suffered by Crosby and a knee injury to Malkin marred the season. The team left early in the playoffs, blowing a 3–1 series lead toTampa Bay Lightning, with Fleury's goaltending called into question.[39]With Crosby still sidelined withpost-concussion syndrome, at the start of the2011–12 season, Malkin led the Penguins' top line and dominated league scoring. He finished with 50 goals and 109 points as the Penguins earned 51 wins on the season. With Malkin's Art Ross-winning performance, and Crosby's late-season return from injury, the Penguins headed into the2012 playoffswith high hopes of making a significant Stanley Cup run. However, their cross-state rivals, the Philadelphia Flyers, defeated the highly favored Penguins in six games.[40]Malkin was later awarded the Hart Memorial Trophy andLester B. Pearson award. Following the Penguins' disappointing playoff exit, general manager Ray Shero made changes to the team at the2012 NHL Entry Draftfor the upcoming2012–13 season.[41][42]",
+                    "During thelockout-shortened 2012–13 season, the Penguins again fought through serious injury. At the end of the regular season, they finished atop the Eastern Conference, matching up against the New York Islanders in round one. The Penguins defeated the Islanders in six games, with Fleury struggling once again. The team then dispatched the Ottawa Senators in five games before being swept in the Conference Finals by the Boston Bruins, scoring just two goals in the entire four-game sweep. On June 13, 2013, Malkin signed an eight-year contract extension worth an annual average of $9.5 million.[43]",
+                    "In the2013–14 season, the Penguins suffered numerous injuries throughout the campaign. Despite the adversity, the Penguins won the realigned, eight-teamMetropolitan Division, though the club struggled in theplayoffs, requiring six games to defeat theColumbus Blue Jackets, then losing to the New York Rangers in seven games despite leading the series 3–1 after four games. This collapse prompted Penguins ownership to fire general manager Shero, replacing him on June 6 withJim Rutherford, the former general manager of the Carolina Hurricanes.[44]Rutherford's first action as general manager was to fire head coach Dan Bylsma, and on June 25, he announced thatMike Johnstonwas hired as Bylsma's replacement. In the2014–15 season, the Penguins led the Metropolitan Division for the first half of the season. However, after losing players to injuries and illnesses, including themumps, the team fell to fourth in the Division. The Pens lost in five games to the New York Rangers in the first round of the playoffs. In the off-season, Rutherford traded several players and picks to acquire star wingerPhil Kessel.[45]"
+                ]
+            },
+            "Back to Back Stanley Cups and 50th Anniversary (2016–2017)": {
+                "content": [
+                    "After acquiring Kessel, the Penguins had high expectations for the 2015–16 season. However, by December 12, 2015, the team was barely managing a winning season, posting a 15–10–3 record. The organization fired head coach Mike Johnston, and replaced him withMike Sullivan, who had previously served as the head coach in Wilkes-Barre/Scranton.[46]This move was followed by a series of trades by Jim Rutherford.[47][48]",
+                    "The Penguins qualified for the playoffs for the tenth consecutive season. They earned second place in the Metropolitan Division with 104 points. In theplayoffs, the Penguins defeated the Rangers in a 4–1 series, the Capitals 4–2 and the Lightning 4–3 to win the Eastern Conference Championship, advancing to theStanley Cup Finalsagainst theSan Jose Sharks.[49]On June 12, 2016, the Penguins defeated the Sharks in a 4–2 series to win their fourth Stanley Cup title. Captain Sidney Crosby was awarded the Conn Smythe Trophy.[50]",
+                    "The Penguins opened their 50th anniversary season in the NHL as defending Stanley Cup champions, raising their commemorative banner on October 13, 2016, in a shootout victory over Washington.[51]The Penguins faced the Columbus Blue Jackets in the opening round of the2017 playoffs, defeating them in five games. In the second round, they played against their divisional rival, Washington, and faced them for the second-straight year in the same round, winning a seven-game series. In the Conference Finals, the Penguins eliminated the Ottawa Senators in seven games to advance to theStanley Cup Finals, where they faced theNashville Predators. The Penguins won the first two games of the finals and then lost the next two matchups before dominating the fifth and the sixth games of the series to win the Stanley Cup for the second straight year. By defending their title, the Penguins became the first team since the1997–98 Detroit Red Wingsto defend their title successfully and the first to do so in the salary cap era.[6]"
+                ]
+            },
+            "Playoff streak (2017–2023)": {
+                "content": [
+                    "Before the2017–18 season, the Penguins lost longtime goaltender Marc-Andre Fleury in the2017 NHL Expansion Draftto theVegas Golden Knights.[52]Nevertheless, the Penguins again qualified for the Stanley Cup playoffs with the second division playoff spot, finishing the regular season with 100 points. They defeated the Philadelphia Flyers in the first round in six games, but were defeated by the eventual Stanley Cup champion Washington Capitals in six games.[53]In thenext season, the Penguins clinched a playoff berth, but were swept by the New York Islanders in the First Round.[54]In the following season, which was shortened by theCOVID-19 pandemic, the team advanced to the2020 playoffs, but were defeated by the Montreal Canadiens in the Qualifying Round.[55]On February 9, 2021, the Penguins namedRon Hextallas their new general manager, after Jim Rutherford resigned from his post on January 27, because of personal reasons.Brian Burkewas hired as president of hockey operations.[56][57]On February 21, Crosby became the first player to reach1,000 NHL gamesfor the team.[58]The Penguins won theEast Divisiontitle, extending their playoff streak to 15 seasons.[59]This became the longest active streak in North American sports as a result of theSan Antonio Spursmissing the2020 NBA playoffs.[60]The2020–21 seasoncame to an end in Game 6 of the first round of the playoffs against the New York Islanders.[61]",
+                    "On November 29, 2021,Fenway Sports Groupannounced its intent to purchase a controlling stake in the Penguins.[62]On December 31, 2021, they officially took over as majority owners of the Penguins.[63]",
+                    "In the First Round, the Penguins lost in seven games to theNew York Rangersdespite having a 3–1 series lead. The Game 7 loss marked the first time the Penguins lost a Game 7 on the road in franchise history after going 6–0 the previous six instances.[64]",
+                    "The2022–23 seasonwas marked with two milestones for the Penguins. On November 23, 2022,Evgeni Malkinplayed his 1,000th NHL game, becoming the second player in franchise history to play his 1,000th game in a Penguins uniform.[65]This would be followed up only months later, when teammateKris Letangwould play his 1,000th game as well, on April 2, 2023, despite missing 18 games during the season.[66]However, despite being in a playoff position midway in the season, the Penguins missed the playoffs for the first time since Crosby's rookie season in 2005–06, ending a 16-season playoff streak and resulting in Burke and Hextall's dismissals.[67][68]"
+                ]
+            },
+            "Dubas era (2023-pres)": {
+                "content": [
+                    "On June 1, 2023,Kyle Dubaswas named the team's new president of hockey operations.[69]On 6 August 2023, the Penguins traded forNorris Trophywinning defensemenErik Karlssonin a three-team deal also involving theMontreal Canadiens.[70]On February 18, 2024, the Penguins retired the no. 68 of franchise legendJaromir Jagrin a pregame celebration, with Jagr becoming just the third Penguin to receive the honor. Prior to theNHL Trade Deadline, the Penguins parted ways with longtime and fan favourite forwardJake Guentzel, trading him to theCarolina Hurricanes.[71]Despite the trades, and a late season playoff push, the Penguins were eliminated from playoff contention for the second consecutive year on the penultimate night of the season after theRed Wingsdefeated theMontreal Canadiensin overtime while the Capitals defeated thePhiladelphia Flyers, clinching the final spot as the second wild card.[72]"
+                ]
+            }
+        }
+    },
+    "Team culture": {
+        "Fanbase": {
+            "content": [
+                "Despite Pittsburgh's long history with hockey and a small but loyal fanbase, the Penguins struggled with fan support early on in its history, at times averaging only 6,000 fans per game when Civic Arena had a seating capacity of over 16,000. Fan support was so low by the team's first bankruptcy that the NHL had no problem with the team being moved, something that would change decades later when the team faced another relocation threat.",
+                "While the drafting of Mario Lemieux piqued interest in hockey locally, fans remained skeptical.John Steigerwald, brother of former Penguins broadcasterPaul Steigerwald,[73]noted in his autobiography that upon his arrival atKDKA-TVfromWTAE-TVin 1985, the station cared more about thePittsburgh Spiritof theMajor Indoor Soccer Leaguethan the Penguins.[74]However, Lemieux's play steadily grew the fanbase in the area, which would only be reassured upon the arrival of Sidney Crosby after the team struggled both on the ice and in attendance following the Jaromir Jagr trade.",
+                "Today, the Penguins are one of the NHL's most popular teams, especially among American non-Original Six franchises, and are considered second behind the Steelers among Pittsburgh's threemajor professional sports teams, taking advantage of both its success and the Pittsburgh Pirates struggles both on and off the field.[75]Especially notable was a 2007 survey done of the four major sports leagues' 122 teams. The Penguins surprised observers by being ranked 20th overall and third among NHL teams, while the Steelers were ranked number one and the Pirates (before the arrival ofAndrew McCutchenand that team's turnaround)[76]ranked much lower on the list than its peers. The Penguins' popularity has at times rivaled that of the Steelers at the local level.[77]"
+            ]
+        },
+        "Rivalries": {
+            "Philadelphia Flyers": {
+                "content": [
+                    "Considered by some to be the bestrivalryin the NHL,[78][79][80]the Philadelphia Flyers–Pittsburgh Penguins rivalry began in 1967 when the teams were introduced in the NHL's \"Next Six\" expansion wave. The rivalry exists both due to divisional alignment and geographic location, as both teams play inPennsylvania. The Flyers lead the head-to-head record with a 153–98-30 record.[81]However, the Penguins eliminated the Flyers from the playoffs in 2008 and 2009 and were eliminated by them from the playoffs in 2012, strengthening the rivalry. Three years later, the Flyers won the sixth playoff meeting between the clubs to advance to the Conference Semi-finals.[82]The franchises have met seven times in the playoffs, with the Flyers winning four series (1989 Patrick Division Finals, 4–3; 1997 Eastern Conference Quarter-finals, 4–1; 2000 Eastern Conference Semi-finals, 4–2; and 2012 Eastern Conference Quarter-finals, 4–2) and the Penguins winning three (2008 Eastern Conference Finals, 4–1; 2009 Eastern Conference Quarterfinals, 4–2; and 2018 Eastern Conference First Round, 4–2)."
+                ]
+            },
+            "Washington Capitals": {
+                "content": [
+                    "The two teams have faced off 11 times in the playoffs, with the Penguins winning nine of the 11 matchups, their two series losses coming in the 1994 and 2018 playoffs. The Penguins defeated the Capitals en route to their five Stanley Cup victories. They have met in a decisive game 7 in the 1992, 1995, 2009 and 2017 playoffs. The NHL's fourthWinter Classic, played on January 1, 2011, atHeinz Fieldin Pittsburgh showcased this rivalry. The Capitals won the game 3–1. The rivalry can also be seen in the American Hockey League (AHL). Pittsburgh's top farm team is the Wilkes-Barre/Scranton Penguins, and their in-state and biggest rivals are the Capitals' top farm team, theHershey Bears.[83][84][85]"
+                ]
+            }
+        }
+    },
+    "Team information": {
+        "Crest and sweater design": {
+            "content": [
+                "When the Penguins made their NHL debut in 1967, the team wore the colors dark blue, light blue and white. The uniforms had the word \"Pittsburgh\" written diagonally down the front of the sweater with three dark blue stripes around the sleeves and bottom. The logo featured a hockey-playing penguin in a scarf over an inverted triangle, symbolizing theGolden Triangleof downtown Pittsburgh. A refined version of the logo appeared on a redesigned uniform in the second season, which removed the scarf and gave the penguin a sleeker look. The circle encompassing the logo was later removed.[86]The team's colors were originallypowder blue,navy blue, and white. The powder blue was changed toroyal bluein 1973 but returned in 1977. The team adopted the current black and gold color scheme in 1980 to unify the colors of the city's professional sports teams although, like the Pittsburgh Pirates and the Steelers, the shade of gold more closely resembled yellow. The change was not without controversy, as the Boston Bruins protested by claiming to own the rights to the black and gold colors. However, the Penguins cited the colors worn by the now-defunct NHL team thePittsburgh Piratesin the 1920s, as well as black and gold being the official colors of the City of Pittsburgh and its namesake, and obtained permission to use the black and gold colors. The NHL's Pittsburgh Pirates used oldPittsburgh Policeuniforms,[87]beginning the black and gold color tradition in the city.[86]",
+                "The Penguins generally wore the black and gold \"skating penguin\" uniform between 1980 and 1992, with a few noticeable changes in the lettering and striping. A gold alternate uniform was worn between 1980 and 1984, and briefly replaced the white uniform for home games in the 1983–84 season.[86]",
+                "In the1992–93 season, the Penguins unveiled new uniforms and introduced the \"flying penguin\" logo, or \"Robopenguin\".[88][89]The team's away uniforms were a throwback to the team's first season, as they revived the diagonal \"Pittsburgh\" script. In 1995, the team introduced their secondalternate jersey, featuring different stripe designs on each sleeve. This jersey proved to be so popular that the team adopted it as their away jersey in 1997. In 2000, the Penguins brought back the \"skating penguin\" logo, but with a \"Vegas gold\" shade, upon releasing its new alternate uniform. After 2002, the \"skating penguin\" was readopted as the primary, though the \"flying penguin\" remained the alternate. A corresponding white version of the \"Vegas gold\" uniforms was introduced, and the 1995–2002 black uniform was retired. When the new jerseys were unveiled for the 2007–08 season league wide, the Penguins made major striping pattern changes and removed the \"flying penguin\" logo from the shoulders.[86]",
+                "The Penguins have worn their black jersey at home since the league began the initiative to do so beginning with the2003–04 NHL season. The team wore their powder blue, 1968–1972 \"throwbacks\" against the Buffalo Sabres in the2008 NHL Winter Classic. This throwback was supposedly retired with the introduction of a new dark blue third jersey that made its debut at the2011 NHL Winter Classic.[90]For the 2011–12 season, the 2011 Winter Classic jersey was the team's official third uniform, with the 2008 Winter Classic uniform having been retired.[91]Called the \"Blue Jerseys of Doom\" by thePittsburgh Tribune-Review, the alternate jerseys were worn when Sidney Crosby sustained a broken jaw and when he suffered aconcussionin the 2011 Winter Classic. Evgeni Malkin was also concussed during a game when the Penguins donned the alternate uniforms.[86][92][93]",
+                "In 2014, the Penguins released their new alternate uniforms. The new black uniforms are throwbacks to the early part of Lemieux's playing career, emulating the uniforms worn by the Penguins' 1991 and 1992 Cup-winning teams. The new alternate uniform featured \"Pittsburgh gold\", the particular shade of gold which had been retired when the Penguins switched to the metallic gold full-time in 2002.[94]The Penguins eventually brought back a white version of the black \"Pittsburgh gold\" alternates, thus retiring the \"Vegas gold\" uniforms they wore from 2000 to 2016. A commemorative patch was added to the uniforms throughout the 2016–17 season to celebrate the team's 50th anniversary.[95]During the2017 NHL Stadium Seriesagainst thearchrivalPhiladelphia Flyers, the Penguins wore a special gold uniform featuring military-inspired lettering, a \"City of Champions\" patch and a variation of the \"skating penguin\" logo.[96]This design served as the basis for the team's third uniform, which was unveiled in the 2018–19 season and was also partly inspired by the early 1980s gold uniforms.[97]The Penguins wore monochrome black uniforms minus the white elements when they faced the Flyers again in the2019 NHL Stadium Series.[98]",
+                "In 2021, the Penguins wore white \"Reverse Retro\" uniforms based on the 1992–97 uniforms. This set replaced the \"flying penguin\" with the alternate \"skating penguin\" logo minus the gold triangle on the shoulders.[99]A black version served as the replacement for the gold alternate uniforms starting in the 2021–22 season.[100]In the 2022–23 season, the Penguins unveiled their second \"Reverse Retro\" uniform, this time featuring a black version of the white \"flying penguin\" uniform they wore from 1992 to 2002.[101]",
+                "For the2023 NHL Winter Classic, the Penguins went with a vintage white uniform with black stripes, and added a gold \"P\" logo as a nod to the NHL Pirates of the late 1920s.[102]"
+            ]
+        },
+        "Media": {
+            "Radio": {
+                "content": [
+                    "The Penguins have their radio home onWXDX-FMand their television home onSportsNet Pittsburgh. ThePittsburgh Penguins Radio Networkconsists of a total of 34 stations in four states.[103]Twenty three of these are in Pennsylvania, four in West Virginia, three in Ohio, and three in Maryland. The network also features an FM high-definition station in Pittsburgh."
+                ]
+            },
+            "Broadcasters": {
+                "content": [
+                    "Local ABC affiliate WTAE-TV broadcast the Penguins during the 1967–68 season, with station Sports DirectorEd Conwayhandling the play-by-play during both the television and radio broadcasts. He remained the lone play-by-play broadcaster until the completion of the 1968–69 season. Joe Tucker took over for Ed Conway during the 1969–70 season, when WPGH-TV and WTAE-TV split Penguins' broadcasts. WPGH-TV retained the rights to broadcast the Penguins for the 1970–71 season, with Bill Hamilton handing the play-by-play duties. The 1970–71 season was also the first season where the Penguins introduced acolor commentatorto the broadcast team, with John MacDonald taking the position in the booth.[104][105]",
+                    "Mike Lange, who joined the Penguins' broadcast team as a play-by-play announcer on the radio side in 1974–75 became the play-by-play broadcaster for the team at the start of the 1979–80 season. At his side was Terry Schiffauer, who had previously held the position of Penguins' director of public relations and eventually transitioned into color commentator for Sam Nover in 1972–73. Lange and Schiffauer remained a team in the Penguins' broadcast booth until 1984–85, when Schiffauer was replaced by Paul Steigerwald. Lange and Steigerwald remained a constant in the broadcast booth from 1985 until 1999. \nWith Steigerwald's departure in 1999, Mike Lange shared the broadcast booth with former Penguins' defensemanPeter Taglianetti. Taglianetti remained in the position for one season before being replaced by Eddie Olczyk. Lange and Olczyk were broadcast partners from 2000 until 2003, when Olczyk left the booth to become the 18th head coach in Penguins' history following the firing of previous head coachRick Kehoeafter the 2002–03 season.[106]With Olczyk's vacancy, the Penguins hiredBob Erreyas their new color commentator for the start of the 2003–04 season. Lange and Errey remained in the booth until 2005–06. After 26 seasons in the television broadcast booth, FSN Pittsburgh did not retain Mike Lange. Instead, he was replaced by former broadcast partner Paul Steigerwald, who remained the team's TV play-by-play broadcaster until the 2016–17 season. Lange returned to the radio broadcast booth and holds the position of radio play-by-play announcer, the same position he held with the team in the mid-1970s. Following the 2016–17 season, Steigerwald moved back to the Penguins front office andNHL NetworkpersonalitySteve Mearswas hired as the new television play-by-play announcer starting with the 2017–18 season. Lange retired in the 2021 off-season, with Josh Getzoff being named as his replacement.Phil Bourqueserves as the radio color commentator. Before the 2023–24 season, Getzoff moved to the television booth with Mears replacing him on the radio.[107][108]The Penguins did not retain TV analyst Bob Errey, choosing to go with a rotation of analysts featuring former PenguinsColby Armstrong,Mike Ruppand Phil Bourque.[109][110]In 2024, Joe Brand replaced Steve Mears on the radio booth after Mears was hired by the Blue Jackets.[111]",
+                    "Every Penguins game is carried on the AT&T SportsNet Pittsburgh network, which is carried by cable providers in most of two states and parts of four others. On October 2, 2023, the network will be purchased by the Penguins and rebranded toSportsNet Pittsburgh.[112]In addition,Fox Sports Ohiosimulcasts Penguins hockey in theClevelandmetro area, as well as some parts of Eastern Ohio and Northern Kentucky. Dish Network, Verizon FiOS, and Direct TV each carry the Penguins games on their AT&T SportsNet Pittsburgh channel in HD nationally. The Pittsburgh Penguins also receive monthly and sometimes weekly \"game of the week\" national exposure on American networksESPN,ESPN+,ABC, andTNT, and Canadian networksSportsnetandCBC. Previously, the Penguins received national TV exposure onFox,NBCandNBCSNin the U.S., andTSNin Canada."
+                ]
+            },
+            "In-game announcers": {
+                "content": [
+                    "Ryan Mill has been the Penguins’ public address announcer since 2009 when he succeeded John Barbero. Jeff Jimerson has been the team's official anthem singer since 1991 and also served in the same capacity in theJean-Claude Van DammemovieSudden Death."
+                ]
+            }
+        },
+        "Arenas": {
+            "content": [
+                "The Penguins called Civic Arena home for over 45 seasons from their inception in 1967. In September 2010, they completed the move to the state-of-the-art Consol Energy Center (now named the PPG Paints Arena). The Penguins also played two \"home\" games in the Cleveland suburb ofRichfield, Ohio, in 1992 and 1993 at theRichfield Coliseum(this is not unlike theCleveland Cavaliersof theNBAplaying an annual pre-season game in Pittsburgh;[113]thePhiladelphia 76ersused the Civic Arena as a second home in the early 1970s).[114]",
+                "From 1995 to 2015, theIceoPlex at Southpointein the South Hills suburbs served as the team's practice facility.Robert Morris University's84 Lumber Arenahas served as a secondary practice facility for the team. During the franchise's first pre-season training camp and pre-season exhibition games, theBrantford Civic Centrein Brantford, Ontario, served as its home,[115]and by the 1970s and continuing through the 1980s, the team was using the suburbanRostraver Ice Gardenfor training.",
+                "In August 2015, the Penguins and theUniversity of Pittsburgh Medical Center(UPMC) opened the UPMC Lemieux Sports Complex, combining a new team practice and training facility with a UPMC Sports Medicine treatment and research complex, in suburbanCranberry Townshipnear the interchange betweenInterstate 79andPennsylvania Route 228.[116]The twin rink facility replaced both the IceoPlex at Southpointe and the 84 Lumber Arena as the Penguins' regular practice facility, freeing up the Consol Energy Center for other events on days the Penguins are not scheduled to play.[117]",
+                "As with most other NHL arenas, the Penguins make use of agoal hornwhenever the team scores a goal at home. It is also played just before the beginning of a home game, and after a Penguins victory. Their current goal horn made byNathan Manufacturing, Inc.and introduced in 2005 to coincide with Sidney Crosby joining the team, was used at both the Civic Arena and the Consol Energy Center.[118][119]"
+            ]
+        },
+        "Minor league affiliates": {
+            "content": [
+                "The Penguins have two minor league affiliates assigned to their team. The Wilkes-Barre/Scranton Penguins, their AHL affiliate, have played inWilkes-Barre Township, Pennsylvania, since 1999. The Penguins also have a secondary affiliate in theECHL, theWheeling Nailers, which they have been associated with since the start of the2000–01 season.[120]"
+            ]
+        }
+    },
+    "Season-by-season record": {
+        "content": [
+            "This is a partial list of the last five seasons completed by the Penguins.[121]",
+            "Note:GP = Games played, W = Wins, L = Losses, T = Ties, OTL = Overtime Losses, Pts = Points, GF = Goals for, GA = Goals against"
+        ]
+    },
+    "Players": {
+        "Current roster": {
+            "content": [
+                "Updated October 16, 2024[122][123]",
+                ""
+            ]
+        },
+        "Honored members": {
+            "Retired numbers": {
+                "Notes": {}
+            },
+            "Hockey Hall of Fame": {
+                "content": [
+                    "The Pittsburgh Penguins presently acknowledge an affiliation with a number of inductees to the Hockey Hall of Fame. Inductees affiliated with the Penguins include 15 former players and five builders of the sport.[a][128]The four individuals recognized as builders by the Hockey Hall of Fame includes former head coaches, and general managers.",
+                    "In addition to builders and players, broadcasters andsports journalistshave also been recognized by the Hockey Hall of Fame. In 2001, radioplay-by-playbroadcasterMike Lange, was awarded theFoster Hewitt Memorial Awardfrom the Hall of Fame.[129]In 2009,Dave Molinari, a sports journalist for thePittsburgh Post-Gazettewas awarded theElmer Ferguson Memorial Awardfrom the Hall of Fame.[130]",
+                    "Players",
+                    "Builders"
+                ]
+            },
+            "Team captains": {
+                "content": [
+                    "All the players who have served as team captain with the Penguins franchise"
+                ]
+            }
+        },
+        "Franchise individual records": {
+            "content": [
+                "These are the top-ten point-scorers in franchise history.[132]Figures are updated after each completed NHL regular season.",
+                ""
+            ]
+        },
+        "Franchise goaltending leaders": {
+            "content": [
+                "These are the top-ten goaltenders in franchise history by wins.[133]Figures are updated after each completed NHL regular season."
+            ],
+            "Franchise playoff scoring leaders": {
+                "content": [
+                    "These are the top-ten playoff point-scorers in franchise playoff history.[134]Figures are updated after each completed NHL season.",
+                    "Note:Pos = Position; GP = Games played; G = Goals; A = Assists; Pts = Points; P/G = Points per game",
+                    "",
+                    "Source:[135]"
+                ]
+            }
+        }
+    },
+    "In the community": {
+        "content": [
+            "ThePittsburgh Penguins Foundationconducts numerous community activities to support both youth and families through hockey education and charity assistance."
+        ]
+    }
+}
+}
