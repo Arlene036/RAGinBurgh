@@ -19,7 +19,7 @@ import pandas as pd
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY']=""
-os.environ['LANGCHAIN_PROJECT'] = "ragA100"
+os.environ['LANGCHAIN_PROJECT'] = "ragAWS"
 
 class PittsRAG():
 
@@ -248,7 +248,8 @@ def main():
             ensemble_retriever = EnsembleRetriever(
                 retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5]
             )
-        
+            
+    ensemble_retriever = None
     if ensemble_retriever is not None:
         retriever = ensemble_retriever
     else:
