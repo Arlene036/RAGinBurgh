@@ -11,7 +11,6 @@ from langchain_huggingface import HuggingFacePipeline
 import time
 import torch
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, pipeline
-from langchain import HuggingFacePipeline, PromptTemplate, LLMChain
 import faiss
 from langsmith import traceable
 
@@ -63,6 +62,7 @@ class PittsRAG():
         model_4bit = AutoModelForCausalLM.from_pretrained(
             model_id,
             device_map="auto",  # 自動選擇運行設備
+            torch_dtype=torch.float16
         )
 
         # 加載模型的分詞器。
@@ -75,7 +75,7 @@ class PittsRAG():
             tokenizer=tokenizer,
             use_cache=True,
             device_map="auto",
-            max_new_tokens=256,
+            max_new_tokens=128,
             do_sample=True,
             top_k=5,
             num_return_sequences=1,
@@ -84,7 +84,7 @@ class PittsRAG():
         )
 
         # 創建一個HuggingFacePipeline實例，用於後續的語言生成。
-        llm = HuggingFacePipeline(pipeline=text_generation_pipeline)
+        llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = 4)
 
         return llm
     # def compute_loss(self, outputs, labels):
@@ -142,7 +142,11 @@ class PittsRAG():
     def inference(self, query):
         # TODO: query rewriting (HyDE) OR fine-tuning
 
-        return self.rag_chain.invoke(query)
+        result = self.rag_chain.invoke(query)
+        if query in result:
+            result = result[len(query):].strip()  # 去除 prompt 部分
+
+        return result
     
     def batch_answer(self, query_file, output_file):
         if not os.path.exists(output_file):

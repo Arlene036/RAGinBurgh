@@ -87,22 +87,31 @@ def save_faiss_multi_vector_index(args):
     local_embeddings = create_embedding(args)
 
     all_docs = []
-
+    dict_list = []
     # BUILD DOCUMENTS ----
-    for root, _, files in os.walk(args.directory_path):
-        for file in files:
-            file_path = os.path.join(root, file)
-            file_type = file.split('.')[-1].lower()
-            if file_type not in ["pdf", "csv", "json"]:
-                continue
-            try:
-                docs = load_documents(file_path, file_type) #  List[Document]
-                # Chunking ----
-                text_splitter = RecursiveCharacterTextSplitter(chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap)
-                splits = text_splitter.split_documents(docs)  
-                all_docs.extend(splits)
-            except Exception as e:
-                print(f"Error processing file {file_path}: {str(e)}")
+    if isinstance(args.directory_path, str):
+        dict_list = args.directory_path
+    elif isinstance(args.directory_path, list):
+        dict_list = args.directory_path
+
+    for directory in dict_list:
+        for root, _, files in os.walk(directory):
+            for file in files:
+                file_path = os.path.join(root, file)
+                file_type = file.split('.')[-1].lower()
+                if file_type not in ["pdf", "csv", "json"]:
+                    continue
+                try:
+                    docs = load_documents(file_path, file_type) #  List[Document]
+                    # Chunking ----
+                    text_splitter = RecursiveCharacterTextSplitter(chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap)
+                    splits = text_splitter.split_documents(docs)  
+                    all_docs.extend(splits)
+                except Exception as e:
+                    print(f"Error processing file {file_path}: {str(e)}")
+
+
+
 
     # Create FAISS retriever and save the index ----
     # all_docs: List[Document] 
