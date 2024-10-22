@@ -9,3 +9,4 @@ langchain_core
 faiss-gpu
 transformers
 torch
+pandas

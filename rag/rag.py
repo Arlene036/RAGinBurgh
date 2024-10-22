@@ -13,6 +13,7 @@ import torch
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, pipeline
 import faiss
 from langsmith import traceable
+import pandas as pd
 
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
@@ -21,15 +22,12 @@ os.environ['LANGCHAIN_PROJECT'] = "rag"
 
 class PittsRAG():
 
-    def __init__(self, generator, retrieval):
+    def __init__(self, generator, retrieval, generator_batch_size=10, max_new_tokens=128, tok_k=5):
         # backbone model for RAG (generator)
+        self.generator_batch_size = generator_batch_size
+        self.max_new_tokens = max_new_tokens
+        self.tok_k = tok_k
         if type(generator) == str:
-            # self.generator = HuggingFaceEndpoint(
-            #     repo_id=generator,
-            #     max_length=128,
-            #     temperature=0.5,
-            #     huggingfacehub_api_token=HUGGINGFACEHUB_API_TOKEN,
-            # )
             self.generator = self.get_generator(generator)
         else:
             self.generator = generator
@@ -49,42 +47,33 @@ class PittsRAG():
             | StrOutputParser()
         )
 
-    def get_generator(self, model_id):
-        # 配置BitsAndBytes的設定，用於模型的量化以提高效率。
-        # quantization_config = BitsAndBytesConfig(
-        #     load_in_4bit=True,  # 啟用4位元量化
-        #     bnb_4bit_compute_dtype=torch.float16,  # 計算時使用的數據類型
-        #     bnb_4bit_quant_type="nf4",  # 量化類型
-        #     bnb_4bit_use_double_quant=True,  # 使用雙重量化
-        # )
+        
 
-        # 加載並配置模型，這裡使用了前面定義的量化配置。
+    def get_generator(self, model_id):
         model_4bit = AutoModelForCausalLM.from_pretrained(
             model_id,
-            device_map="auto",  # 自動選擇運行設備
+            device_map="auto",  
             torch_dtype=torch.float16
         )
 
-        # 加載模型的分詞器。
         tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-        # 創建一個用於文本生成的pipeline。
         text_generation_pipeline = pipeline(
             "text-generation",
             model=model_4bit,
             tokenizer=tokenizer,
             use_cache=True,
             device_map="auto",
-            max_new_tokens=128,
+            max_new_tokens=self.max_new_tokens,
             do_sample=True,
-            top_k=5,
+            top_k=self.tok_k,
             num_return_sequences=1,
             eos_token_id=tokenizer.eos_token_id,
             pad_token_id=tokenizer.eos_token_id,
         )
 
         # 創建一個HuggingFacePipeline實例，用於後續的語言生成。
-        llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = 4)
+        llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = generator_batch_size)
 
         return llm
     # def compute_loss(self, outputs, labels):
@@ -148,17 +137,24 @@ class PittsRAG():
 
         return result
     
+
     def batch_answer(self, query_file, output_file):
-        if not os.path.exists(output_file):
-          os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        if not os.path.exists(os.path.dirname(output_file)):
+            os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
         with open(query_file, "r") as f:
             queries = f.readlines()
 
         results = self.rag_chain.batch(queries)
 
-        with open(output_file, "w") as f:
-            for result in results:
-                f.write(result + "\n")
+        data = []
+
+        for query, result in zip(queries, results):
+            answer = result.split('Helpful Answer: ')[-1].strip()
+            data.append([query.strip(), answer])
+
+        df = pd.DataFrame(data, columns=["query", "answer"])
+        df.to_csv(output_file, index=False)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -194,7 +190,14 @@ def main():
     parser.add_argument("--query_file", type=str, \
         default='../QA/questions.txt', help="File containing the queries.")
     parser.add_argument("--output_file", type=str, \
-        default='../model_output/answers.txt', help="File where the answers will be saved.")
+        default='../model_output/answers.csv', help="File where the answers will be saved.")
+    parser.add_argument("--max_new_tokens", type=int, \
+        default=128)
+    parser.add_argument("--generator_batch_size", type=int, \
+        default=10)
+    parser.add_argument("--top_k", type=int, \
+        default=5)
+
 
 
     args = parser.parse_args()
@@ -220,7 +223,8 @@ def main():
     #     retriever = FAISS(gpu_index, create_embedding(args)) \
     #         .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
 
-    rag = PittsRAG(generator=args.generator, retrieval=retriever)
+    rag = PittsRAG(generator=args.generator, retrieval=retriever, max_new_tokens = args.max_new_tokens, 
+                    generator_batch_size = args.generator_batch_size, tok_k=args.top_k)
     rag.batch_answer(args.query_file, args.output_file)
     # result = rag.inference("When is Yalda Night held?")
     # print(result)
