@@ -20,6 +20,8 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from uuid import uuid4
 from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.retrievers import EnsembleRetriever, ContextualCompressionRetriever
+from langchain_community.retrievers import BM25Retriever
 
 def json_to_markdown_documents(json_file_path):
     documents = []
@@ -36,20 +38,37 @@ def json_to_markdown_documents(json_file_path):
             else:
                 markdown_string += f"{value}\n\n"
         return markdown_string
-    
+
+    def json_list_to_markdown(data, indent_level=0):
+        markdown_lines = []
+        indent = ' ' * indent_level  # 每层缩进
+        
+        if isinstance(data, list):
+            for item in data:
+                markdown_lines.append(f"{indent}-")
+                markdown_lines.extend(json_list_to_markdown(item, indent_level + 1))
+        else:
+            markdown_lines.append(f"{str(data)}")
+
+        return markdown_lines
+
     with open(json_file_path, 'r') as json_file:
         json_data = json.load(json_file)
         # Loop through each key and value to create separate Documents
         if isinstance(json_data, list):
-            for json_item in json_data:
-                markdown_content = json_to_markdown_string(json_item)
+            try:
+                markdown_content = ''
+                for json_item in json_data:
+                    markdown_content += json_to_markdown_string(json_item)+'\n'
                 assert isinstance(markdown_content, str)
                 documents.append(Document(page_content =  markdown_content))
+            except:
+                documents.append(Document(page_content =  '\n'.join(json_list_to_markdown(json_data))))
+
         elif isinstance(json_data, dict):
-            for key, value in json_data.items():
-                markdown_content = json_to_markdown_string({key: value})
-                assert isinstance(markdown_content, str)
-                documents.append(Document(page_content =  markdown_content))
+            markdown_content = json_to_markdown_string(json_data)
+            assert isinstance(markdown_content, str)
+            documents.append(Document(page_content =  markdown_content))
         
     return documents
 
@@ -90,7 +109,7 @@ def save_faiss_multi_vector_index(args):
     dict_list = []
     # BUILD DOCUMENTS ----
     if isinstance(args.directory_path, str):
-        dict_list = args.directory_path
+        dict_list = [args.directory_path]
     elif isinstance(args.directory_path, list):
         dict_list = args.directory_path
 
@@ -111,12 +130,20 @@ def save_faiss_multi_vector_index(args):
                     print(f"Error processing file {file_path}: {str(e)}")
 
 
-
-
     # Create FAISS retriever and save the index ----
     # all_docs: List[Document] 
     # local_embeddings: HuggingFaceEmbeddings
     faiss_retriever = FAISS.from_documents(all_docs, local_embeddings) 
     faiss_retriever.save_local(args.faiss_output_dir)
 
+    if args.create_bm25:
+        save_bm25_retriever(all_docs, args.bm25_save_path, args.k)
+
     return faiss_retriever
+
+def save_bm25_retriever(docs, bm25_save_path, k):
+    bm25_retriever = BM25Retriever.from_documents(docs)
+    bm25_retriever.k = k
+    bm25_retriever.save_local("rag_bm25_index")
+    return bm25_retriever
+
