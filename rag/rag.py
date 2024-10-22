@@ -8,6 +8,7 @@ from langchain_core.runnables.passthrough import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_huggingface import HuggingFacePipeline
+from langchain.retrievers.document_compressors import LLMChainFilter
 import time
 import torch
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, pipeline
@@ -18,7 +19,7 @@ import pandas as pd
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY']=""
-os.environ['LANGCHAIN_PROJECT'] = "rag"
+os.environ['LANGCHAIN_PROJECT'] = "ragA100"
 
 class PittsRAG():
 
@@ -46,8 +47,7 @@ class PittsRAG():
             | self.generator
             | StrOutputParser()
         )
-
-        
+     
 
     def get_generator(self, model_id):
         model_4bit = AutoModelForCausalLM.from_pretrained(
@@ -72,7 +72,6 @@ class PittsRAG():
             pad_token_id=tokenizer.eos_token_id,
         )
 
-        # 創建一個HuggingFacePipeline實例，用於後續的語言生成。
         llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = generator_batch_size)
 
         return llm
@@ -156,6 +155,33 @@ class PittsRAG():
         df = pd.DataFrame(data, columns=["query", "answer"])
         df.to_csv(output_file, index=False)
 
+def get_llm(model_id):
+    model_4bit = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        device_map="auto",  
+        torch_dtype=torch.float16
+    )
+
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+
+    text_generation_pipeline = pipeline(
+        "text-generation",
+        model=model_4bit,
+        tokenizer=tokenizer,
+        use_cache=True,
+        device_map="auto",
+        max_new_tokens=128,
+        do_sample=True,
+        top_k=1,
+        num_return_sequences=1,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.eos_token_id,
+    )
+
+    llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id)
+
+    return llm
+
 def main():
     parser = argparse.ArgumentParser()
     ## faiss
@@ -179,11 +205,20 @@ def main():
         default=200, help="Overlap between chunks when splitting documents.")
     parser.add_argument("--create_faiss", \
         action="store_true", help="Whether to create a new FAISS index.")
+    ## bm25
+    parser.add_argument("--create_bm25", \
+        action="store_true", help="Whether to create a new BM25 index.")
+    parser.add_argument("--bm25_save_path", type=str, \
+        default='rag_bm25_index', help="Directory where the BM25 index will be saved.")
     ## retriever
     parser.add_argument("--score_threshold", type=float, \
         default=0.3, help="Directory where the FAISS index is saved.")
     parser.add_argument("--k", type=int, \
         default=20, help="Number of documents to retrieve.")
+    parser.add_argument("--ensemble_retriever", \
+        action="store_true", help="Whether to use ensemble retriever.")
+    parser.add_argument("--compression_retriever", \
+        action="store_true", help="Whether to use compression retriever.")
     ## rag
     parser.add_argument("--generator", type=str, \
         default='SciPhi/SciPhi-Self-RAG-Mistral-7B-32k', help="The name of the generator model.")
@@ -198,31 +233,37 @@ def main():
     parser.add_argument("--top_k", type=int, \
         default=5)
 
-
-
     args = parser.parse_args()
 
-    
     if args.create_faiss:
-        retriever = save_faiss_multi_vector_index(args) \
+        faiss_retriever = save_faiss_multi_vector_index(args) \
             .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
     else:
-        retriever = FAISS.load_local(args.faiss_output_dir, create_embedding(args), \
+        faiss_retriever = FAISS.load_local(args.faiss_output_dir, create_embedding(args), \
             distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT, allow_dangerous_deserialization=True) \
                 .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
-    # else:
-    # # Load the FAISS index from disk
-    #     cpu_index = FAISS.load_local(args.faiss_output_dir, create_embedding(args), \
-    #         distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT, allow_dangerous_deserialization=True).index
+        if args.ensemble_retriever:
+            bm25_retriever = BM25Retriever.load_local(args.bm25_save_path)
+            # ADD Ensemble Retriever
+            ensemble_retriever = EnsembleRetriever(
+                retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5]
+            )
+        
+    if ensemble_retriever is not None:
+        retriever = ensemble_retriever
+    else:
+        retriever = faiss_retriever
+    
+    if args.compression_retriever:
+        # ADD Compression Retriever
+        # TODO
+        _filter = LLMChainFilter.from_llm(get_llm("gpt2"))
+        compression_retriever = ContextualCompressionRetriever(
+            base_compressor=_filter, base_retriever=retriever
+        )
+        retriever = compression_retriever
 
-    #     # 将 CPU 索引转移到 GPU 上
-    #     res = faiss.StandardGpuResources()
-    #     gpu_index = faiss.index_cpu_to_gpu(res, 0, cpu_index)  # 0 是 GPU 设备编号
-
-    #     # 创建 GPU 版的 FAISS 检索器
-    #     retriever = FAISS(gpu_index, create_embedding(args)) \
-    #         .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
-
+        
     rag = PittsRAG(generator=args.generator, retrieval=retriever, max_new_tokens = args.max_new_tokens, 
                     generator_batch_size = args.generator_batch_size, tok_k=args.top_k)
     rag.batch_answer(args.query_file, args.output_file)
