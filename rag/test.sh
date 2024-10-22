@@ -1,7 +1,8 @@
 device="cuda:0"
 show_progress_bar="--show_progress_bar"
 normalize_embeddings="--normalize_embeddings"
-directory_path="../data_collect/raw_documents/Events"
+directory_path="../data_collect/raw_documents"
+query_file="../QA/test_questions.csv"
 max_new_tokens_values=(128)
 generator_batch_size_values=(1)
 top_k_values=(1)
@@ -18,6 +19,7 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
           --device $device \
           $show_progress_bar \
           $normalize_embeddings \
+          --query_file $query_file \
           --max_new_tokens $max_new_tokens \
           --generator_batch_size $generator_batch_size \
           --output_file $output_file \
