@@ -10,3 +10,4 @@ faiss-gpu
 transformers
 torch
 pandas
+accelerate>=0.26.0
