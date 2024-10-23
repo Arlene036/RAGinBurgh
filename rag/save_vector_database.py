@@ -114,6 +114,7 @@ def json_to_markdown_documents(json_file_path):
                 clean_value = delete_special_chars(str(value))
                 clean_value = remove_repeated_chars(clean_value)
                 markdown_string += f"{key}: {clean_value}. "
+        markdown_string += "\n"
         return markdown_string
 
     with open(json_file_path, 'r') as json_file:
