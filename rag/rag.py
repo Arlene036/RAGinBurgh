@@ -9,17 +9,36 @@ from langchain_core.output_parsers.string import StrOutputParser
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_huggingface import HuggingFacePipeline
 from langchain.retrievers.document_compressors import LLMChainFilter
+from langchain.retrievers.document_compressors.base import BaseDocumentCompressor
 import time
 import torch
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, pipeline
 import faiss
+from sentence_transformers import SentenceTransformer, util
 from langsmith import traceable
 import pandas as pd
+from pydantic import BaseModel, Field
 
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY']=""
 os.environ['LANGCHAIN_PROJECT'] = "ragAWS"
+
+class RAGReranker(BaseDocumentCompressor):
+    """Custom document compressor based on a query."""
+    def compress_documents(
+        self,
+        documents, # Sequence[Document]
+        query: str,
+        callbacks=None
+    ): # -> Sequence[Document]
+        model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+        query_embedding = model.encode(query, convert_to_tensor=True)
+        doc_text = [doc.page_content for doc in documents]
+        doc_embeddings = model.encode(doc_text, convert_to_tensor=True)
+        scores = util.pytorch_cos_sim(query_embedding, doc_embeddings)
+        ranked_docs = sorted(zip(documents, scores), key=lambda x: x[1], reverse=True)
+        return [doc for doc, _ in ranked_docs]
 
 class PittsRAG():
 
@@ -50,10 +69,17 @@ class PittsRAG():
      
 
     def get_generator(self, model_id):
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,  
+            bnb_4bit_compute_dtype=torch.float16,  
+            bnb_4bit_quant_type="nf4",  
+            bnb_4bit_use_double_quant=True,  
+        )
+
         model_4bit = AutoModelForCausalLM.from_pretrained(
             model_id,
             device_map="auto",  
-            torch_dtype=torch.float16
+            quantization_config=quantization_config
         )
 
         tokenizer = AutoTokenizer.from_pretrained(model_id)
@@ -72,7 +98,7 @@ class PittsRAG():
             pad_token_id=tokenizer.eos_token_id,
         )
 
-        llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = generator_batch_size)
+        llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = self.generator_batch_size)
 
         return llm
     # def compute_loss(self, outputs, labels):
@@ -219,6 +245,9 @@ def main():
         action="store_true", help="Whether to use ensemble retriever.")
     parser.add_argument("--compression_retriever", \
         action="store_true", help="Whether to use compression retriever.")
+    ## reranker
+    parser.add_argument("--reranker_model", type=str, \
+        default='sentence-transformers/all-MiniLM-L6-v2', help="rerank")
     ## rag
     parser.add_argument("--generator", type=str, \
         default='SciPhi/SciPhi-Self-RAG-Mistral-7B-32k', help="The name of the generator model.")
@@ -258,18 +287,19 @@ def main():
     if args.compression_retriever:
         # ADD Compression Retriever
         # TODO
-        _filter = LLMChainFilter.from_llm(get_llm("gpt2"))
-        compression_retriever = ContextualCompressionRetriever(
-            base_compressor=_filter, base_retriever=retriever
+        compression_retriever = ContextualCompressionRetriever( # BaseRetriever
+            base_compressor=RAGReranker(), # BaseDocumentCompressor
+            base_retriever=retriever
         )
+
         retriever = compression_retriever
 
         
     rag = PittsRAG(generator=args.generator, retrieval=retriever, max_new_tokens = args.max_new_tokens, 
                     generator_batch_size = args.generator_batch_size, tok_k=args.top_k)
-    rag.batch_answer(args.query_file, args.output_file)
-    # result = rag.inference("When is Yalda Night held?")
-    # print(result)
+    # rag.batch_answer(args.query_file, args.output_file)
+    result = rag.inference("When is Yalda Night held?")
+    print(result)
 
     # rag.save_answer(args.query_file, args.output_file)
 
