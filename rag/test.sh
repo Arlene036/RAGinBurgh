@@ -2,13 +2,13 @@ device="cuda:0"
 show_progress_bar="--show_progress_bar"
 normalize_embeddings="--normalize_embeddings"
 directory_path="../data_collect/raw_documents"
-query_file="../QA/questions.txt" 
+query_file="../QA/1_Music_Symphony.csv" 
 max_new_tokens_values=(128)
-k=(5 10)
+k=(5 10) # 10
 top_k_values=(1)
 
-compression_retriever_values=("" "--compression_retriever")
-few_shot_values=("" "--few_shot")
+compression_retriever_values=("--compression_retriever" "") #"")
+few_shot_values=("--few_shot" "") # "" 
 
 for max_new_tokens in "${max_new_tokens_values[@]}"; do
   for k in "${k[@]}"; do
@@ -32,7 +32,7 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
           mkdir -p $output_dir 
           output_file="${output_dir}/answers.csv"
 
-          echo "Running with max_new_tokens=$max_new_tokens, generator_batch_size=$generator_batch_size, top_k=$top_k, compression_retriever=${compression_retriever}, few_shot=${few_shot}"
+          echo "Running with max_new_tokens=$max_new_tokens, top_k=$top_k, compression_retriever=${compression_retriever}, few_shot=${few_shot}"
 
           python rag.py \
               --device $device \

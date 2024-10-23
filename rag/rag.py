@@ -22,7 +22,7 @@ from pydantic import BaseModel, Field
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY']=""
-os.environ['LANGCHAIN_PROJECT'] = "ragAWS"
+os.environ['LANGCHAIN_PROJECT'] = "ragAWS1023-serial-test"
 
 class RAGReranker(BaseDocumentCompressor):
     """Custom document compressor based on a query."""
@@ -43,7 +43,7 @@ class RAGReranker(BaseDocumentCompressor):
 
 class PittsRAG():
 
-    def __init__(self, generator, retrieval, generator_batch_size=10, max_new_tokens=128, tok_k=5):
+    def __init__(self, generator, retrieval, few_shot = False, generator_batch_size=3, max_new_tokens=128, tok_k=5):
         # backbone model for RAG (generator)
         self.generator_batch_size = generator_batch_size
         self.max_new_tokens = max_new_tokens
@@ -54,7 +54,10 @@ class PittsRAG():
             self.generator = generator
 
         self.retrieval = retrieval # retriever for RAG
-        self.rag_prompt = RAG_PROMPT
+        if not few_shot:
+            self.rag_prompt = RAG_PROMPT
+        else:
+            self.rag_prompt = RAG_PROMPT_FEW_SHOT
 
         def format_docs(docs):
             return "\n\n".join(doc.page_content for doc in docs)
@@ -153,34 +156,80 @@ class PittsRAG():
 
     #     print(f"Evaluation Loss: {total_loss:.4f}")
 
-    @traceable
+    # @traceable
     def inference(self, query):
         # TODO: query rewriting (HyDE) OR fine-tuning
 
         result = self.rag_chain.invoke(query)
-        if query in result:
-            result = result[len(query):].strip()  # 去除 prompt 部分
 
-        return result
+        return result.split('Helpful Answer:')[-1].strip()
     
+
+    # def batch_answer(self, query_file, output_file):
+    #     if not os.path.exists(os.path.dirname(output_file)):
+    #         os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
+    #     if query_file.endswith('txt'):
+    #         with open(query_file, "r") as f:
+    #             queries = f.readlines()
+    #     else:
+    #         df = pd.read_csv(query_file) 
+    #         queries = df['Question']
+
+    #     data = []
+
+    #     for query in queries:
+    #         result = self.rag_chain.invoke(query)
+    #         answer = result.split('Helpful Answer: ')[-1].strip()
+    #         data.append([query.strip(), answer])
+
+    #     df = pd.DataFrame(data, columns=["query", "answer"])
+    #     df.to_csv(output_file, index=False)
 
     def batch_answer(self, query_file, output_file):
         if not os.path.exists(os.path.dirname(output_file)):
             os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-        with open(query_file, "r") as f:
-            queries = f.readlines()
-
-        results = self.rag_chain.batch(queries)
-
+        if query_file.endswith('txt'):
+            with open(query_file, "r") as f:
+                queries = [line.strip() for line in f.readlines()]
+        else:
+            df = pd.read_csv(query_file) 
+            queries = df['Question'].tolist()
+        
         data = []
 
-        for query, result in zip(queries, results):
-            answer = result.split('Helpful Answer: ')[-1].strip()
-            data.append([query.strip(), answer])
+        def batchify(data, batch_size):
+            for i in range(0, len(data), batch_size):
+                yield data[i:i + batch_size]
+
+        for minibatch in batchify(queries, batch_size=self.generator_batch_size):
+            results = self.rag_chain.batch(minibatch) 
+            
+            for query, result in zip(minibatch, results):
+                answer = result.split('Helpful Answer: ')[-1].strip()
+                data.append([query.strip(), answer])
 
         df = pd.DataFrame(data, columns=["query", "answer"])
         df.to_csv(output_file, index=False)
+    
+    def serial_asnwer(self, query_file, output_file):
+        if not os.path.exists(os.path.dirname(output_file)):
+            os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+        if query_file.endswith('txt'):
+            with open(query_file, "r") as f:
+                queries = [line.strip() for line in f.readlines()]
+        else:
+            df = pd.read_csv(query_file) 
+            queries = df['Question'].tolist()
+        
+        for q in queries:
+            res = self.inference(q)
+            with open(output_file, 'a') as f:
+                f.write('"'+q +'"'+ ',' +'"'+ res +'"'+ '\n')
+
+
 
 def get_llm(model_id):
     model_4bit = AutoModelForCausalLM.from_pretrained(
@@ -262,6 +311,8 @@ def main():
         default=10)
     parser.add_argument("--top_k", type=int, \
         default=5)
+    parser.add_argument("--few_shot", \
+        action="store_true")
 
     args = parser.parse_args()
 
@@ -296,11 +347,12 @@ def main():
         retriever = compression_retriever
 
         
-    rag = PittsRAG(generator=args.generator, retrieval=retriever, max_new_tokens = args.max_new_tokens, 
+    rag = PittsRAG(generator=args.generator, retrieval=retriever, few_shot=args.few_shot, 
+                   max_new_tokens = args.max_new_tokens, 
                     generator_batch_size = args.generator_batch_size, tok_k=args.top_k)
-    # rag.batch_answer(args.query_file, args.output_file)
-    result = rag.inference("When is Yalda Night held?")
-    print(result)
+    rag.serial_asnwer(args.query_file, args.output_file)
+    # result = rag.inference("When is Yalda Night held?")
+    # print(result)
 
     # rag.save_answer(args.query_file, args.output_file)
 
