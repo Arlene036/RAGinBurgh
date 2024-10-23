@@ -113,6 +113,8 @@ def json_to_markdown_documents(json_file_path):
             else:
                 clean_value = delete_special_chars(str(value))
                 clean_value = remove_repeated_chars(clean_value)
+                if len(clean_value) == 0:
+                    continue
                 markdown_string += f"{key}: {clean_value}. "
             markdown_string += "\n"
         return markdown_string
@@ -181,7 +183,7 @@ def save_faiss_multi_vector_index(args):
             for file in files:
                 file_path = os.path.join(root, file)
                 file_type = file.split('.')[-1].lower()
-                if file_type not in ["pdf", "csv", "json"]:
+                if file_type not in ["txt", "csv", "json"]:
                     continue
                 try:
                     docs = load_documents(file_path, file_type) #  List[Document]
