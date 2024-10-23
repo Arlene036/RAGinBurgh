@@ -19,7 +19,7 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
       python rag.py \
           --device $device \
           --generator "mistralai/Mistral-7B-Instruct-v0.2" \
-          --faiss_output_dir faiss_index_10221510 \ 
+          --faiss_output_dir faiss_index_10221510 \
           $show_progress_bar \
           $normalize_embeddings \
           $compression_retriever \
