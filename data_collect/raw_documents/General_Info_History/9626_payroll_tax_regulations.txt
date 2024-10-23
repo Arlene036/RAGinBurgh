@@ -1,0 +1,696 @@
+CITY OF PITTSBURGH 
+PAYROLL TAX 
+REGULATIONS 
+Issued Pursuant to the 
+City of Pittsburgh 
+City Code, Title II 
+Article VII, Chapter 258 
+Revised and Effective - January 1, 2020 
+
+ 
+PAYROLL TAX REGULATIONS 
+ 
+ARTICLE I 
+GENERAL PROVISIONS 
+ 
+SECTION 101 – DEFINITIONS 
+The following words and phrases when used in these regulations shall have the meaning 
+ascribed to them in this Section, except where the context clearly indicates a different meaning: 
+ASSOCIATION – Partnership, limited partnership, business trust, limited liability company, or 
+any other form of unincorporated business or enterprise owned or operated by two or more 
+persons. 
+BUSINESS – activity, enterprise, profession, trade or undertaking of any nature conducted or 
+engaged in, or ordinarily conducted or engaged in, with the object of gain, benefit or 
+advantages, whether direct or indirect, to the taxpayer or to another or others. The term shall 
+include subsidiary or independent entities which conduct operations for the benefit of others 
+and at no profit to themselves, nonprofit businesses, and trade associations.  Only Payroll 
+Expense associated with a Business that conducts business within the City is subject to tax. 
+BUSINESS WITHIN THE CITY - A person shall be deemed to be conducting business within 
+the City if one engages, hires, employs or contracts with one or more individuals as employees, 
+Partners, or is self-employed and, in addition, does at least one of the following: (1) maintains 
+a fixed place of business within the City; (2) owns or leases real property within the City for 
+purposes of such business; (3) maintains a stock of tangible, personal property in the City for 
+sale in the ordinary course of business; (4) conducts continuous solicitation within the City 
+related to such business; or (5) utilizes the streets of the City in connection with the operation 
+of such business, other than for the mere transportation from a site outside the City, through 
+the City, to a destination outside of the City. A person shall not be deemed to be engaged in 
+business solely by reason of the receipt of Passive Income for which no services are rendered.  
+Local Tax Enabling Act, 53 P.S. § 6924.303(b).  For persons who perform services within and 
+without the City, Payroll Expense shall be apportioned in accordance with Section 102 of these 
+regulations. 
+CHARITY – a charitable organization that qualifies for tax exemption pursuant to the act of 
+November 26, 1997 (P.L. 508, No 55), known as the “Institutions of Purely Public Charity Act”, 
+10 P.S. § 371, that provides the evidence required by 10 P.S. § 376(a). 
+CITY – the area within the city limits of the City of Pittsburgh. 
+COMPENSATION – salaries, wages, commissions, bonuses, net earnings and incentive 
+payments, whether based on profit or otherwise, fees, tips and any other form of remuneration 
+earned for services rendered, whether paid directly or through an agent, and whether in cash 
+or in property or the right to receive property, excluding any Passive Income received by 
+Partners or Self-employed persons.   
+The Compensation of a Partner or Self-employed person is that person’s Taxable Distributions 
+from each separate Business carried on within the City. 
+  
+DISTRIBUTIONS – drawing account; the owner’s account for recording any withdrawals. 
+ 
+-4- 
+ 
+DRAWING ACCOUNT – a temporary capital account, set up in the name of a Partner or Self-
+employed person from which the individual can withdraw money or other assets in anticipation 
+of profit of the business. 
+EMPLOYEE – any individual in the service of an Employer, under an appointment or contract 
+of hire or apprenticeship, express or implied, oral or written, whether lawfully or unlawfully 
+employed.   
+Individuals who may be classified as an independent contractor under the tax reporting rules 
+associated with IRS Form 1099-MISC, can be re-classified as Employees for purposes of this 
+tax.  Irrespective of the common law tests for determining the existence of an independent 
+contractor relationship, an individual performing work or service for Compensation shall be 
+deemed to be an Employee of the person for whom the work or service is performed unless: 
+(1) such individual has been and will continue to be free from control or direction over the 
+performance of such work or service, under his/her appointment of contract of hire or 
+apprenticeship; (2) such work or service is outside the usual course of the business of the 
+person for which such service is performed; or, (3) such individual is customarily engaged in 
+an independently established trade, occupation, business or profession.  A Partner or Self-
+employed person is not an Employee. 
+ 
+EMPLOYER – any person conducting Business within the City.  An Exempt Employer is not 
+an Employer under these regulations.  A Partnership is an Employer as to its Employees and 
+as to any of its Partners providing service in the City.  A Partner, conducting one or more 
+businesses within the City through a Partnership, where the Partnership does not file a Payroll 
+Tax return with the City, is an Employer.  Any Self-Employed Person conducting one or more 
+Business within the City is an Employer. 
+ 
+Any person who is classified as an employer under the Pennsylvania Personal Income Tax 
+statute is an Employer under these regulations. 72 P.S. § 7301(h).  The term Employer 
+includes any person that makes an election under 26 U.S.C. § 3504 to act as a payroll agent, 
+or any person who both withholds and remits the City local earned income tax, 53 P.S. § 
+6924.501, or the City local services tax, 53 P.S. § 6924.301.1(9)(v), on behalf of another.  53 
+P.S. § 6924.303(j).  To decide issues involving joint employers, the City will look to the 
+guidance provided under the Fair Labor Standards Act, 29 C.F.R. § 791.2 (85 FR 2820, 
+effective March 16, 2020). 
+ 
+For example, a payroll reporting company that is not a common law employer of the workers 
+of another unless it is: (a) an employer of those workers under 72 P.S. § 7301(h) or (b) the 
+joint employer of those workers. 
+ 
+EXEMPT EMPLOYER – any person that is a Governmental Entity.  A contractor or consultant, 
+classified as a Partner, a Self-employed person, or a person receiving Form 1099-MISC, 
+providing services to an Exempt Employer is not itself exempt merely because he or she 
+derives service revenue from a Governmental Entity. 
+ 
+GUARANTEED PAYMENTS – payments to Partners by the Partnership for services that are 
+determined without regard to the net income of the Partnership.  For example, health insurance 
+premiums paid by the Partnership on behalf of any Partner are Guaranteed Payments because 
+they are determined without regard to the net income of the Partnership. 
+ 
+-5- 
+ 
+GOVERNMENTAL ENTITY – any agency, authority, department, or instrumentality of the 
+federal government or of another State, and any unit of government listed under 101 Pa. Code 
+§ 23.221. 
+ 
+INTERNAL REVENUE CODE – the Internal Revenue Code of 1986 (Public Law 99- 514), as 
+amended, 26 U.S.C. § 1, and following, as it was in effect on January 1, 2020.  Any citation to 
+regulations issued under the Internal Revenue Code of 1986, 26 C.F.R. § 1, and following, 
+refers to the regulations in effect on January 1, 2020. 
+ 
+NET DISTRIBUTION – the amount of a Partner’s or Self-employed person’s draws from net 
+income from one or more Businesses that have activities in the City shall be reported for the 
+Payroll Expense Tax.   For purposes of this regulation, TAXABLE DISTRIBUTIONS are limited 
+by the sum of draws or net income for that Partner or Self-employed person, whichever is less. 
+If the Partner’s or Self-Employed person’s Net Distribution exceeds that individual’s share of 
+net profits from a particular Business, the excess draw is a return of capital. A return of capital 
+is not taxable because this is a liquidation of a Partner’s or Self-employed person’s assets by 
+the owner.  A Partner’s Taxable Distributions shall include a partner’s share of Guaranteed 
+Payments from the Partnership.  Taxable Distributions shall be determined using the same tax 
+accounting method used to report taxable income for Pennsylvania Personal Income Tax 
+purposes, Tax Reform Code of 1971.  Taxable Distributions from a Business are presumed to 
+be derived from the current year’s net income of that Business. 
+ 
+PARTNER – an individual owner or member in a Partnership.  A Partner will owe tax based 
+on Taxable Distributions.  A Partner is not taxed on his or her Passive Income. 
+ 
+PARTNERSHIP – an unincorporated entity, joint venture, business trust, general partnership, 
+limited partnership, limited liability company, syndicate, or any other unincorporated 
+association, with two or more owners that is taxed for Pennsylvania state income purposes as 
+a pass-through entity.  Tax Reform Act of 1971, 72 P.S. § 7401 (definition of a “Corporation”).  
+An unincorporated entity, with one owner, that is treated under the federal “check-the-box” as 
+a disregarded entity is not a Partnership.  26 C.F.R. § 301.7701-3 (as it was in effect on 
+January 1, 2020).  See, Tax Reform Act of 1971, 72 P.S. § 7307.21.  An unincorporated entity, 
+with one or more owners, that has made the federal “check-the-box” election to be taxed as a 
+“corporation” is not a Partnership but it may be an Employer. 
+ 
+PASSIVE INCOME – Items of income earned by a Partner or Self-employed person from 
+interest (not derived from working capital investments), dividends, capital gains (except for an 
+individual who is considered a trader and not an investor), ground rents, royalties associated 
+with the development of natural resources through a non-operating interest, retirement income 
+earned after retirement, and real estate rental income where substantial services are not 
+provided to tenants, is non-taxable Passive Income.  In determining whether any portion of net 
+profits from a Business may constitute Compensation or non-taxable Passive Income, the 
+Treasurer will follow the guidance issued under Tax Reform Code of 1971, 72 P.S. § 7303(a), 
+and the PA Personal Income Tax Return Guide, except where such guidance is inconsistent 
+with the purposes of the Payroll Tax.  Income earned by a Partner or by a Self-employed 
+person, is not Passive Income if the business provides professional services (e.g. law, 
+accounting, architectural, professional engineering, actuarial, or medical services) or personal 
+services to customers, unless the Partner or Self-Employed person is retired, based on age or 
+years of service, and does not provide services to the business.  Guaranteed Payments made 
+to a Partner are not Passive Income.  Payments made to a retiring Partner under Section 736 
+of the Internal Revenue Code, 26 U.S.C. § 736, are Passive Income.  The Passive Income 
+-6- 
+ 
+exclusion only applies to Partners and Self-employed persons, but not to Employees whose 
+Compensation is reported to the taxing authorities on a Form W-2 or Form 1099-MISC. 
+ 
+PAYROLL EXPENSE – the total Compensation paid, including salaries, wages, net 
+distributions, commissions, bonuses, stock options and other compensation to all individuals 
+who during any tax year, perform work or render services in whole or in part in the City of 
+Pittsburgh. Employee contributions and deductions resulting from an employee election, 
+whether deferred or otherwise, to qualified cash or deferred arrangements, such as an Internal 
+Revenue Code Section 401(k) retirement plan or Internal Revenue Code Section 125 
+“cafeteria plan”, do not reduce total Compensation. Compensation meeting the definition of 
+earned income would be part of the Payroll Expense Tax associated with a particular 
+Employee who is not a Partner or a Self-employed person.  Local Tax Enabling Act, 53 P.S. § 
+6924.501 (“Earned Income”).  The Payroll Tax is on gross payroll of the Employer.  The 
+Employers’ portions of federal and state payroll taxes, health insurance premiums, retirement 
+plan contributions, etc., are not part of taxable gross payroll.   
+ 
+The Payroll Expense of a Partner or Self-employed person is the cumulative annual Taxable 
+Distributions associated with each separate Business carried on within the City rather than 
+“Earned Income” as defined in 53 P.S. § 6924.501. 
+ 
+PERSON – a corporation, Partnership, Partner, Self-employed individual, business trust, 
+association, unincorporated entity, estate, trust, foundation or natural person. Whenever used 
+in any provision prescribing a fine or penalty the word “person” as applied to Partnerships, 
+shall mean the Partners thereof, and as applied to corporations and unincorporated 
+associations, shall mean the officers thereof.  A Governmental Entity is not a Person. 
+ 
+SELF-EMPLOYED – an individual who earns Compensation from one or more separate 
+Businesses carried on within the City, other than as an Employee or as a Partner.  The single 
+member owner of an unincorporated entity that is treated as disregarded entity under the 
+federal “check-the-box” regulations, 26 C.F.R. § 301.7701-3 (as it was in effect on January 1, 
+2020), is treated as Self-Employed and not as a Partner. The Compensation of a Self-
+employed individual shall be that person’s Taxable Distributions from each separate business 
+reported on Schedules C, E, or F of the Pennsylvania individual income tax Form PA-40, as 
+well as any other non-employee Compensation, which is not otherwise reported on Schedules 
+C, E, or F.  Passive Income of a Self-employed person is not subject to the Payroll Tax.  If the 
+Self-Employed person does not keep records of Taxable Distributions, the entire net income 
+of each separate Business is presumed to be a Taxable Distribution.  Any individual who is 
+classified as an Employee, because of the control exercised by the Employer, is not Self-
+Employed as to any Compensation associated with that particular Business. 
+ 
+TAX YEAR – a twelve-month period from January 1 to December 31. 
+ 
+TAXPAYER – a person, partnership, association, corporation, or other entity required 
+hereunder to file a return of payroll expense, or to pay a tax thereon. An Employer, Partner, or 
+Self Employed person are a Taxpayer.  An Exempt Employer is not a Taxpayer. 
+ 
+TEMPORARY SEASONAL OR ITINERANT BUSINESS – shall mean an Employer whose 
+presence in the City is of a duration of one hundred twenty (120) days or less. 
+ 
+TREASURER – references to the Treasurer in these regulations refer to the Director and/or 
+the Department of Finance. The Director holds principal responsibility for tax administration in 
+the City of Pittsburgh. The Deputy Director of Finance serves as City Treasurer. 
+-7- 
+ 
+ 
+SECTION 102 – WHO MUST FILE A RETURN 
+ 
+a. 
+The City Code, Title II, Article VII, Chapter 258, imposes a Payroll Tax on all persons 
+that engage, hire, employ or contract with one or more individuals, as employees, to 
+perform work or render services within the City of Pittsburgh. The Payroll Tax is 
+computed on the employer’s payroll expense.  The Payroll Tax on Partners and Self-
+Employed is computed based on Taxable Distributions from any Businesses. 
+b. 
+One hundred percent of the payroll expense is attributable to the City of Pittsburgh for 
+Employers whose employees perform work or render services exclusively in the City of 
+Pittsburgh. 
+c. 
+One hundred percent of a Partner’s or Self-employed person’s Taxable Distributions 
+are attributable to the City of Pittsburgh for person(s) who have net income from sales 
+or services rendered exclusively in the City of Pittsburgh. 
+d. 
+For employers whose employees perform work or render services partly within and 
+partly outside of the City of Pittsburgh, the method of computing their payroll expense 
+attributable to the City of Pittsburgh is to use the percentage of the total number of 
+working hours employed within the City of Pittsburgh compared to the total number of 
+working hours employed within and outside of the City of Pittsburgh for each individual 
+employee.  Local Tax Enabling Act, 53 P.S. § 6924.303(a). 
+e. 
+Employers who have payroll expense consisting of work done within and outside of the 
+boundaries of the City of Pittsburgh, but who do not regularly maintain records showing 
+hours worked so as to be able to use the apportionment method under subsection (d) 
+of this regulation, may use a representative test period or conduct a survey based on 
+factual data to arrive at a formula with which to calculate the percentage of payroll 
+expense attributable to the City of Pittsburgh. Any formula so established will be subject 
+to review and correction by the City of Pittsburgh. A thorough description explaining the 
+formula shall be attached to the first return each year. The data supporting the formula 
+shall be maintained for at least three (3) years as a part of office records for audit and 
+review purposes. 
+f. 
+Partners and Self-Employed individuals who have Taxable Distributions generated from 
+intrastate sales or services partly within the City of Pittsburgh or partly outside the City 
+of Pittsburgh shall report on the Taxable Distributions associated with sales or services 
+rendered within the City of Pittsburgh. Where it is impractical to determine the exact 
+Taxable Distributions, an apportionment formula may be used. Any formula so 
+established will be subject to review and correction by the City of Pittsburgh Finance 
+Department. The data supporting the formula must be maintained as a part of office 
+records for audit and review purposes. A thorough description explaining the formula 
+shall be attached to the first return each year. The data supporting the formula shall be 
+maintained for at least three (3) years as a part of office records for audit and review 
+purposes. 
+g. 
+Partners and Self-employed individuals who have Compensation from sources within 
+and without Pennsylvania, may apportion their Compensation to the City using the 
+formula used reporting personal income tax on Form PA-40, 61 Pa. Code § 109.5, by 
+substituting the word “City” for the “Commonwealth” where necessary.  In making that 
+calculation, all intrastate sales and services within Pennsylvania are deemed allocated 
+to the City if the Partner’s or Self-employed individual’s sole office in Pennsylvania is 
+-8- 
+ 
+located in the City. 
+h. 
+An employer which conducts business in the City of Pittsburgh on a temporary, seasonal 
+or itinerant basis shall file a return and pay the tax within ten (10) days of the completion 
+of the temporary, seasonal, or itinerant business. 
+ 
+ 
+ARTICLE II 
+IMPOSITION OF TAX 
+SECTION 201 – LEVY AND RATE 
+The tax levied pursuant to the City Code, Title II, Article VII, Chapter 258 is known as the 
+Payroll Tax. The rate of tax is fifty-five hundredths of a percent (.55% or .0055) of Payroll 
+Expense generated as a result of an employer conducting business within the City of 
+Pittsburgh.  Local Tax Enabling Act, 53 P.S. § 6924.303(a); Local Tax Enabling Act. 53 P.S. § 
+6924.311(12). 
+SECTION 202 – COMPUTATION OF TAX 
+a. 
+The Payroll Tax is a tax that is levied on Employers. This tax is separate and distinct 
+from the earned income tax withheld from employees. Under no circumstance should 
+the Payroll Tax be deducted from the employees’ compensation or benefits.  Local Tax 
+Enabling Act, 53 P.S. § 6924.303(f). 
+b. 
+The payroll amount apportioned to the City shall be determined as set forth in Section 
+102 of the Regulations. 
+c. 
+Tax Base – The tax shall be paid quarterly and the tax for each quarter shall be 
+computed on the Payroll Expense of the current quarter attributable to the City of 
+Pittsburgh.  The Tax Base for Partners and Self-Employed individuals is Taxable 
+Distributions associated with each separate Business within the City. 
+d. 
+An employer which conducts Business in the City of Pittsburgh on a temporary, seasonal 
+or itinerant basis shall calculate the tax on the total compensation earned while in the 
+City of Pittsburgh. 
+e. 
+Discontinuing Business – Every person who ceases to carry on a Business during any 
+tax quarter after having paid the Payroll Tax for the entire quarter shall, upon making 
+proper application on a form obtained from the Treasurer, be entitled to receive a 
+prorated refund of the tax paid based upon the period of time he was not in Business 
+during the tax quarter. In the event that a person who discontinues Business during any 
+tax quarter does so before payment of the tax becomes due for such tax quarter, said 
+person may apportion the tax and pay an amount to be computed by multiplying the 
+Payroll Expense for the preceding tax quarter by a fraction whose numerator shall be 
+the number of days such person was in Business during the current tax quarter and 
+whose denominator shall be the total number of days in the current quarter. The final 
+return shall be due ten (10) days after the discontinuation of Business.  Self-employed 
+individuals and Partners are considered to have discontinued their Business only if all 
+separate Businesses of the individual are discontinued. 
+f. 
+A charitable organization, as defined above, shall calculate the tax that would otherwise 
+be attributable to the City of Pittsburgh and file a return, but only shall pay the tax on 
+-9- 
+ 
+that portion of its Payroll Expense attributable to business activity for which a tax may 
+be imposed pursuant to Section 511 of the Internal Revenue Code. 26 U.S.C. § 511.  
+That section imposes a federal tax on unrelated business taxable income of a charity 
+that is exempt from federal tax under Section 501(c) of the Internal Revenue Code.  26 
+U.S.C. § 501(c).  If the charity has purchased or is operating branches, affiliates, 
+subsidiaries or other business entities that do not independently meet the standards of 
+the “Institutions of Purely Public Charity Act”, the tax shall be paid on the payroll 
+attributable to such for-profit branches, affiliates or subsidiaries, whether or not the 
+employees are leased or placed under the auspices of the charity’s umbrella or parent 
+organization.  Local Tax Enabling Act, 53 P.S. § 6924.303(a.1).   
+g. 
+By reason of the explicit language in the Local Tax Enabling Act, 53 P.S. § 
+6924.303(a.1), Institutions of Purely Public Charity are not exempt from the Payroll Tax.  
+However, Institutions of Purely Public Charity are exempt from Payroll Tax associated 
+with activities that are related to the charitable purposes for which the Institution was 
+formed.  For purposes of determining whether an activity is related to the charitable 
+purposes for which the Institution was formed or unrelated under Section 511 of the 
+Internal Revenue Code, 26 U.S.C. § 511, the Treasurer will follow federal law in effect 
+on January 1, 2020. 
+h. 
+Any person, other than an Exempt Employer, that believes that it is exempt from paying 
+the Payroll Tax, because of a tax exemption granted under federal, state, or local law 
+shall file its return, caption the return “EXEMPT,” and provide a short citation to the legal 
+basis for its exemption.   
+ 
+ 
+ 
+-10- 
+ 
+ARTICLE III 
+EMPLOYER’S RESPONSIBILITY 
+SECTION 301 – PAYROLL TAX LEVIED ON EMPLOYERS 
+a. 
+Every Employer not registered with the City of Pittsburgh shall, within fifteen (15) days, 
+register with the Treasurer the Employer’s name, address and such other information 
+as the Treasurer may require.  The first return for a new business is calculated on the 
+Payroll Expense for the portion of the quarter it was in business. 
+b. 
+The Payroll Tax is a tax that is levied on Employers.  Under no circumstance may the 
+Payroll Tax be deducted from the Employees’ wages. 
+c. 
+It may be necessary to include Form 1099’s issued to individuals in the Employer’s 
+calculations of the Payroll Tax.  See “Employee” definition. 
+d. 
+It shall be the Employer’s responsibility, upon request from the City of Pittsburgh, to 
+provide a list of sub-contractors which includes their name, address, Federal Employer 
+Identification Number (EIN), contact person and their phone number. 
+Historical Note - For the Years 2005-2015 the Payroll Tax for the First Quarter was 
+due February 28 based on Payroll Expense In October, November and December of 
+the prior calendar year. 
+EFFECTIVE FOR 2016 AND THEREAFTER, THE PAYROLL TAX FOR THE FIRST 
+QUARTER IS DUE ON MAY 31 BASED ON PAYROLL EXPENSE IN JANUARY, 
+FEBRUARY, AND MARCH OF THAT YEAR. 
+e. 
+The Payroll Tax is to be paid as follows: 
+The first quarterly return, which is due May 31 of the current year, shall be filed and the 
+tax shall be paid based on the amount of Payroll Expense during the months of January, 
+February, and March of the current year; the second quarterly return, which is due 
+August 31 of the current year, shall be filed and the tax shall be paid based on the 
+amount of Payroll Expense during the months of April, May, and June of the current 
+year; the third quarterly return, which is due November 30 of the current year, shall be 
+filed and the tax shall be paid based on the amount of Payroll Expense during the 
+months of July, August, and September of the current year; the fourth quarterly return, 
+which is due February 28 of the succeeding year, shall be filed and the tax shall be paid 
+based on the amount of Payroll Expense during the months of October, November, and 
+December of the current year. 
+f. 
+Any Employer, who discontinues Business or ceases operation before December 31 of 
+the current tax year, shall within 10 days after discontinuing Business or ceasing 
+operation, if not already filed and paid, file the return hereinabove required and pay the 
+tax to the Treasurer. 
+g. 
+If for any reason the tax is not paid when due, interest at the rate of six percent per 
+annum (6%) on the amount of said tax and an additional penalty of one percent (1%) 
+of the amount of the unpaid tax for each month or fraction thereof during which the tax 
+remains unpaid shall be added and collected.  Local Tax Enabling Act, 53 P.S. § 
+6924.303(h). 
+ 
+ 
+-11- 
+ 
+ARTICLE IV 
+ADMINISTRATION AND ENFORCEMENT 
+SECTION 401 – POWERS AND DUTIES OF TREASURER (DIRECTOR) 
+a. It shall be the duty of the Treasurer to collect and receive the taxes, fines, and penalties 
+imposed by the City Code, Title II, Article VII, Chapter 258. It shall also be the duty of the 
+Treasurer to keep a record showing the date of such receipt. 
+b. The Treasurer is charged with the administration and enforcement of the provisions of the 
+City Code, and is empowered to prescribe, adopt, promulgate and enforce rules and 
+regulations relating to any matter pertaining to the administration and enforcement of the 
+City Code, including provisions for the reexamination and corrections of declarations and 
+returns, and of payments alleged or found to be incorrect, or as to which an overpayment 
+is claimed or found to have occurred, and to prescribe forms necessary for the 
+administration of the City Code. 
+c. The Treasurer is authorized to issue a ruling upon written request of a taxpayer. 
+ 
+SECTION 402 – EXAMINATION OF BOOKS AND RECORDS OF TAXPAYERS AND 
+EMPLOYERS 
+a. Agents designated by the Treasurer are hereby authorized to examine the books, papers 
+and records of any Employer or supposed employer, or of any Taxpayer or supposed 
+taxpayer, in order to verify the accuracy of any declaration or return, or if no declaration 
+or return was filed, to ascertain the tax due. Every Employer or supposed employer, and 
+every Taxpayer or supposed taxpayer, is hereby directed and required to give to the 
+Treasurer, or to any agent designated by him/her, the means, facilities and opportunity for 
+such examinations and investigations, as are hereby authorized.  Local Tax Enabling Act, 
+53 P.S. § 6924.315; Local Tax Enabling Act, 53 P.S. § 6924.303(c). 
+b. If records are not available in the City of Pittsburgh to support the returns which were filed 
+or which should have been filed, the Taxpayer will be required to make them available to 
+the Treasurer either by producing them in a City of Pittsburgh location or by paying for the 
+expenses incurred by the Treasurer in traveling to the place where the records are 
+regularly kept. 
+c. Any information gained by the Treasurer, by designated agents, or by any other official or 
+agent of the City of Pittsburgh, as a result of any declarations, returns, investigations, 
+hearings or verifications required or authorized by the City Code, shall be confidential 
+except for official purposes and shall not be released except in accordance with a proper 
+judicial order, or as otherwise provided by law.  Local Taxpayer Bill of Rights, 53 Pa.C.S. 
+§ 8437. 
+d. A Taxpayer shall have at least thirty (30) calendar days to respond to audit notices.  A 
+Taxpayer may request a reasonable extension of time in accordance with the Local 
+Taxpayer Bill of Rights, 53 Pa.C.S. § 8424(a). 
+ 
+SECTION 403 – RECORDS TO BE KEPT BY THE TAXPAYER 
+Taxpayers and Employers liable for the Payroll Tax are required to keep such records as will 
+enable the filing of true and accurate returns of the tax and such records shall be preserved 
+for a period of not less than three (3) years from the filing date or due date whichever is later 
+in order to enable the Treasurer or any agent designated by him to verify the correctness of 
+-12- 
+ 
+the declarations or returns filed. 
+ 
+SECTION 404 – AUDITS AND TIME FOR ASSESSMENTS 
+A Taxpayer has thirty (30) calendar days to respond to audit notices.  If additional time is 
+necessary, the Taxpayer may request a reasonable extension of that time upon a showing of 
+good cause.  53 Pa.C.S. § 8424(a). 
+If, as a result of an examination conducted by the Treasurer, a return is found to be incorrect, 
+the Treasurer is authorized to assess and collect any underpayments of the Payroll Tax. If no 
+return has been filed and a tax is found to be due, the tax actually due may be assessed and 
+collected with or without the formality of obtaining a return from the Taxpayer.  Deficiency 
+assessments (i.e., where Taxpayer has filed a return but is found to owe additional tax) shall 
+include taxes for up to three (3) years prior to the date when the deficiency is assessed. If the 
+deficiency exceeds twenty-five percent or more of the tax originally self-reported, but no fraud 
+is found, suit must be begun within six years.  Where no return was filed, or a fraudulent return 
+was filed, there shall be no limit to the period of assessment.  Local Tax Enabling Act, 53 P.S. 
+§ 6924.303(g). 
+ 
+ 
+ 
+-13- 
+ 
+ARTICLE V 
+SUITS FOR TAX COLLECTIONS, VIOLATIONS, FINES, INTEREST & PENALTIES 
+SECTION 501 – REMEDIES NOT MUTUALLY EXCLUSIVE 
+The remedies provided in Section 502 or Section 505 are not mutually exclusive. The 
+utilization by the Treasurer of one remedy does not preclude utilization of the other. 
+Moreover, use of either or both of the remedies provided in these Sections does not preclude 
+the use by the City of Pittsburgh of any other legal or administrative procedure which can bring 
+about compliance by the taxpayer with the provisions of Chapter 258 of the Pittsburgh Code 
+and these regulations. 
+Any voluntary payment made by a Taxpayer, unless otherwise specified in writing, shall be 
+applied first to tax, then to interest, then to penalty, then to any other fees or charges.  Local 
+Taxpayer Bill of Rights, 53 Pa.C.S. § 8429. 
+ 
+SECTION 502 – SUITS FOR RECOVERY OF UNPAID TAXES 
+The Treasurer may sue in the name of the City of Pittsburgh, in law or in equity, for the recovery 
+of those taxes due and unpaid under the provisions of the Payroll Tax, to compel the 
+production of records or to enforce any other provisions of the law. 
+ 
+SECTION 503 - LIMITATIONS 
+a. 
+The following periods of limitations shall apply to suits for collection of taxes.  Local Tax 
+Enabling Act, 53 P.S. § 6924.303(g). 
+1. 
+When a return has been filed but no tax paid, any suit brought to recover the tax 
+due and unpaid shall be filed within three (3) years after the return was due or filed, 
+whichever is later. Where no return was filed, there shall be no limit to file suit for 
+the collection of taxes. 
+2. 
+In the case of a deficiency assessment, suit shall be filed within three (3) years 
+after the assessment has been made. 
+b. 
+The limitations set forth in paragraph (a) shall not prevent the institution of a suit for the 
+collection of any tax due or determined to be due in the following cases: 
+1. 
+When no return was filed, there is no limitation. 
+2. 
+When the return is fraudulent, there is no limitation. 
+3. 
+When there is an understatement of tax liability of twenty-five (25%) or more, and 
+not due to fraud, suit must be begun within six (6) years. 
+4. 
+A return filed before the due date is deemed to be filed on the due date. 
+ 
+-14- 
+ 
+SECTION 504 – PENALTY AND INTEREST 
+a. If for any reason the Payroll Tax is not paid when due, interest at the rate of six (6%) 
+percent per annum on the amount of tax and a penalty of one (1%) percent per month for 
+each month or fraction of a whole month during the period in which the tax remains unpaid 
+shall be added to the tax.  Local Tax Enabling Act, 53 P.S. § 6924.303(h). 
+b. Penalty and Interest on Deficiency Assessment. 
+On any additional tax determined to be due as a result of a deficiency assessment, penalty 
+and interest will be assessed from the day the tax should have been paid to the date of 
+payment. Penalty and interest is calculated as described above in the applicable portion 
+of Section 504(a). 
+c. Where suit is brought for the recovery of such tax, the person liable therefore shall, in 
+addition, be liable for the costs of collection and the interest and penalties herein imposed. 
+Local Tax Enabling Act, 53 P.S. § 6924.303(h). Once due and owing, penalty and interest 
+become part of the tax and shall be collected as such. A person’s belief that no tax is due 
+and owing, or the failure of any person to receive or obtain the forms required for making 
+the returns required under the City Code is not a valid defense to the imposition of 
+penalties herein for violation.  
+d. Good faith shall not be a defense to the imposition of penalty and interest.  Penalty and 
+interest may be abated only in accordance with the Local Taxpayers Bill of Rights, 53 
+Pa.C.S. § 8428.   
+ 
+SECTION 505 – FINES AND PENALTIES FOR VIOLATION OF APPLICABLE 
+PROVISIONS OF TITLE TWO, PITTSBURGH CODE 
+ 
+a. Violations – No person shall: 
+1. 
+Fail, neglect, or refuse to make any declaration or file a return required under the 
+City Code. 
+2. 
+Refuse to permit the Treasurer or his/her designee to examine the books, records 
+or accounts of any business, taxable or otherwise, to determine liability. 
+3. 
+Make any incomplete, false or fraudulent return or attempt to do anything to avoid 
+full disclosure of the amount of tax due to avoid payment in whole or in part, of the 
+Payroll Tax. 
+4. 
+Divulge information, which is confidential under Chapter 201.06 of the City Code. 
+5. 
+Fail to make any payment when it is due. 
+b. 
+Pursuant to the Local Tax Enabling Act, 53 P.S.6924.303(i), in addition to any other 
+penalties or enforcement proceedings provided for by ordinance for the collection and 
+enforcement of taxes: 
+1. 
+Any employer who willfully makes any false or untrue statement on the employer’s 
+return shall be guilty of a misdemeanor of the second degree and shall, upon 
+conviction, be sentenced to pay a fine of not more than two thousand dollars 
+($2,000) or to a term of imprisonment of not more than two years, or both;   
+2. 
+Any employer who willfully fails or refuses to file a return required by this chapter 
+shall be guilty of a misdemeanor of the third degree and shall, upon conviction, be 
+sentenced to pay a fine of not more than one thousand dollars ($1,000) or to a term 
+-15- 
+ 
+of imprisonment of not more than one year, or both; and 
+3. 
+Any person who willfully fails or refuses to appear before the Treasurer or his agent 
+in person with the Employer’s books, records or accounts for examination when 
+required under the provisions of Title Two of the City Code to do so, or who willfully 
+refuses to permit inspection of the books, records or accounts of any Employer in 
+the person’s custody or control when the right to make such inspection by the 
+Treasurer or his agent is requested, shall be guilty of a misdemeanor and shall, 
+upon conviction, be sentenced to pay a fine of not more than five hundred dollars 
+($500) or to a term of imprisonment of not more than six months, or both.The fines 
+and terms of imprisonment, imposed under this Section shall be in addition to any 
+other relief granted to the City of Pittsburgh of a monetary nature under the 
+provisions of this Article.  Local Tax Enabling Act, 53 P.S. § 6924.303(i). 
+4. 
+Each and every day that the violation continues shall constitute a separate offense 
+for which a fine may be imposed. 
+ 
+ 
+-16- 
+ 
+ARTICLE VI 
+TAXPAYER REMEDIES 
+ 
+SECTION 601 – TREASURER HEARINGS 
+a. 
+Any Taxpayer aggrieved by an assessment by the Treasurer shall, within ninety 
+(90) days after the date of notice of the assessment, request a Treasurer’s Hearing on a form 
+obtained from the Treasurer for that purpose. 53 Pa.C.S. § 8431. The Treasurer may on 
+his/her own initiative cite a Taxpayer for a hearing. 
+b. 
+Any Taxpayer who fails to request a Treasurer’s Hearing within a timely manner, 
+waives the right to contest any element of the assessment, and that party’s failure to 
+challenge the Treasurer’s adjudication will be construed as an admission by that party as to 
+the propriety of the assessment. 
+c. 
+The written petition for reassessment shall contain at minimum: 
+1. 
+The petitioner’s name, address, and daytime telephone number.  
+2. 
+The petitioner’s account and/or social security number.  
+3. 
+A copy of the assessment notice the party received from the Finance 
+Department.  
+4. 
+A detailed explanation consisting of the reason or reasons the petitioner 
+disagrees with the assessment and any documentation necessary to support the petitioner’s 
+claims.  
+5. 
+Petitioner’s signature. 
+d. 
+The completed petition should be mailed to: 
+TREASURER HEARINGS  
+TREASURER – CITY OF PITTSBURGH  
+414 GRANT ST  
+PITTSBURGH PA 15219-2476 
+e. 
+Any Taxpayer may request a Treasurer’s Hearing so that his tax refund request 
+can be reviewed. 
+f. 
+The Treasurer will abate any penalties and interest only in accordance with 53 
+Pa.C.S. § 8428. 
+g. 
+The Treasurer will issue its decision within sixty (60) days of the receipt of the 
+petitioner’s complete and accurate petition form. 
+ 
+SECTION 602 – APPEALS 
+Any person aggrieved by the decision of the Treasurer, following a hearing, shall have the right 
+to make an appeal to the Court of Common Pleas of Allegheny County, in accordance with the 
+Taxpayer’s Bill of Rights Act. 53 Pa.C.S. § 8434.  Any appeal must be commenced within thirty 
+(30) days of the date of the notice of the Treasurer’s decision. If no such appeal is timely filed, 
+the aggrieved party waives his/her right to contest any element of the Treasurer’s adjudication, 
+and that party’s failure to challenge the same will be construed as an admission by that party as 
+to the propriety of the Treasurer’s decision. No hearing or appeal will operate to suspend the 
+accrual of penalty and interest from the date the tax was due to the date it is actually paid. 
+ 
+ 
+-17- 
+ 
+SECTION 603 – PAYMENT UNDER PROTEST 
+The Treasurer will accept payments of disputed tax amounts under protest pending appeals; 
+however, any request for refund of such monies must be filed in accordance with Section 604. 
+ 
+SECTION 604 – REFUNDS 
+a. A Taxpayer who has overpaid the Payroll Tax, or who believes he is not liable for the 
+Payroll Tax may file a written request on an amended tax return (ET-1) with the 
+Department of Finance for a refund or a credit of the tax. A request for refund or a credit 
+shall be made within three (3) years of the due date for filing the report or one year after 
+actual payment of the tax, whichever is later. If no report is required, the request shall be 
+made within three (3) years after the due date for payment of the tax or within one (1) 
+year after actual payment of the tax, whichever is later.  Local Taxpayers Bill of Rights, 
+53 Pa.C.S. § 8425(a). 
+b. For amounts paid as a result of a notice asserting or informing a Taxpayer of an 
+underpayment, a written request for a refund shall be filed with the Department of Finance 
+within one (1) year of the date of the payment.  Local Taxpayers Bill of Rights, 53 Pa.C.S. 
+§ 8425(b) 
+c. Erroneous Refund Recovery – The Treasurer may sue for recovery of an erroneous 
+refund provided such suit is begun two (2) years after making such refund, except that 
+the suit may be brought within five (5) years if any part of the refund was induced by fraud 
+or misrepresentation of material fact. 
+SECTION 605 – INSTALLMENT PAYMENT PLAN FOR ANY DEFICIENCY 
+In the appropriate circumstances, the Treasurer will enter an installment payment plan and defer 
+further collection action, if the Taxpayer enters into a written agreement with the Treasurer. The 
+Treasurer will approve installment payment plans only if such a plan is in the best interests of 
+the City. The Taxpayer must specifically request the installment payment plan from the 
+Treasurer. For the required terms of any installment plan See, Second Class City Treasurer’s 
+Sale and Collection Act, 53 P.S. § 27207 and Local Taxpayer Bill of Rights, 53 Pa.C.S. § 8436.  
+If the Taxpayer fails to abide by the terms of the installment payment plan, the Treasurer may 
+demand immediate payment of tax, penalty, and interest. 
+SECTION 606 – SAVINGS CLAUSE AND SEVERABILITY 
+If a final decision of a court of competent jurisdiction holds any provision of these regulations, or 
+the application of any provision to any circumstances, to be illegal or unconstitutional, the other 
+provisions in these regulations, or the application of such provision to other circumstances, shall 
+remain in full force and effect.  
+The intent of the Treasurer is that the provisions of these regulations shall be severable and that 
+they would have been adopted if any such illegal or unconstitutional provisions had not been 
+included herein. 
+-18- 
+ 
+SECTION 607 – TAXPAYER DISCLOSURE STATEMENT 
+A copy of the Taxpayer Bill of Rights can be requested in writing at the address below or 
+downloaded at http://apps.pittsburghpa.gov/finance/10_taxpayers_bill_of_rights.pdf  
+ 
+TREASURER, CITY OF PITTSBURGH 
+AUDIT SECTION 
+414 GRANT ST RM 206 
+PITTSBURGH PA 15219-2476 
+
