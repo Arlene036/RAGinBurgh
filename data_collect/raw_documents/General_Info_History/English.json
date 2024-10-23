@@ -1,0 +1,34 @@
+{
+    "content": [
+        "\n",
+        "Throughout Wikipedia, the pronunciation of words is indicated using the International Phonetic Alphabet (IPA). The following tables list the IPA symbols used for English words and pronunciations. Please note that several of these symbols are used in ways that are specific to Wikipedia, and differ from those used by dictionaries.\n",
+        "If the IPA symbols are not displayed properly by your browser, see the links below.\n",
+        "If you are adding a pronunciation using this key, such pronunciations should generally be formatted using the template {{IPAc-en}}. The template provides tooltips for each symbol in the pronunciation. See the template page for instructions.\n"
+    ],
+    "Key": {
+        "content": [
+            "If there is an IPA symbol you are looking for that you do not see here, see Help:IPA, which is a more complete list. For a table listing all spellings of the sounds on this page, see English orthography § Sound-to-spelling correspondences. For help converting spelling to pronunciation, see English orthography § Spelling-to-sound correspondences.\n",
+            "The words given as examples for two different symbols may sound the same to you. For example, you may pronounce cot and caught the same, do and dew, or marry and merry. This often happens because of dialect variation (see our articles English phonology and International Phonetic Alphabet chart for English dialects). If this is the case, you will pronounce those symbols the same for other words as well.[1] Whether this is true for all words, or just when the sounds occur in the same context, depends on the merger.[2] The footnotes explain some of these cases. \n",
+            "Notes\n"
+        ]
+    },
+    "Dialect variation": {
+        "content": [
+            "This key represents diaphonemes, abstractions of speech sounds that accommodate General American, British Received Pronunciation (RP) and to a large extent also Australian, Canadian, Irish (including Ulster), New Zealand, Scottish, South African and Welsh English pronunciations. Therefore, not all of the distinctions shown here are relevant to a particular dialect.\n",
+            "On the other hand, there are some distinctions which you might make but which this key does not encode, as they are seldom reflected in the dictionaries used as sources for Wikipedia articles:\n",
+            "Other words may have different vowels depending on the speaker.\n",
+            "For more extensive information on dialect variations, you may wish to see the IPA chart for English dialects.\n",
+            "Note that place names are not generally exempted from being transcribed in this abstracted system, so rules such as the above must be applied in order to recover the local pronunciation. Examples include place names in much of England ending -‍ford, which although locally pronounced [-fəd] are transcribed /-fərd/. This is best practice for editors. However, readers should be aware that not all editors may have followed this consistently, so for example if /-fəd/ is encountered for such a place name, it should not be interpreted as a claim that the /r/ would be absent even in a rhotic dialect.\n"
+        ]
+    },
+    "Other transcriptions": {
+        "content": [
+            "If you feel it is necessary to add a pronunciation respelling using another convention, then please use the conventions of Wikipedia's pronunciation respelling key.\n"
+        ]
+    },
+    "See also": {},
+    "Notes": {},
+    "References": {},
+    "Bibliography": {},
+    "External links": {}
+}

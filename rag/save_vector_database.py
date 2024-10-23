@@ -8,7 +8,7 @@
 # step3: splitter
 # step4: save_faiss_multi_vector_index
 ###########################################################################################
-
+import re
 import os
 import uuid
 import json
@@ -23,65 +23,130 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.retrievers import EnsembleRetriever, ContextualCompressionRetriever
 from langchain_community.retrievers import BM25Retriever
 
+# def delete_special_chars(text):
+#     return ''.join(e for e in text if e.isalnum())
+
+# def json_to_markdown_documents(json_file_path):
+#     documents = []
+    
+#     def json_to_markdown_string(json_data, level=1):
+#         markdown_string = ""
+#         for key, value in json_data.items():
+#             markdown_string += f"{'#' * level} {key}\n"
+#             if isinstance(value, dict):
+#                 markdown_string += json_to_markdown_string(value, level + 1)
+#             elif isinstance(value, list):
+#                 for item in value:
+#                     markdown_string += f"- {item}\n"
+
+#             else:
+#                 markdown_string += f"{value}\n"
+#         return markdown_string
+
+# def json_list_to_markdown(data):
+#         markdown_lines = []
+        
+#         if isinstance(data, list):
+#             for item in data:
+#                 markdown_lines.extend(json_list_to_markdown(item))
+#         else:
+#             markdown_lines.append(f"{str(data)}")
+
+#         return markdown_lines
+
+#     with open(json_file_path, 'r') as json_file:
+#         json_data = json.load(json_file)
+#         # Loop through each key and value to create separate Documents
+#         if isinstance(json_data, list):
+#             try:
+#                 markdown_content = ''
+#                 for json_item in json_data:
+#                     if isinstance(json_item, dict):
+#                         markdown_content += json_to_markdown_string(json_item)+'\n'
+#                     else:
+#                         documents.append(Document(page_content =  '\n'.join(json_list_to_markdown(json_data))))
+#                 assert isinstance(markdown_content, str)
+#                 documents.append(Document(page_content =  markdown_content))
+#             except:
+#                 documents.append(Document(page_content =  '\n'.join(json_list_to_markdown(json_data))))
+
+#         elif isinstance(json_data, dict):
+#             markdown_content = json_to_markdown_string(json_data)
+#             assert isinstance(markdown_content, str)
+#             documents.append(Document(page_content =  markdown_content))
+        
+#     return documents
+
+def delete_special_chars(text):
+    return re.sub(r'[^a-zA-Z0-9\s]', '', text)
+
+def remove_repeated_chars(text, repeat_count=6):
+    return re.sub(r'(.)\1{' + str(repeat_count - 1) + r',}', '', text)
+
+def flatten_json(json_data, parent_key='', sep='_'):
+    items = []
+    for key, value in json_data.items():
+        new_key = f"{parent_key}{sep}{key}" if parent_key else key
+        if isinstance(value, dict):
+            items.extend(flatten_json(value, new_key, sep=sep).items())
+        elif isinstance(value, list):
+            for i, item in enumerate(value):
+                items.extend(flatten_json({f"{new_key}_{i}": item}).items())
+        else:
+            items.append((new_key, value))
+    return dict(items)
+
 def json_to_markdown_documents(json_file_path):
     documents = []
     
-    def json_to_markdown_string(json_data, level=1):
+    def json_to_markdown_string(json_data):
         markdown_string = ""
         for key, value in json_data.items():
-            markdown_string += f"{'#' * level} {key}\n\n"
             if isinstance(value, dict):
-                markdown_string += json_to_markdown_string(value, level + 1)
+                markdown_string += key + ": "
+                markdown_string += json_to_markdown_string(value)
             elif isinstance(value, list):
                 for item in value:
-                    markdown_string += f"- {item}\n"
+                    if len(item) <= 1:
+                        continue
+                    markdown_string += f"{delete_special_chars(str(item))}. "
             else:
-                markdown_string += f"{value}\n\n"
+                clean_value = delete_special_chars(str(value))
+                clean_value = remove_repeated_chars(clean_value)
+                if len(clean_value) == 0:
+                    continue
+                markdown_string += f"{key}: {clean_value}. "
+            markdown_string += "\n"
         return markdown_string
-
-    def json_list_to_markdown(data, indent_level=0):
-        markdown_lines = []
-        indent = ' ' * indent_level  # 每层缩进
-        
-        if isinstance(data, list):
-            for item in data:
-                markdown_lines.append(f"{indent}-")
-                markdown_lines.extend(json_list_to_markdown(item, indent_level + 1))
-        else:
-            markdown_lines.append(f"{str(data)}")
-
-        return markdown_lines
 
     with open(json_file_path, 'r') as json_file:
         json_data = json.load(json_file)
-        # Loop through each key and value to create separate Documents
-        if isinstance(json_data, list):
-            try:
-                markdown_content = ''
-                for json_item in json_data:
-                    markdown_content += json_to_markdown_string(json_item)+'\n'
-                assert isinstance(markdown_content, str)
-                documents.append(Document(page_content =  markdown_content))
-            except:
-                documents.append(Document(page_content =  '\n'.join(json_list_to_markdown(json_data))))
 
+        if isinstance(json_data, list):
+            for json_item in json_data:
+                if isinstance(json_item, dict):
+                    markdown_content = json_to_markdown_string(json_item)
+                    documents.append(Document(page_content=markdown_content))
+                else:
+                    documents.append(Document(page_content=str(json_item)))
         elif isinstance(json_data, dict):
             markdown_content = json_to_markdown_string(json_data)
-            assert isinstance(markdown_content, str)
-            documents.append(Document(page_content =  markdown_content))
+            documents.append(Document(page_content=markdown_content))
         
     return documents
 
 def load_documents(file_path, file_type):
-    if file_type == "pdf":
-        loader = PyPDFLoader(file_path)
-    elif file_type == "csv":
+    # if file_type == "pdf":
+    #     loader = PyPDFLoader(file_path)
+    if file_type == "csv":
         loader = CSVLoader(file_path)
     elif file_type == "json":
         # 转markdown -> 返回List[Document] 
         return json_to_markdown_documents(file_path) # return: List[Document]
-    else:
-        raise ValueError("Unsupported file type")
+    elif file_type == "txt":
+        with open(file_path, 'r') as f:
+            text = f.read()
+        return [Document(page_content=text)]
     
     return loader.load() # return: List[Document]
 
@@ -118,14 +183,17 @@ def save_faiss_multi_vector_index(args):
             for file in files:
                 file_path = os.path.join(root, file)
                 file_type = file.split('.')[-1].lower()
-                if file_type not in ["pdf", "csv", "json"]:
+                if file_type not in ["txt", "csv", "json"]:
                     continue
                 try:
                     docs = load_documents(file_path, file_type) #  List[Document]
-                    # Chunking ----
-                    text_splitter = RecursiveCharacterTextSplitter(chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap)
-                    splits = text_splitter.split_documents(docs)  
-                    all_docs.extend(splits)
+                    if sum([len(doc.page_content) for doc in docs]) < args.chunk_size:
+                        all_docs.extend(docs)
+                    else:
+                        # Chunking ----
+                        text_splitter = RecursiveCharacterTextSplitter(chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap)
+                        splits = text_splitter.split_documents(docs)  
+                        all_docs.extend(splits)
                 except Exception as e:
                     print(f"Error processing file {file_path}: {str(e)}")
 
