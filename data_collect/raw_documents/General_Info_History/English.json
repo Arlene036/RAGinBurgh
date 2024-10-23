@@ -1,0 +1,28 @@
+{
+    "Key": {
+        "content": [
+            "If there is an IPA symbol you are looking for that you do not see here, seeHelp:IPA, which is a more complete list. For a table listing all spellings of the sounds on this page, seeEnglish orthography § Sound-to-spelling correspondences. For help converting spelling to pronunciation, seeEnglish orthography § Spelling-to-sound correspondences.",
+            "The words given as examples for two different symbols may sound the same to you. For example, you may pronouncecotandcaughtthe same,doanddew, ormarryandmerry. This often happens because of dialect variation (see our articlesEnglish phonologyandInternational Phonetic Alphabet chart for English dialects). If this is the case, you will pronounce those symbols the same for other words as well.[1]Whether this is true for all words, or just when the sounds occur in the same context, depends on the merger.[2]The footnotes explain some of these cases.",
+            "Notes"
+        ]
+    },
+    "Dialect variation": {
+        "content": [
+            "This key representsdiaphonemes, abstractions of speech sounds that accommodateGeneral American, BritishReceived Pronunciation(RP) and to a large extent alsoAustralian,Canadian,Irish(includingUlster),New Zealand,Scottish,South AfricanandWelsh Englishpronunciations. Therefore, not all of the distinctions shown here are relevant to a particular dialect.",
+            "On the other hand, there are some distinctions which you might make but which this key does not encode, as they are seldom reflected in the dictionaries used as sources for Wikipedia articles:",
+            "Other words may have different vowels depending on the speaker.",
+            "For more extensive information on dialect variations, you may wish to see theIPA chart for English dialects.",
+            "Note that place names are not generally exempted from being transcribed in this abstracted system, so rules such as the above must be applied in order to recover the local pronunciation. Examples include place names in much of England ending-‍ford, which although locally pronounced[-fəd]are transcribed/-fərd/. This is best practice for editors. However, readers should be aware that not all editors may have followed this consistently, so for example if/-fəd/is encountered for such a place name, it should not be interpreted as a claim that the/r/would be absent even in arhoticdialect."
+        ]
+    },
+    "Other transcriptions": {
+        "content": [
+            "If you feel it is necessary to add a pronunciation respelling using another convention, then please use the conventions ofWikipedia's pronunciation respelling key."
+        ]
+    },
+    "See also": {},
+    "Notes": {},
+    "References": {},
+    "Bibliography": {},
+    "External links": {}
+}
