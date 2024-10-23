@@ -1,6 +1,7 @@
 device="cuda:0"
 show_progress_bar="--show_progress_bar"
 normalize_embeddings="--normalize_embeddings"
+compression_retriever=“--compression_retriever”
 directory_path="../data_collect/raw_documents"
 query_file="../QA/test_questions.csv"
 max_new_tokens_values=(128)
@@ -17,8 +18,11 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
 
       python rag.py \
           --device $device \
+          --generator "mistralai/Mistral-7B-Instruct-v0.2" \
+          --faiss_output_dir faiss_index_10221510 \ 
           $show_progress_bar \
           $normalize_embeddings \
+          $compression_retriever \
           --query_file $query_file \
           --max_new_tokens $max_new_tokens \
           --generator_batch_size $generator_batch_size \
