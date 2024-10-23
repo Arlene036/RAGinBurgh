@@ -1,0 +1,636 @@
+-1- 
+CITY OF PITTSBURGH 
+THE INSTITUTION AND SERVICE PRIVILEGE TAX 
+REGULATIONS 
+Revised January 2020 
+-2-
+INTRODUCTION 
+Ordinance No. 676 of 1968 as amended and re-enacted, imposes a tax upon the 
+privilege of conducting or operating a service or service institution in the City of Pittsburgh, 
+at the rate of six mills as measured by gross receipts derived from all service transactions.  
+The Ordinance was enacted under the authority of the Local Tax Enabling Act, 53 P.S. § 
+6924.101, and following.  The current text of the Ordinance can be found in Title Two, Article 
+VII, Chapter 247 of the City of Pittsburgh Code of Ordinances. 
+Questions relating to specific institutions and specific institution operations not 
+answered in these Regulations, should be submitted in writing to the City Treasurer, on 
+prescribed forms available from: Treasurer, City of Pittsburgh, City-County Building, 
+Pittsburgh, Pennsylvania 15219. 
+
+ARTICLE I 
+GENERAL PROVISIONS 
+Section 101. — Definitions. As used in this Ordinance, unless the context dearly 
+indicates a different meaning, the following words and phrases shall have the meaning 
+set forth below: 
+(a)
+“City" - the City of Pittsburgh.
+(b)
+“Exempt Institutions” the following Institutions are exempt from the
+Institution and Service Privilege Tax: 
+(1)
+Corporations organized under an Act of Congress which are
+instrumentalities of the United States, including any entity described in 26 U.S.C. § 
+501(l); 
+(2)
+The United States, any State or political subdivision thereof, any
+authority of the state or local government, any elementary or secondary school within 
+the City (public or private), and any federal, state, or municipal pension plan; 
+(3)
+Any Institution of Purely Public charity, under 10 P.S. § 371, that
+provides the evidence required by 10 P.S. § 376(a); 
+(4)
+Any insurance company regulated by the Pennsylvania Insurance
+Department; 
+(5)
+Any utility regulated by the Pennsylvania Utility Commission;
+(6)
+Any voluntary employee’s beneficiary association described in 26
+U.S.C. § 501(c)(9), or any qualified pension or retirement plan or trust of a private 
+employer or a multiemployer plan or trust; including any qualified plan or trust 
+described under; 26 U.S.C. § 501(c)(22); 26 U.S.C. § 501(c)(24); or 26 U.S.C. §§ 
+501(c)(25)(C)(i), (ii) or (iii); 
+(7)
+Any regulated financial institution under the Tax Reform Code of
+1971, 72 P.S. § 7401(6); and. 
+(8)
+Any organization exempt from tax under 26 U.S.C. 501, which is
+not listed in the classes of Taxable Institutions under Section 101(e) of these 
+Regulations. 
+(c)
+"Gross Receipts" - cash, credits, property of any kind or nature received
+in or allocable to the City of Pittsburgh from any Institution by reason of any Service 
+rendered in the City, without deduction therefrom on account of property sold, materials 
+used, labor, service, or other cost, interest or discount paid, or any other expense. 
+(1)
+“Gross Receipts" shall include payments from insurance or other
+third-party payments for the cost of Service; 
+(2)
+“Gross Receipts” shall include payments for Service rendered to
+affiliates or subsidiaries. 
+(3)
+“Gross Receipts” shall include any payment, income, grants, or
+other aid from federal, state or local governments, including the Medicare and Medicaid 
+Programs as well as Pennsylvania General Assistance.   
+-6-
+(4)
+“Gross Receipts” shall exclude receipts subject to the City
+Mercantile License Tax, the City Business Privilege Tax, the Earned Income Tax, or 
+any taxes collected as an agent for any government (such as sales taxes). At this time, 
+the City does not collect any Mercantile License Tax or Business Privilege Tax. 
+(5)
+“Gross Receipts” shall exclude membership fees, dues of the
+members of the Institution, voluntary or charitable contributions unrelated to individual 
+service or assessments which fall equally upon all members.   Local Tax Enabling Act, 
+53 P.S. § 6924.301.1(f)(7).  However, individual charges for service to a member or 
+non-member of an Institution are not membership fees but Gross Receipts subject to 
+Tax.  
+(6)
+Donations, dues, and receipts associated with religious services
+received by religious organizations, are excluded from “Gross Receipts.”  Non-religious 
+activities of religious organizations, i.e. bingo, bazaars, etc. are excluded from “Gross 
+Receipts” unless the organizers and/or operators of such activities are paid for 
+rendering such services. 
+(7)
+“Gross Receipts” shall exclude receipts attributable to activities
+sponsored and conducted solely and completely by and for the entity by unpaid 
+volunteers. 
+(8)
+“Gross Receipts” shall exclude receipts of Exempt Institutions.
+(9)
+“Gross Receipts” shall exclude any receipts which the City is
+prohibiting from taxing by reason of federal law, the Constitution of the United States, 
+or the laws Commonwealth.  Any person making such as claim shall provide on its tax 
+return a short citation to applicable case or statutory law that is the basis for the 
+exemption claim. 
+(10) “Gross Receipts” that are excluded from Tax are called “Exempt
+Receipts.” 
+(d)
+"Person" - any foundation, partnership, corporation, charitable trust,
+limited liability company, unincorporated association or any other organization 
+operating under a non-profit charter or organized as a non-profit charter or organized 
+as a non-profit entity, which provides Service to the public or to any select or limited 
+number thereof.  Examples of entities organized as a non-profit entity include, non-
+profit corporations formed under the Non-Profit Corporation Law of 1988, 15 Pa.C.S. 
+§ 5101, or any predecessor or successor law, or the Pennsylvania Uniform
+Unincorporated Nonprofit Association Law, 15 Pa.C.S. § 9111, or any predecessor or
+successor law.
+(1)
+The word “person” includes any incorporated or unincorporated
+entity, trust, or foundation, which provides a taxable Service, which is exempt from the 
+Corporate Net Income tax under 72 P.S. § 7401(1)3 and § 7401(1)4(i), and which is a 
+member of one of following classes of non-profit entities described under 26 U.S.C. § 
+501: 
+(i)
+corporations or other organizations exempt under 26
+U.S.C. § 501(c)(3) (such as religious, charitable, scientific,
+or sporting organizations);
+-7-
+(ii)
+organizations that would qualify for exemption under 26
+U.S.C. § 501(c)(3) but are excused from applying for
+recognition under 26 U.S.C. § 508(c)(1)(A) or § 508(c)(2)
+(such as some religious organizations);
+(iii)
+civic leagues, public advocacy, or social welfare
+organizations exempt under 26 U.S.C. § 501(c)(4);
+(iv)
+labor, agricultural, or horticultural organizations exempt
+under 26 U.S.C. § 501(c)(5);
+(v)
+business leagues, chambers of commerce, boards of trade
+(but expressly excluding professional football leagues)
+exempt under 26 U.S.C. § 501(c)(6);
+(vi)
+social clubs (including sports, recreation, golf, exercise,
+and country clubs) exempt under 26 U.S.C. § 501(c)(7);
+(vii)
+fraternal benefit societies, orders or associations exempt
+under 26 U.S.C. § 501(c)(8);
+(viii)
+domestic fraternal organizations exempt under 26 U.S.C.
+§ 501(c)(10);
+(ix)
+cemeteries exempt under 26 U.S.C. § 501(c)(13);
+(x)
+veterans organizations exempt under 26 U.S.C. §
+501(c)(19) or 26 U.S.C. § 501(c)(23);
+(xi)
+religious and apostolic organizations exempt under 26
+U.S.C. § 501(d);
+(xii)
+cooperative hospital service organizations exempt under
+26 U.S.C. § 501(e); and
+(xiii)
+cooperative service organizations operating educational
+organizations exempt under 26 U.S.C. § 501(f).
+(2)
+Whenever used in any provisions prescribing a fine or penalty,
+the word "person" as applied to partnerships shall mean the partners thereof; as 
+applied to corporations and unincorporated associations shall mean the officers 
+thereof; as applied to foundations shall mean the trustees thereof.  
+(3)
+The word “person” shall not include any Institution of Purely Public
+Charity that is recognized as such under 10 P.S. § 371.  The receipt of a sales tax 
+exemption issued by the Pennsylvania Department of Revenue is evidence that the 
+person is an Institution of Purely Public Charity.  10 P.S. § 376(a).  An entity that is 
+merely affiliated with an Institution of Purely Public Charity is not itself exempt unless 
+that entity is itself recognized as an Institution of Purely Public Charity under 10 P.S. § 
+371. 
+(4)
+The word “person” shall not include a natural person, an estate of
+a decedent, or an entity subject to Corporate Net Income Tax, as set forth in the Tax 
+Reform Code of 1971, 72 P.S. § 7401, et. seq. 
+-8-
+(e)
+"Service" - carrying on or exercising within the City of Pittsburgh,
+medical, educational, beneficial, social, recreational, vocational, or any other type of 
+service for which a charge is made, as a non-profit entity and which is not a business 
+subject to the City Business Privilege Tax.  A Service does not include the sale or 
+rental of personal property.  Such Service, when provided by a Taxable Institution, is 
+an “Institutional Service.” 
+(f)
+"Taxable Institution" - any person, organization, foundation,
+corporation or unincorporated association operating under a non-profit charter or 
+recognized as a non-profit entity by the Commonwealth of Pennsylvania, including, 
+but not limited to, hospitals, nursing homes, colleges, universities, schools other than 
+elementary and secondary schools, cemeteries, veterans organizations, recreational 
+centers, fund-raising organizations and all other organizations which provide Service 
+to the public, listed under Section 101(d) of these Regulations.   The phrase “Taxable 
+Institution” shall not include any Exempt Institution or any entity or unincorporated 
+association that is not a “person.” 
+(g)
+“Tax” – means the Institution and Service Privilege imposed by Title
+Two, Article VII, Chapter 247 of the City of Pittsburgh Code of Ordinances. 
+(h)
+"Tax Year” - the twelve-month period from January 1 to December 31.
+(i)
+“Taxpayer” includes any person or Institution subject to the Privilege
+Tax that is not an Exempt Institution or any entity or unincorporated association that 
+is not a “person.” 
+(j)
+"Treasurer" - the Treasurer of the City of Pittsburgh.
+Section 102. — Who must file a return. 
+(a)
+Every person or Taxable Institution engaging in a non-profit Service
+in the City of Pittsburgh. 
+(b)
+Every person or Taxable Institution subject to the tax imposed by
+Ordinance shall forthwith register with the Treasurer and set forth the name, address 
+and nature of the service activity in which it is engaged and shall obtain the license 
+required by Section 247.05 of the Pittsburgh Code of Ordinances. 
+-9-
+Section 103.—Tax Base. 
+The gross receipts of every person engaged in any institution or non-profit Service in 
+the City of Pittsburgh.  Specifically excluded from tax are Exempt Receipts. 
+Section 104.—What Constitutes Rendering Services in Pittsburgh. 
+(a)
+Whether or not a person carries on a taxable activity within the meaning
+of the Institution and Service Privilege Tax is essentially a question of fact. In general, 
+taxable activity includes any activity by a person or institution engaging in a Service 
+for which a charge is made. 
+(b)
+A person or Institution who engages in a taxable activity in Pittsburgh, is
+subject to this tax, whether he is a resident or whether he has a permanent location in 
+Pittsburgh. 
+Section 105. – Receipts from Governmental Agencies and Non-Profit Organizations. 
+(a)
+Receipts from sales made or Services rendered to all government
+bodies, including authorities, and to religious, charitable and educational corporations 
+and associations shall not be excluded from the tax base.  Receipts from third party 
+payments made by government agencies for Services rendered to others shall be 
+included in the tax base. 
+(b)
+Notwithstanding the above, Exempt Receipts and receipts of Exempt
+Institutions are excluded from the tax base. 
+Section 106. – References to Federal Statutes 
+All references in these regulations to federal statutes are intended to include 
+references to federal statutes in effect on January 1, 2020, without regard to any later 
+amendment or repeal. 
+-10-
+ARTICLE II 
+RETURNS 
+Section 201. — Filing Return. 
+(a) 
+Except as to new business, both the tax return and payment of the tax 
+are due on April 15th of every year. 
+(b) 
+Forms may be obtained from the City Treasurer, City-County Building, 
+Pittsburgh, Pennsylvania 15219. Failure to receive the forms will not excuse a taxpayer 
+for failure to file his return. 
+(c) 
+The return must be filed with the City Treasurer, City-County Building, 
+Pittsburgh, Pennsylvania 15219. 
+(d) 
+If the taxpayer is an individual, he shall sign the return.  If the taxpayer is 
+a corporation or unincorporated entity, a Director, President, Trustee or Officer may 
+sign the return. 
+(e) 
+If a taxpayer maintains more than one location in Pittsburgh, he is 
+required to file only one (1) return and may include therein the receipts from 
+transactions occurring in all his locations in Pittsburgh. Where one (1) return covers 
+more than one (1) location, a schedule shall be attached to the return showing the 
+various locations at which the taxpayer conducts business in Pittsburgh. 
+Section 202. — Payment of Tax. 
+Payment of tax may be made in cash, or by check or money order drawn to the order 
+of the Treasurer of the City of Pittsburgh. Cash payments must be made only to a 
+cashier in the Department of Treasurer, City-County Building, Pittsburgh, 
+Pennsylvania. 
+Section 203.—Tax Rate. 
+The rate of tax is six (6) mills on each dollar of annual receipts. (Six mills equals $6.00 
+per $1,000 or 6/10 of 1%).  In no event may the rate of tax on proprietors of restaurants 
+and other places where food, drink and refreshments are served exceed two (2) mills 
+on each dollar of annual receipts.  53 P.S. § 6924.311(2).  (Two mills equals $2.00 per 
+$1,000 or 2/10 of 1%). 
+Section 204. – Penalties and Interest. 
+If the tax is not paid when due, interest at the rate of one percent (1%) per month shall 
+be added to the amount of the tax. In addition, a penalty of one-half of one 
+percent (0.5%) of the amount of the unpaid tax or each month or fraction thereof, 
+during which the tax remains unpaid, shall be added and collected. 
+-11-
+ARTICLE III 
+TAXABILITY 
+Section 301.—Period Used in Calculating the Tax. 
+(a)
+The tax is measured by the amount of service transacted by the Taxpayer
+or Institution during the entire receding calendar year, except for those taxpayers: 
+(1)
+who were not in service during the whole of the preceding calendar
+year, or 
+(2)
+who began services during the current calendar year, or
+(3)
+whose service is temporary, seasonal or itinerant.
+(b)
+Every person subject to the tax imposed by this Ordinance, who has
+commenced its service at least one (1) full year prior to the beginning of any tax year 
+shall, on or before the fifteenth (15th) day of April , following and annually thereafter, 
+file with the Treasurer, a return setting forth the name, the service rendered, the person 
+or Institution address and such other information as may be necessary, in arriving at 
+the annual gross volume of services transacted by it during the preceding year and 
+amount of tax due. 
+(c)
+Every person or Institution subject to the tax imposed by this Ordinance,
+who has commenced its service less than one (1) full year prior to the beginning of the 
+tax year shall, on or before the fifteenth (15th) day of April, following, file with the 
+Treasurer a return and compute its annual gross receipts, for such tax year upon the 
+gross receipts generated by the services transacted within the City during the first 
+month it engages in such service activity multiplied by twelve (12). 
+(d)
+Every person subject to the tax imposed by Ordinance, who commences,
+subsequent to the beginning of the tax year, shall within forty days from the date of 
+commencing such service, file a return with the Treasurer setting forth the name, the 
+service rendered, the institution address and such other information as may be 
+necessary in arriving at the actual volume of services transacted by it during the first 
+month of service and amount of tax due. 
+(e)
+Every person or Institution subject to the payment of the tax imposed by
+this Ordinance who engages in a service temporary, seasonal or itinerant by its nature 
+shall, with seven (7) days from the day it completes such service, file a return with the 
+Treasurer setting forth its name, service, the person or Institution address and such 
+other information as may be necessary in arriving at the actual gross volume of service, 
+during the tax period and the amount of tax due. 
+Section 302. – Taxable Gross Receipts 
+(a)
+Cash, credits, property of any kind or nature received in or allocable to
+The City from any Institution by reason of any transaction or any service 
+without deduction therefrom on account of property sold, materials used, labor, service 
+or other cost, interest or discount paid, or any other expense. 
+-12-
+(1)
+Includes payments from insurance or other third-party payments
+for the cost of service.  All forms of government third-party payments, income or grants 
+for Service, received by the Institution such as Medicare, Medicaid and General 
+Assistance receipts, are subject to tax. 
+(2)
+Excludes Exempt Receipts or receipts of Exempt Institutions.
+(b)
+To assist in the review of Taxable Gross Receipts, the taxpayer shall
+attach a duplicate of any Form 990-T filed with the Internal Revenue Service for the 
+most recent period.  
+-13-
+ARTICLE IV 
+DETERMINATION OF TAX BASE 
+Section 401. — Inclusions. 
+The tax is imposed on every person engaging in any Institutional or non-profit Service 
+in the City of Pittsburgh.  The tax is not imposed on Exempt Institutions.   
+Section 402.  –   Pittsburgh Receipts. 
+(a)
+General.  Except for receipts associated with interstate commerce,
+receipts from any transaction shall be attributable to Pittsburgh, if any event forming a 
+part of the transaction occurs within Pittsburgh or the taxpayer’s only office is located 
+within the City and the Service is offered from a Pittsburgh location. 
+(b)
+Any receipts arising from Institutional on non-profit service to the general
+public or any select or limited number thereof, is taxable if a charge is made.  Intrastate 
+receipts from services which are the result of business activities carried on through a 
+branch office located outside Pittsburgh, are taxable if such services are performed in 
+Pittsburgh if the service is offered from the City. 
+(c)
+Persons engaging in any Institutional or non-profit service be it
+professional, commercial, or personal services, are subject to the tax. If a person 
+engaging in any Institutional or non-profit service only maintains a place of business in 
+the City of Pittsburgh, the entire receipts from intrastate activity in the Commonwealth 
+from personal services must be included in the measure of the tax, whether or not the 
+services are performed in Pittsburgh. Receipts will be deemed attributable to Pittsburgh, 
+if they result from the efforts of employees who work in, or from or are attached to 
+taxpayer's Pittsburgh place of business.  If any taxpayer is subject to Privilege tax in two 
+or more jurisdictions in Pennsylvania, he may request a ruling from the Treasurer to 
+address the issue of potential double taxation.  
+(d)
+Receipts associated with interstate commerce shall be apportioned to
+the City by multiplying total receipts earned everywhere times the City Apportionment 
+percentage.  The City Apportionment percentage is the sum of the following three 
+apportionment factors:  Payroll Percentage factor, Property Percentage factor, and 
+Sales Percentage factor, divided by three. If one of the percentage factors is zero, the 
+denominator shall be two.  If two of the percentage factors are zero, the dominator shall 
+be one.  In no event can a percentage factor be less than zero. 
+(1)
+The Payroll Percentage factor shall be payroll reported by the
+taxpayer subject to City local earned income tax divided by total payroll reported on 
+Federal Form 940.  If the taxpayer only has one office in the Commonwealth and that 
+office is in the City, the numerator of the Payroll percentage factor shall be total payroll 
+reported to the Pennsylvania Department of Revenue. 
+(2)
+The Property Percentage factor shall be the sum of tangible
+property located in the City divided by the sum of tangible property located everywhere 
+in the United States, determined as of December 31.  Property shall be recorded at its 
+original cost before any depreciation, amortization, or cost depletion.  Leased property 
+-14-
+shall be recorded as an item of tangible property at eight (8) times annual rent for the 
+leased property.  Movable property is in the City if it is in the City on December 31 of 
+the calendar year.  If the taxpayer only has one office in the Commonwealth and that 
+office is in the City, the numerator of the Property percentage factor shall be sum of 
+tangible property located in the Commonwealth. 
+(3)
+The Sales Percentage factor shall be gross receipts from
+Services provided in the City or offered from a City location divided by gross receipts 
+everywhere.  If additional guidance is required with regard to the definition of Sales, 
+the taxpayer shall follow the practice of the Pennsylvania Department of Revenue 
+under the Corporate Net Income Tax provisions of the Tax Reform Act, 72 P.S. § 7401, 
+so long as such practice is not inconsistent with the purposes of the Privilege Tax. 
+(4)
+A taxpayer is engaged in interstate commerce if it is subject to tax
+in another jurisdiction, outside the Commonwealth, on its net income or on its gross 
+receipts.  A taxpayer can show it is subject to tax in another jurisdiction by providing 
+copies of tax returns filed with taxing jurisdictions outside the Commonwealth.  If 
+intrastate receipts are co-mingled with interstate activity, all receipts shall be 
+considered interstate receipts. 
+(5)
+If the application of the City apportionment percentage results in
+the same gross receipts of the Taxpayer being taxable, for gross receipts or privilege 
+tax purposes, by two or more jurisdictions in the United States, the Taxpayer may 
+approach the Treasurer for a ruling to avoid this double taxation, such as receiving a 
+credit for gross receipts or privilege taxes paid elsewhere, or by a modification of the 
+City apportionment percentage.  No credit will be granted by the City for net income 
+taxes, excise taxes, or transaction taxes paid to another jurisdiction. 
+-15-
+ARTICLE V 
+SUITS FOR COLLECTION, PENALTIES, ETC. 
+Section 501. — Suits for Recovery of Unpaid Taxes. 
+(a)
+The following periods of limitations shall apply to suits for collection of
+taxes. 
+(1)
+When a return has been filed but no tax paid, any suit brought to
+recover the tax due and unpaid shall be filed within three (3) years after the return was 
+due or filed, whichever is later. Where no return was filed, there shall be no limit to file 
+suit for the collection of taxes. 
+(2)
+In the case of a deficiency assessment, suit shall be filed within
+three (3) years after the assessment has been made. 
+(b)
+The limitations set forth in paragraph (a) shall not prevent the institution
+of a suit for the collection of any tax due or determined to be due in the following cases: 
+(1)
+When no return was filed, there is no limitation.
+(2)
+When the return is fraudulent, there is no limitation.
+(3)
+When there is an understatement of tax liability of twenty-five
+(25%) or more, and not due to fraud, suit must be begun within six (6) years. 
+(4)
+A return filed before the due date is deemed to be filed on the due
+date. 
+Section 502. — Penalty and Interest for Non-payment. 
+(a)
+If, however, any Taxpayer shall fail to make any report and payment as
+herein required a penalty at the rate of one-half of one percent (0.5%) per month for 
+each month or a fraction of a whole month on the amount of tax and interest of one 
+(1%) percent per month for each month or fraction of a whole month during the period 
+in which the tax remains unpaid shall be added to the tax.  In no event shall the 
+interest rate assessed exceed the maximum rate allowed by the Municipal Claims and 
+Tax Liens Act, 53 P.S. §7143, or applicable law. 
+(b)
+There is no limit or cut off point, for applying penalty and interest.
+(c)
+On any additional tax determined to be due as a result of a deficiency
+assessment, penalty and interest will be assessed from the day the tax should have 
+been paid to the date of payment.  Penalty and interest is calculated as described 
+above. 
+(d)
+Where suit is brought for the recovery of such tax, the person liable
+therefore shall, in addition, be liable for the costs of collection and the interest and 
+penalties herein imposed. Once due and owing, penalty and interest become part of 
+the tax and shall be collected as such. A person’s belief that no tax is due and owing, 
+or the failure of any person to receive or obtain the forms required for making the 
+returns required under the City Code is not a valid defense to the imposition of penalties 
+herein for violation.  Good faith shall not be a defense to the imposition of penalty. 
+-16-
+Section 503. – Fines and Penalties for Violation of Act. 
+(a)
+Whoever willfully makes any false or untrue statement on the return shall,
+upon summary conviction thereof, be sentenced to pay a fine of not more than five 
+hundred dollars ($500.00) or to undergo imprisonment for not more than thirty (30) 
+days. 
+(b)
+Whoever willfully fails or refuses to appear before the Treasurer, in
+person with his books, records or accounts for examination when required under the 
+provisions of the Institution and Service Privilege Tax Ordinance, to do so, or who 
+willfully refuses to permit inspection of the books, records or accounts of any services 
+in custody or control, when the right to make such inspection by the Treasurer is 
+requested, shall upon summary conviction thereof, be sentenced to pay a fine of not 
+more than Five Hundred Dollars ($500.00), or to undergo imprisonment for not more 
+than thirty (30) days. 
+(c)
+Whoever willfully fails or refuses to file a return required by the Institution
+and Service Privilege Tax Ordinance, shall, upon summary conviction thereof, be 
+sentenced to pay a fine of not more than Five Hundred Dollars ($500.00), or undergo 
+imprisonment for not more than thirty (30) days. 
+Section 504. – Remedies Not Mutually Exclusive 
+The remedies provided in this Article are not mutually exclusive.  The utilization by the 
+Treasurer of one remedy does not preclude utilization of the other. 
+Moreover, use of either or both of the remedies provided in these Sections does not 
+preclude the use by the City of Pittsburgh of any other legal or administrative procedure 
+which can bring about compliance by the Taxpayer with the provisions of Chapter 241 
+of the Pittsburgh Code and these regulations. 
+Once it has been determined that that a Taxpayer owes a tax, the Treasurer will take 
+all actions legally permitted to enforce its claim. Such action may include obtaining 
+additional information, auditing Taxpayer records, entering into a settlement of the 
+disputed amount of the tax, or obtaining liens on the Taxpayer’s property, wage 
+attachments, levies, and seizures and sales of the Taxpayer’s property in appropriate 
+circumstances. The Treasurer may enter into a written agreement with the Taxpayer for 
+payment of the tax in installments if the Treasurer believes that such an agreement will 
+facilitate collection. The Treasurer may also impose interest and applicable penalties 
+on the tax due, and may seek criminal charges in appropriate circumstances.   
+-17- 
+ 
+ARTICLE VI 
+TAXPAYER REMEDIES 
+Section 601. – Treasurer (Director) Hearings 
+(a) 
+Any taxpayer aggrieved by an assessment by the Treasurer shall, within 
+ninety (90) days after the date of notice of the assessment, request a Treasurer’s 
+Hearing on a form obtained from the Treasurer for that purpose. 53 Pa.C.S. § 8431. 
+The Treasurer may on his/her own initiative cite a Taxpayer for a hearing. 
+(b) 
+Any taxpayer who fails to request a Treasurer’s Hearing within a timely 
+manner, waives the right to contest any element of the assessment, and that party’s 
+failure to challenge the Treasurer’s adjudication will be construed as an admission by 
+that party as to the propriety of the assessment. 
+(c) 
+The written petition for reassessment shall contain at minimum: 
+1. 
+The petitioner’s name, address, and daytime telephone number.  
+2. 
+The petitioner’s account and/or social security number.  
+3. 
+A copy of the assessment notice the party received from the 
+Finance Department.  
+4. 
+A detailed explanation consisting of the reason or reasons the 
+petitioner disagrees with the assessment and any documentation necessary to support 
+the petitioner’s claims.  
+5. 
+Petitioner’s signature. 
+(d) 
+The completed petition should be mailed to: 
+TREASURER HEARINGS  
+TREASURER – CITY OF PITTSBURGH  
+414 GRANT ST  
+PITTSBURGH PA 15219-2476 
+(e) 
+Any taxpayer may request a Treasurer’s Hearing so that his tax refund 
+request can be reviewed. 
+(f) 
+The Treasurer will abate any penalties and interest only in accordance 
+with 53 Pa.C.S. § 8428. 
+(g) 
+The Treasurer will issue its decision within 60 days of the receipt of the 
+petitioner’s complete and accurate petition form. 
+ 
+Section 602. – Appeals 
+Any person aggrieved by the decision of the Treasurer, following a hearing, shall have 
+the right to make an appeal to the Court of Common Pleas of Allegheny County, in 
+accordance with the Taxpayer’s Bill of Rights Act. 53 Pa.C.S. § 8434.  Any appeal must 
+be commenced within thirty (30) days of the date of the notice of the Treasurer’s 
+decision. If no such appeal is timely filed, the aggrieved party waives his/her right to 
+contest any element of the Treasurer’s adjudication, and that party’s failure to challenge 
+-18- 
+ 
+the same will be construed as an admission by that party as to the propriety of the 
+Treasurer’s decision. No hearing or appeal will operate to suspend the accrual of 
+penalty and interest from the date the tax was due to the date it is actually paid. 
+ 
+Section 603. – Payment Under Protest 
+The Treasurer will accept payments of disputed tax amounts under protest pending 
+appeals; however, any request for refund of such monies must be filed in accordance 
+with Section 604. 
+ 
+Section 604. — Refunds. 
+(a) 
+A Taxpayer who has overpaid the Privilege Tax, or who believes he/she 
+is not obligated to remit the Privilege Tax may file a written request on an amended tax 
+return with the Department of Finance for a refund or a credit of the tax. A request for 
+refund or a credit shall be made within three (3) years of the due date for filing the 
+report or one (1) year after actual payment of the tax, whichever is later. If no report is 
+required, the request shall be made within three (3) years after the due date for 
+payment of the tax or within one (1) year after actual payment of the tax, whichever is 
+later. 
+(b) 
+For amounts paid as a result of a notice asserting or informing a Taxpayer 
+of an underpayment, a written request for a refund shall be filed with the Department 
+of Finance within one (1) year of the date of the payment. 
+(c) 
+Every person or institution who ceases to carry on services during any 
+tax year after having paid the Institution and Service Privilege Tax for the entire year 
+shall, upon making proper application to the Treasurer, be entitled to receive entitled 
+to receive a refund of the prorate amount of the tax paid based upon the period of time 
+he was not in service during the license year. In the event that a person who 
+discontinues services during any tax year does so before payment of its tax becomes 
+due for such tax year, it shall be permitted to apportion its tax for such tax year and 
+shall pay an amount to be computed by multiplying its gross receipts for the preceding 
+full calendar year by a fraction whose numerator shall be the number of months such 
+person or institution was in service during the tax year and whose denominator shall 
+be twelve (12). 
+Section 605. – Installment Payment Plan For Any Deficiency 
+In the appropriate circumstances, the Treasurer will enter an installment payment plan 
+and defer further collection action, if the Taxpayer enters into a written agreement with 
+the Treasurer. The Treasurer will approve installment payment plans only if such a plan 
+is in the best interests of the City. The Taxpayer must specifically request the installment 
+payment plan from the Treasurer. For the required terms of any installment plan See, 
+Second Class City Treasurer’s Sale and Collection Act, 53 P.S. § 27207 and Local 
+Taxpayer Bill of Rights, 53 Pa.C.S. § 8436.  If the Taxpayer fails to abide by the terms 
+of the installment payment plan, the Treasurer may demand immediate payment of tax, 
+penalty, and interest. 
+-19- 
+ 
+ARTICLE VII 
+SAVINGS CLAUSE AND SEVERABILITY 
+ 
+Section 701. – Savings Clause and Severability. 
+If a final decision of a court of competent jurisdiction holds any provision of these 
+regulations, or the application of any provision to any circumstances, to be illegal or 
+unconstitutional, the other provisions in these regulations, or the application of such 
+provision to other circumstances, shall remain in full force and effect. 
+The intent of the Treasurer is that the provisions of these regulations shall be severable 
+and that they would have been adopted if any such illegal or unconstitutional provisions 
+had not been included herein. 
+ 
+Section 702. – Disclosure Statement 
+A copy of the Taxpayer Bill of Rights can be requested in writing at the address below 
+or downloaded at http://apps.pittsburghpa.gov/finance/10_taxpayers_bill_of_rights.pdf  
+ 
+TREASURER, CITY OF PITTSBURGH AUDIT SECTION 
+414 GRANT ST RM 206 
+PITTSBURGH PA 15219-2476 
+ 
+
