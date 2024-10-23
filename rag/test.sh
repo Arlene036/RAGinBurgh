@@ -1,7 +1,7 @@
 device="cuda:0"
 show_progress_bar="--show_progress_bar"
 normalize_embeddings="--normalize_embeddings"
-compression_retriever=“--compression_retriever”
+compression_retriever="--compression_retriever"
 directory_path="../data_collect/raw_documents"
 query_file="../QA/test_questions.csv"
 max_new_tokens_values=(128)
