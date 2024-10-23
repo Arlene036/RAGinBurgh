@@ -37,6 +37,7 @@ class RAGReranker(BaseDocumentCompressor):
         doc_text = [doc.page_content for doc in documents]
         doc_embeddings = model.encode(doc_text, convert_to_tensor=True)
         scores = util.pytorch_cos_sim(query_embedding, doc_embeddings)
+        scores = scores.squeeze(0).tolist() # delete batch size dim!!!!
         ranked_docs = sorted(zip(documents, scores), key=lambda x: x[1], reverse=True)
         return [doc for doc, _ in ranked_docs]
 
