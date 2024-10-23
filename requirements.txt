@@ -8,6 +8,9 @@ langchain-huggingface
 langchain_core
 faiss-gpu
 transformers
+bitsandbytes
 torch
 pandas
 accelerate>=0.26.0
+pymupdf
+langchain_cohere
