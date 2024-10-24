@@ -5897,47 +5897,11 @@ Donate
 More Ways to Give
 Corporate Giving
 Corporate Membership	EITC	Our Supporters
-main_nav
-/header
-Home	Login	(0 )
-<tr>
-				Main Buttons
-				<td >
-				   look into  
-					<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
-						<tr>
-						    <td>
-							    
-						    </td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<tr>
-				<td>
-removed height="1" width="720" from sun_nav_bottom
-<img alt="" src="images/sub_nav_bottom.gif" border="0" name="sub_nav_bottom" /></td>
-			</tr>
-end header
-end nav
-end contentinfo
 2020.3.1021.45
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
 why is this here and not in the css file? Copying logic from policies.aspx - SDM 11/1/2021
 hidden field for mobile styling
 hidden button to use for reloading the updatepanel
 Seperate button. Cannot use ddlTimes as postback trigger, as UpdatePanel1 will update also
-×
-.error
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
 You have selected	The Art of the Nativity: From Ancient Rome to the Renaissance
 Details +
 Please select the date.
@@ -6119,76 +6083,19 @@ Learn
 For Educators	Family Programs	Adult Programs	Summer Camps	Scout Programs	Outreach
 Bring your Creativity...	Second Saturday Studios
 Exhibitions
-Current Exhibitions	Future Exhibitions	Past Exhibitions	Virtual Exhibitions
-Collection
-Support
-Membership
 The Frick Societies	Reciprocal Museums
-Donate
-More Ways to Give
-Corporate Giving
-Corporate Membership	EITC	Our Supporters
-main_nav
-/header
-Home	Login	(0 )
-<tr>
-				Main Buttons
-				<td >
-				   look into  
-					<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
-						<tr>
-						    <td>
-							    
-						    </td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<tr>
-				<td>
-removed height="1" width="720" from sun_nav_bottom
-<img alt="" src="images/sub_nav_bottom.gif" border="0" name="sub_nav_bottom" /></td>
-			</tr>
-end header
-end nav
-end contentinfo
-2020.3.1021.45
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
+
 why is this here and not in the css file? Copying logic from policies.aspx - SDM 11/1/2021
 hidden field for mobile styling
 hidden button to use for reloading the updatepanel
 Seperate button. Cannot use ddlTimes as postback trigger, as UpdatePanel1 will update also
-×
-.error
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-You have selected	Home for the Holidays at Clayton 2024
-Details +
-Please select the date.
-#content-left
-</td>
+
 Read More
 Key:	(good availability)	(limited availability)	(booked)	(N/A)	(currently selected date)
 Please select a time...	10:15 AM | 9 People	10:30 AM | 12 People	11:00 AM | 10 People	11:30 AM | 9 People	12:00 PM | 12 People	12:30 PM | 12 People	1:00 PM | 9 People	2:00 PM | 12 People	2:30 PM | 12 People	3:00 PM | 10 People	3:30 PM | 12 People
 at $25.00 per Non Member	at $0.00 per Member	at $22.00 per Senior 65+	at $22.00 per Military/Veteran	at $22.00 per Student	at $22.00 per First Responder	at $1.00 per Museum 4 All	at $22.00 per Teacher	at $22.00 per Adult w/ Disabilities	at $15.00 per Students & Youth 17 and under
 Cancellations & Refunds	- To cancel a Clayton tour reservation and receive a refund, call 412-371-0600. Full refunds will be granted only to visitors who provide 24 hour cancellation notification.	General Information	- Clayton tour reservations may be made via the Frick website 12 hours in advance of the desired tour time. For same day reservations, call 412-371-0600.
 Printer Friendly
-Next
-.sd-cal-holder
-#content-right
-Bottom Buttons
-.buttons_bottom
-end content
-end content2
-end contentwrapper
-end additional-content
 
 tablefooter removed cellspacing="0" cellpadding="0" width="720" align="center" border="0">
 removed align="center" from <tr>
@@ -6236,52 +6143,10 @@ Donate
 More Ways to Give
 Corporate Giving
 Corporate Membership	EITC	Our Supporters
-main_nav
-/header
-Home	Login	(0 )
-<tr>
-				Main Buttons
-				<td >
-				   look into  
-					<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
-						<tr>
-						    <td>
-							    
-						    </td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<tr>
-				<td>
-removed height="1" width="720" from sun_nav_bottom
-<img alt="" src="images/sub_nav_bottom.gif" border="0" name="sub_nav_bottom" /></td>
-			</tr>
-end header
-end nav
-end contentinfo
-2020.3.1021.45
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-why is this here and not in the css file? Copying logic from policies.aspx - SDM 11/1/2021
-hidden field for mobile styling
-hidden button to use for reloading the updatepanel
-Seperate button. Cannot use ddlTimes as postback trigger, as UpdatePanel1 will update also
-×
-.error
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
+
 You have selected	Home for the Holidays at Clayton 2024
 Details +
 Please select the date.
-#content-left
-</td>
 Read More
 Key:	(good availability)	(limited availability)	(booked)	(N/A)	(currently selected date)
 Please select a time...	10:15 AM | 9 People	10:30 AM | 12 People	11:00 AM | 10 People	11:30 AM | 9 People	12:00 PM | 12 People	12:30 PM | 12 People	1:00 PM | 9 People	2:00 PM | 12 People	2:30 PM | 12 People	3:00 PM | 10 People	3:30 PM | 12 People
@@ -6289,15 +6154,6 @@ at $25.00 per Non Member	at $0.00 per Member	at $22.00 per Senior 65+	at $22.00 
 Cancellations & Refunds	- To cancel a Clayton tour reservation and receive a refund, call 412-371-0600. Full refunds will be granted only to visitors who provide 24 hour cancellation notification.	General Information	- Clayton tour reservations may be made via the Frick website 12 hours in advance of the desired tour time. For same day reservations, call 412-371-0600.
 Printer Friendly
 Next
-.sd-cal-holder
-#content-right
-Bottom Buttons
-.buttons_bottom
-end content
-end content2
-end contentwrapper
-end additional-content
-
 tablefooter removed cellspacing="0" cellpadding="0" width="720" align="center" border="0">
 removed align="center" from <tr>
 removed width="100" class="footer" from <td>
@@ -6345,28 +6201,6 @@ More Ways to Give
 Corporate Giving
 Corporate Membership	EITC	Our Supporters
 main_nav
-/header
-Home	Login	(0 )
-<tr>
-				Main Buttons
-				<td >
-				   look into  
-					<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
-						<tr>
-						    <td>
-							    
-						    </td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<tr>
-				<td>
-removed height="1" width="720" from sun_nav_bottom
-<img alt="" src="images/sub_nav_bottom.gif" border="0" name="sub_nav_bottom" /></td>
-			</tr>
-end header
-end nav
 end contentinfo
 2020.3.1021.45
 {1}	##LOC[OK]##
@@ -6378,13 +6212,6 @@ why is this here and not in the css file? Copying logic from policies.aspx - SDM
 hidden field for mobile styling
 hidden button to use for reloading the updatepanel
 Seperate button. Cannot use ddlTimes as postback trigger, as UpdatePanel1 will update also
-×
-.error
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
 You have selected	The Art of the Nativity: From Baroque to Bonkers
 Details +
 Please select the date.
@@ -6449,51 +6276,7 @@ Collection
 Support
 Membership
 The Frick Societies	Reciprocal Museums
-Donate
-More Ways to Give
-Corporate Giving
-Corporate Membership	EITC	Our Supporters
-main_nav
-/header
-Home	Login	(0 )
-<tr>
-				Main Buttons
-				<td >
-				   look into  
-					<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
-						<tr>
-						    <td>
-							    
-						    </td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<tr>
-				<td>
-removed height="1" width="720" from sun_nav_bottom
-<img alt="" src="images/sub_nav_bottom.gif" border="0" name="sub_nav_bottom" /></td>
-			</tr>
-end header
-end nav
-end contentinfo
-2020.3.1021.45
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
 why is this here and not in the css file? Copying logic from policies.aspx - SDM 11/1/2021
-hidden field for mobile styling
-hidden button to use for reloading the updatepanel
-Seperate button. Cannot use ddlTimes as postback trigger, as UpdatePanel1 will update also
-×
-.error
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
 You have selected	The Art of the Nativity: From Baroque to Bonkers
 Details +
 Please select the date.
@@ -6524,18 +6307,7 @@ The Frick Pittsburgh
 412-371-0600
 info@thefrickpittsburgh.org
 Contact
-Staff Contact Info	Media Inquiries	Employment	Rental Events	Partnerships	Hours & Admission
-About
-Our Mission	Leadership	Board of Trustees
-Strategic Plan	Press Releases	Accessibility
-The Frick legacy
-Family & Legacy	Historic Home & Gardens
-Copyright 2018 | The Frick Pittsburgh
-Privacy Policy	Disclosures
-/FOOTER
 
-header
-/header
 Home	Stories	Telling Their Stories, Recognizing Their Impact: Spencer Ford
 Telling Their Stories, Recognizing Their Impact: Spencer Ford
 February 28, 2024
@@ -8114,45 +7886,6 @@ Donate
 More Ways to Give
 Corporate Giving
 Corporate Membership	EITC	Our Supporters
-main_nav
-/header
-Home	Login	(0 )
-<tr>
-				Main Buttons
-				<td >
-				   look into  
-					<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
-						<tr>
-						    <td>
-							    
-						    </td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-<tr>
-				<td>
-removed height="1" width="720" from sun_nav_bottom
-<img alt="" src="images/sub_nav_bottom.gif" border="0" name="sub_nav_bottom" /></td>
-			</tr>
-end header
-end nav
-end contentinfo
-2020.3.1021.45
-{1}	##LOC[OK]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-{1}
-##LOC[OK]##	##LOC[Cancel]##
-End Start Activity Table	End Main Layout Table
-end content
-end content2
-end contentwrapper
-end additional-content
-end nav-content-wrapper
-tablefooter removed cellspacing="0" cellpadding="0" width="720" align="center" border="0">
-removed align="center" from <tr>
-removed width="100" class="footer" from <td>
 The Frick Pittsburgh
 7227 Reynolds St.	Pittsburgh, PA 15208
 412-371-0600
@@ -8688,8 +8421,6 @@ The Frick is proud to support the Black Lives Matter movement.	It is up to all o
 Previous Story:	Car and Carriage Museum Improvements
 Next Story:	Gilded Age Children's Games
 
-header
-/header
 Home	Stories	Anti-racism Resources
 Anti-racism Resources
 July 16, 2020
@@ -8699,8 +8430,6 @@ The Frick is proud to support the Black Lives Matter movement.	It is up to all o
 Previous Story:	Car and Carriage Museum Improvements
 Next Story:	Gilded Age Children's Games
 
-header
-/header
 Home	Stories	Gilded Age Children's Games
 Gilded Age Children's Games
 March 26, 2018
