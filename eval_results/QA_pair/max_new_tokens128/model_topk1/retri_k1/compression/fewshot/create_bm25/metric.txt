@@ -1,0 +1,4 @@
+Exact Match: 20.25%
+Precision: 47.29%
+Recall: 45.39%
+F1 Score: 42.21%

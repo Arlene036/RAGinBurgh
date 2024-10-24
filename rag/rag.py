@@ -2,6 +2,7 @@ from prompt import *
 from save_vector_database import *
 import argparse
 import os
+import csv
 from langchain_huggingface import HuggingFaceEndpoint
 from langchain_core.prompts.prompt import PromptTemplate
 from langchain_core.runnables.passthrough import RunnablePassthrough
@@ -9,6 +10,7 @@ from langchain_core.output_parsers.string import StrOutputParser
 from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_huggingface import HuggingFacePipeline
 from langchain.retrievers.document_compressors import LLMChainFilter
+from langchain.retrievers.document_compressors import DocumentCompressorPipeline
 from langchain.retrievers.document_compressors.base import BaseDocumentCompressor
 import time
 import torch
@@ -22,10 +24,11 @@ from pydantic import BaseModel, Field
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY']=""
-os.environ['LANGCHAIN_PROJECT'] = "ragAWS1023-serial-test"
+os.environ['LANGCHAIN_PROJECT'] = "ragAWS1024-bm25-QApair-3"
 
 class RAGReranker(BaseDocumentCompressor):
     """Custom document compressor based on a query."""
+    k: int
     def compress_documents(
         self,
         documents, # Sequence[Document]
@@ -38,7 +41,9 @@ class RAGReranker(BaseDocumentCompressor):
         doc_embeddings = model.encode(doc_text, convert_to_tensor=True)
         scores = util.pytorch_cos_sim(query_embedding, doc_embeddings)
         scores = scores.squeeze(0).tolist() # delete batch size dim!!!!
-        ranked_docs = sorted(zip(documents, scores), key=lambda x: x[1], reverse=True)
+        if self.k is None:
+            self.k = 2
+        ranked_docs = sorted(zip(documents, scores), key=lambda x: x[1], reverse=True)[:2]
         return [doc for doc, _ in ranked_docs]
 
 class PittsRAG():
@@ -105,64 +110,15 @@ class PittsRAG():
         llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id, batch_size = self.generator_batch_size)
 
         return llm
-    # def compute_loss(self, outputs, labels):
-    #     criterion = torch.nn.CrossEntropyLoss()
-    #     return criterion(outputs, labels)
-
-    # def train(self, train_data, train_labels, batch_size=32, epochs=3, lr=1e-5):
-    #     self.optimizer = optim.Adam(list(self.generator.parameters()) + list(self.retriever.parameters()), lr=lr)
-        
-    #     train_loader = DataLoader(list(zip(train_data, train_labels)), batch_size=batch_size, shuffle=True)
-
-    #     for epoch in range(epochs):
-    #         self.generator.train()
-    #         self.retriever.train()
-            
-    #         total_loss = 0.0
-    #         for batch_data, batch_labels in train_loader:
-    #             context = self.retriever(batch_data) 
-
-    #             outputs = self.generator(context, batch_data) # ??????????????
-                
-    #             loss = self.compute_loss(outputs, batch_labels)  
-    #             total_loss += loss.item()
-
-    #             self.optimizer.zero_grad()
-    #             loss.backward()
-    #             self.optimizer.step()
-
-    #         print(f"Epoch [{epoch + 1}/{epochs}], Loss: {total_loss:.4f}")
-
-    #     torch.save(self.generator.state_dict(), "generator_model.pth")
-    #     torch.save(self.retriever.state_dict(), "retriever_model.pth")
-    #     print("Training complete and models saved.")
-
-
-    # def eval(self, eval_data, eval_labels, batch_size=32):
-    #     eval_loader = DataLoader(list(zip(eval_data, eval_labels)), batch_size=batch_size)
-
-    #     self.generator.eval()
-    #     self.retriever.eval()
-        
-    #     total_loss = 0.0
-    #     with torch.no_grad():
-    #         for batch_data, batch_labels in eval_loader:
-    #             context = self.retriever(batch_data)
-
-    #             outputs = self.generator(context, batch_data)
-
-    #             loss = self.compute_loss(outputs, batch_labels)
-    #             total_loss += loss.item()
-
-    #     print(f"Evaluation Loss: {total_loss:.4f}")
-
-    # @traceable
+ 
     def inference(self, query):
         # TODO: query rewriting (HyDE) OR fine-tuning
 
         result = self.rag_chain.invoke(query)
+        spliter_note = 'Question: '+query+'\n\nHelpful Answer:'
+        answer = result.split(spliter_note)[1].split('Related Documents')[0].strip()
 
-        return result.split('Helpful Answer:')[-1].strip()
+        return answer
     
 
     # def batch_answer(self, query_file, output_file):
@@ -207,7 +163,8 @@ class PittsRAG():
             results = self.rag_chain.batch(minibatch) 
             
             for query, result in zip(minibatch, results):
-                answer = result.split('Helpful Answer: ')[-1].strip()
+                spliter_note = 'Question: '+query+'\n\nHelpful Answer:'
+                answer = result.split(spliter_note)[1].split('Helpful Answer')[0].strip()
                 data.append([query.strip(), answer])
 
         df = pd.DataFrame(data, columns=["query", "answer"])
@@ -226,8 +183,9 @@ class PittsRAG():
         
         for q in queries:
             res = self.inference(q)
-            with open(output_file, 'a') as f:
-                f.write('"'+q +'"'+ ',' +'"'+ res +'"'+ '\n')
+            with open(output_file, 'a', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([q, res])
 
 
 
@@ -248,6 +206,7 @@ def get_llm(model_id):
         device_map="auto",
         max_new_tokens=128,
         do_sample=True,
+        batch_size = 2,
         top_k=1,
         num_return_sequences=1,
         eos_token_id=tokenizer.eos_token_id,
@@ -257,6 +216,27 @@ def get_llm(model_id):
     llm = HuggingFacePipeline(pipeline=text_generation_pipeline, model_id = model_id)
 
     return llm
+
+def non_rag_batch(model_id, query_file, output_file):
+    if not os.path.exists(os.path.dirname(output_file)):
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+    llm = get_llm(model_id)
+    template = """Question: {question}"""
+    prompt = PromptTemplate.from_template(template)
+
+    df = pd.read_csv(query_file) 
+    queries = df['Question'].tolist()
+
+    chain = prompt | llm.bind(stop=["\n\n"])
+    answers = chain.batch()
+
+    with open(output_file, 'a', newline='') as f:
+        for q, a in zip(queries, answers):      
+            writer = csv.writer(f)
+            writer.writerow([q, a])
+
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -298,6 +278,9 @@ def main():
     ## reranker
     parser.add_argument("--reranker_model", type=str, \
         default='sentence-transformers/all-MiniLM-L6-v2', help="rerank")
+    ## filter
+    parser.add_argument("--filter", \
+        action="store_true")
     ## rag
     parser.add_argument("--generator", type=str, \
         default='SciPhi/SciPhi-Self-RAG-Mistral-7B-32k', help="The name of the generator model.")
@@ -313,24 +296,31 @@ def main():
         default=5)
     parser.add_argument("--few_shot", \
         action="store_true")
+    ## pure llm
+    parser.add_argument("--non_rag", action="store_true")
 
     args = parser.parse_args()
 
+    if args.non_rag:
+        non_rag_batch(args.generator, args.query_file, args.output_file)
+
+
+    ensemble_retriever = None
     if args.create_faiss:
         faiss_retriever = save_faiss_multi_vector_index(args) \
-            .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
+            .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": 20})
     else:
         faiss_retriever = FAISS.load_local(args.faiss_output_dir, create_embedding(args), \
             distance_strategy=DistanceStrategy.MAX_INNER_PRODUCT, allow_dangerous_deserialization=True) \
-                .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": args.k})
-        if args.ensemble_retriever:
-            bm25_retriever = BM25Retriever.load_local(args.bm25_save_path)
+                .as_retriever(search_type="similarity", search_kwargs={"score_threshold": args.score_threshold, "k": 20})
+        if args.ensemble_retriever or args.create_bm25:
+            bm25_retriever = save_bm25_retriever(args)
+            bm25_retriever.k=20
             # ADD Ensemble Retriever
             ensemble_retriever = EnsembleRetriever(
                 retrievers=[bm25_retriever, faiss_retriever], weights=[0.5, 0.5]
             )
             
-    ensemble_retriever = None
     if ensemble_retriever is not None:
         retriever = ensemble_retriever
     else:
@@ -339,8 +329,22 @@ def main():
     if args.compression_retriever:
         # ADD Compression Retriever
         # TODO
+        reranker = RAGReranker(k=args.k)
+        
+        if args.filter:
+            filter_llm = get_llm(args.generator)
+            _filter = LLMChainFilter.from_llm(filter_llm)
+            pipeline_compressor = DocumentCompressorPipeline(
+                transformers=[reranker, _filter]
+            )
+        else:
+            pipeline_compressor = DocumentCompressorPipeline(
+                transformers=[reranker]
+            )
+
+        
         compression_retriever = ContextualCompressionRetriever( # BaseRetriever
-            base_compressor=RAGReranker(), # BaseDocumentCompressor
+            base_compressor=pipeline_compressor, # BaseDocumentCompressor
             base_retriever=retriever
         )
 

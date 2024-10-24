@@ -2,15 +2,16 @@ device="cuda:0"
 show_progress_bar="--show_progress_bar"
 normalize_embeddings="--normalize_embeddings"
 directory_path="../data_collect/raw_documents"
-query_file="../QA/QA_pair.csv" 
+query_file="../QA/QA_pair_small.csv" 
 max_new_tokens_values=(128)
 k=(1) # 10
 top_k_values=(1)
 
-compression_retriever_values=("--compression_retriever") # "") #"")
-few_shot_values=("--few_shot") # "") # "" 
-create_bm25_values=("--create_bm25")
-filter_values=("--filter")
+compression_retriever_values=("--compression_retriever" "") # "") #"")
+few_shot_values=("--few_shot" "") # "") # "" 
+create_bm25_values=("--create_bm25" "")
+filter_values=("")
+skip_first=true
 
 for max_new_tokens in "${max_new_tokens_values[@]}"; do
   for k in "${k[@]}"; do
@@ -18,8 +19,7 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
       for compression_retriever in "${compression_retriever_values[@]}"; do
         for few_shot in "${few_shot_values[@]}"; do
           for create_bm25 in "${create_bm25_values[@]}"; do
-            for filter in "${filter_values[@]}"; do
-        
+
               output_dir="../results/QA_pair/max_new_tokens${max_new_tokens}/model_topk${top_k}/retri_k${k}"
               eval_output_dir="../eval_results/QA_pair/max_new_tokens${max_new_tokens}/model_topk${top_k}/retri_k${k}"
 
@@ -47,21 +47,18 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
                 eval_output_dir="${eval_output_dir}/non_create_bm25"
               fi
 
-              if [ -n "$filter" ]; then
-                output_dir="${output_dir}/filter"
-                eval_output_dir="${eval_output_dir}/filter"
-              else
-                output_dir="${output_dir}/non_filter"
-                eval_output_dir="${eval_output_dir}/non_filter"
+              if [ -f "${eval_output_dir}/metric.txt" ]; then
+                echo "Skipping as evaluation output already exists at ${eval_output_dir}/metric.txt"
+                continue
               fi
-              
+
               mkdir -p $output_dir 
               mkdir -p $eval_output_dir 
 
               output_file="${output_dir}/answers.csv"
               eval_output_dir="${eval_output_dir}/metric.txt"
 
-              echo "Running with max_new_tokens=$max_new_tokens, top_k=$top_k, compression_retriever=${compression_retriever}, few_shot=${few_shot}"
+              echo "Running with max_new_tokens=$max_new_tokens, top_k=$top_k, compression_retriever=${compression_retriever}, few_shot=${few_shot}, create_bm25_values=${create_bm25}"
 
               python rag.py \
                   --device $device \
@@ -82,7 +79,6 @@ for max_new_tokens in "${max_new_tokens_values[@]}"; do
                       --generated_answer_file $output_file \
                       --output_file $eval_output_dir
 
-            done
           done
         done
       done
