@@ -24,7 +24,7 @@ from pydantic import BaseModel, Field
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY']=""
-os.environ['LANGCHAIN_PROJECT'] = "ragAWS1024-bm25-QApair-3"
+os.environ['LANGCHAIN_PROJECT'] = "ragAWS1024-bm25-testQ"
 
 class RAGReranker(BaseDocumentCompressor):
     """Custom document compressor based on a query."""
@@ -229,7 +229,7 @@ def non_rag_batch(model_id, query_file, output_file):
     queries = df['Question'].tolist()
 
     chain = prompt | llm.bind(stop=["\n\n"])
-    answers = chain.batch()
+    answers = chain.batch(queries)
 
     with open(output_file, 'a', newline='') as f:
         for q, a in zip(queries, answers):      
@@ -303,6 +303,7 @@ def main():
 
     if args.non_rag:
         non_rag_batch(args.generator, args.query_file, args.output_file)
+        return
 
 
     ensemble_retriever = None
