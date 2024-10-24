@@ -1,9 +1,3 @@
-header
-navbar_header
-Toggle navigation
-navbar_header
-main_nav
-main_nav
 Tickets	membership
 /header
 National Award-Winning Tour	Explore Historic Clayton	Uncover Clayton
@@ -1480,16 +1474,6 @@ Visit our Virtual Museum	Learn More
 It's free to visit The Frick Pittsburgh.	Admission is required for Clayton tours and special exhibitions.
 Plan your visit
 
-header
-navbar_header
-Toggle navigation
-navbar_header
-main_nav
-main_nav
-Tickets	membership
-/header
-Home	See and Do
-See and Do
 Customize Your Frick Experience
 With so much to see and do, every visit to the Frick can be different. Experience the culture and refinement of the Gilded Age in a beautiful setting no other museum in Pittsburgh can offer.	.
 Overview	The Frick Grounds	Today at The Frick	Programs and Events	Events By Age Group	Virtual Experiences
