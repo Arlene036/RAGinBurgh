@@ -14,6 +14,6 @@
 - Shuting Zhang: Help to fine-tune the model
 
 # Report Writing
-- Haojia Sun: Data Extraction, Data Annotation, Experimental Results, Analysis, Conclusion
+- Haojia Sun: Abstract, Data Extraction, Data Annotation, Experimental Results, Analysis, Limitations and Future Improvement, Conclusion
 - Yaqi Wang: Whole RAG Framework Design, Experiments
 - Shuting Zhang: Introduction, Data Quality Estimation
